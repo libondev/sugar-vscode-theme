@@ -1,12 +1,12 @@
 export const darkThemeColors = {
   accent: '#059669',
   border: '#333333',
-  foreground: '#CCCCCC',
-  background: '#0e0f11',
+  foreground: '#dee0d8',
+  background: '#1e1f22',
   listBackground: '#1F1F1F',
-  inactiveBorder: '#888888',
-  inputBackground: '#333333',
+  inputBackground: '#2b2d30',
   editorForeground: '#CCCCCC',
+  sidebarBackground: '#2b2d30',
 
   insert: '#059669',
   delete: '#E06C75',
@@ -38,12 +38,12 @@ export const darkThemeColors = {
 export const lightThemeColors = {
   accent: '#1E754F',
   border: '#DDDDDD',
-  foreground: '#424242',
+  foreground: '#333333',
   background: '#ffffff',
   listBackground: '#EFEFEF',
-  inactiveBorder: '#888888',
-  inputBackground: '#DDDDDD',
+  inputBackground: '#f7f8fa',
   editorForeground: '#35373d',
+  sidebarBackground: '#f7f8fa',
 
   insert: '#059669',
   delete: '#be2736',

@@ -5,13 +5,15 @@ export function getTemplate(colors: Record<string, string>) {
     accent,
     border,
     background,
-    inactiveBorder,
     listBackground,
     editorForeground,
     foreground,
     inputBackground,
     ...theme
   } = colors;
+
+  // window blur foreground
+  const inactiveForeground = foreground + '88'
 
   theme.json ||= theme.tag
   theme.css ||= theme.variable
@@ -27,7 +29,7 @@ export function getTemplate(colors: Record<string, string>) {
     "activityBar.background": "${background}",
     "activityBar.border": "${border}",
     "activityBar.foreground": "${foreground}",
-    "activityBar.inactiveForeground": "${inactiveBorder}",
+    "activityBar.inactiveForeground": "${inactiveForeground}",
     "activityBarBadge.background": "${accent}",
     "activityBarBadge.foreground": "#fff",
     "badge.background": "${inputBackground}",
@@ -59,8 +61,8 @@ export function getTemplate(colors: Record<string, string>) {
     "focusBorder": "${accent}",
     "foreground": "${foreground}",
     "icon.foreground": "${foreground}",
+    "input.border": "${foreground}36",
     "input.background": "${inputBackground}",
-    "input.border": "${background}",
     "input.foreground": "${foreground}",
     "inputOption.activeBorder": "${accent}",
     "inputOption.activeForeground": "#fff",
@@ -84,7 +86,7 @@ export function getTemplate(colors: Record<string, string>) {
     "panelInput.border": "${border}",
     "panelTitle.activeBorder": "${accent}",
     "panelTitle.activeForeground": "${foreground}",
-    "panelTitle.inactiveForeground": "${inactiveBorder}",
+    "panelTitle.inactiveForeground": "${inactiveForeground}",
     "peekViewResult.background": "${listBackground}",
     "pickerGroup.border": "${border}",
     "progressBar.background": "${accent}",
@@ -121,7 +123,7 @@ export function getTemplate(colors: Record<string, string>) {
     "tab.border": "${border}",
     "tab.hoverBackground": "${background}",
     "tab.inactiveBackground": "${background}",
-    "tab.inactiveForeground": "${inactiveBorder}",
+    "tab.inactiveForeground": "${inactiveForeground}",
     "tab.lastPinnedBorder": "${foreground}33",
     "tab.unfocusedActiveBorder": "${listBackground}",
     "tab.unfocusedActiveBorderTop": "${border}",
@@ -136,10 +138,10 @@ export function getTemplate(colors: Record<string, string>) {
     "textLink.foreground": "${accent}",
     "textPreformat.background": "${border}",
     "titleBar.border": "#0000",
-    "titleBar.activeBackground": "${background}",
     "titleBar.activeForeground": "${foreground}",
-    "titleBar.inactiveBackground": "${background}",
-    "titleBar.inactiveForeground": "${inactiveBorder}",
+    "titleBar.activeBackground": "${theme.sidebarBackground}",
+    "titleBar.inactiveForeground": "${inactiveForeground}",
+    "titleBar.inactiveBackground": "${theme.sidebarBackground}",
     "welcomePage.progress.foreground": "${accent}",
     "welcomePage.tileBackground": "${border}"
   },
