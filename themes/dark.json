@@ -32,8 +32,8 @@
     "editorGutter.addedBackground": "#059669",
     "editorGutter.deletedBackground": "#E06C75",
     "editorGutter.modifiedBackground": "#61AFEF",
-    "editorLineNumber.activeForeground": "#CCCCCC88",
-    "editorLineNumber.foreground": "#CCCCCC50",
+    "editorLineNumber.activeForeground": "#CCCCCCAF",
+    "editorLineNumber.foreground": "#CCCCCC66",
     "errorForeground": "#E06C75",
     "focusBorder": "#059669",
     "foreground": "#CCCCCC",
@@ -131,7 +131,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#868991"
+        "foreground": "#5e8e4c"
       }
     },
     {
