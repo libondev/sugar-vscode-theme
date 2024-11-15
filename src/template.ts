@@ -20,19 +20,20 @@ export function getTemplate(colors: Record<string, string>) {
   theme.key ||= theme.css
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
+  theme.sidebarBackground ||= background
 
   return `{
   "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
   "base": "vs-${mode}",
   "colors": {
     "activityBar.activeBorder": "${accent}",
-    "activityBar.background": "${background}",
+    "activityBar.background": "${theme.sidebarBackground}",
     "activityBar.border": "${border}",
     "activityBar.foreground": "${foreground}",
     "activityBar.inactiveForeground": "${inactiveForeground}",
     "activityBarBadge.background": "${accent}",
     "activityBarBadge.foreground": "#fff",
-    "badge.background": "${inputBackground}",
+    "badge.background": "${background}",
     "badge.foreground": "${foreground}",
     "button.border": "#0000",
     "button.background": "${accent}",
@@ -58,7 +59,7 @@ export function getTemplate(colors: Record<string, string>) {
     "editorLineNumber.activeForeground": "${foreground}AF",
     "editorLineNumber.foreground": "${foreground}66",
     "errorForeground": "${theme.delete}",
-    "focusBorder": "${accent}",
+    "focusBorder": "#0000",
     "foreground": "${foreground}",
     "icon.foreground": "${foreground}",
     "input.border": "${foreground}36",
@@ -70,7 +71,7 @@ export function getTemplate(colors: Record<string, string>) {
     "list.activeSelectionForeground": "#fff",
     "list.activeSelectionBackground": "${accent}",
     "list.activeSelectionIconForeground": "#fff",
-    "list.hoverBackground": "${border}",
+    "list.hoverBackground": "${foreground}1f",
     "menu.border": "${border}",
     "menu.background": "${listBackground}",
     "menu.foreground": "${foreground}",
@@ -99,9 +100,9 @@ export function getTemplate(colors: Record<string, string>) {
     "settings.numberInputBorder": "${border}",
 		"settings.textInputBorder": "${border}",
     "sideBar.border": "${border}",
-    "sideBar.background": "${theme.sidebarBackground || background}",
+    "sideBar.background": "${theme.sidebarBackground}",
     "sideBar.foreground": "${foreground}",
-    "sideBarSectionHeader.background": "#0000",
+    "sideBarSectionHeader.background": "${theme.sidebarBackground}",
     "sideBarSectionHeader.border": "${border}",
     "sideBarSectionHeader.foreground": "${foreground}",
     "sideBarTitle.foreground": "${foreground}",
@@ -117,11 +118,11 @@ export function getTemplate(colors: Record<string, string>) {
     "statusBarItem.remoteBackground": "${accent}",
     "statusBarItem.remoteForeground": "#fff",
     "tab.activeBackground": "${inputBackground}",
-    "tab.activeBorder": "#0000",
-    "tab.activeBorderTop": "${accent}",
+    "tab.activeBorder": "${accent}",
+    "tab.activeBorderTop": "#0000",
     "tab.activeForeground": "${foreground}",
     "tab.border": "${border}",
-    "tab.hoverBackground": "${background}",
+    "tab.hoverBackground": "${border}88",
     "tab.inactiveBackground": "${background}",
     "tab.inactiveForeground": "${inactiveForeground}",
     "tab.lastPinnedBorder": "${foreground}33",
@@ -521,22 +522,20 @@ export function getTemplate(colors: Record<string, string>) {
 }`
 }
 
-function adjustHexColor(hexColor: string, relativeValue: number) {
-  hexColor = hexColor.replace(/^#/, '');
+// function adjustHexColor(hexColor: string, relativeValue: number) {
+//   hexColor = hexColor.replace(/^#/, '');
 
-  const rgb = [
-    parseInt(hexColor.slice(0, 2), 16),
-    parseInt(hexColor.slice(2, 4), 16),
-    parseInt(hexColor.slice(4, 6), 16),
-  ];
+//   const rgb = [
+//     parseInt(hexColor.slice(0, 2), 16),
+//     parseInt(hexColor.slice(2, 4), 16),
+//     parseInt(hexColor.slice(4, 6), 16),
+//   ];
 
-  // 计算相对值
-  const r = Math.floor(Math.max(0, Math.min(255, rgb[0] * relativeValue)));
-  const g = Math.floor(Math.max(0, Math.min(255, rgb[1] * relativeValue)));
-  const b = Math.floor(Math.max(0, Math.min(255, rgb[2] * relativeValue)));
+//   const r = Math.floor(Math.max(0, Math.min(255, rgb[0] * relativeValue)));
+//   const g = Math.floor(Math.max(0, Math.min(255, rgb[1] * relativeValue)));
+//   const b = Math.floor(Math.max(0, Math.min(255, rgb[2] * relativeValue)));
 
-  // 将 RGB 转换回 16 进制颜色值
-  const adjustedHexColor = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+//   const adjustedHexColor = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
 
-  return adjustedHexColor;
-}
+//   return adjustedHexColor;
+// }
