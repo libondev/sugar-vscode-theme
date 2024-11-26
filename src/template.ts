@@ -8,7 +8,6 @@ export function getTemplate(colors: Record<string, string>) {
     listBackground,
     editorForeground,
     foreground,
-    inputBackground,
     ...theme
   } = colors;
 
@@ -20,6 +19,7 @@ export function getTemplate(colors: Record<string, string>) {
   theme.key ||= theme.css
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
+  theme.inputBackground ||= background
   theme.sidebarBackground ||= background
 
   return `{
@@ -39,13 +39,13 @@ export function getTemplate(colors: Record<string, string>) {
     "button.background": "${accent}",
     "button.foreground": "#fff",
     "button.hoverBackground": "${accent}e3",
-    "button.secondaryBackground": "${inputBackground}",
+    "button.secondaryBackground": "${theme.inputBackground}",
     "button.secondaryForeground": "${foreground}",
     "button.secondaryHoverBackground": "${border}",
-    "checkbox.background": "${inputBackground}",
+    "checkbox.background": "${theme.inputBackground}",
     "checkbox.border": "${border}",
     "debugToolBar.background": "${background}",
-    "dropdown.background": "${inputBackground}",
+    "dropdown.background": "${theme.inputBackground}",
     "dropdown.border": "${border}",
     "dropdown.foreground": "${foreground}",
     "dropdown.listBackground": "${listBackground}",
@@ -63,7 +63,7 @@ export function getTemplate(colors: Record<string, string>) {
     "foreground": "${foreground}",
     "icon.foreground": "${foreground}",
     "input.border": "${foreground}36",
-    "input.background": "${inputBackground}",
+    "input.background": "${theme.inputBackground}",
     "input.foreground": "${foreground}",
     "inputOption.activeBorder": "${accent}",
     "inputOption.activeForeground": "#fff",
@@ -72,6 +72,8 @@ export function getTemplate(colors: Record<string, string>) {
     "list.activeSelectionBackground": "${accent}",
     "list.activeSelectionIconForeground": "#fff",
     "list.hoverBackground": "${foreground}1f",
+    "list.highlightForeground": "${theme.keyword}",
+    "list.inactiveSelectionBackground": "${border}",
     "menu.border": "${border}",
     "menu.background": "${listBackground}",
     "menu.foreground": "${foreground}",
@@ -94,7 +96,7 @@ export function getTemplate(colors: Record<string, string>) {
     "quickInput.background": "${background}",
     "quickInput.foreground": "${foreground}",
     "quickInputList.focusBackground": "${accent}",
-    "settings.dropdownBackground": "${inputBackground}",
+    "settings.dropdownBackground": "${theme.inputBackground}",
     "settings.dropdownBorder": "${border}",
     "settings.headerForeground": "${foreground}",
     "settings.numberInputBorder": "${border}",
@@ -117,13 +119,13 @@ export function getTemplate(colors: Record<string, string>) {
     "statusBarItem.focusBorder": "${accent}",
     "statusBarItem.remoteBackground": "${accent}",
     "statusBarItem.remoteForeground": "#fff",
-    "tab.activeBackground": "${inputBackground}",
+    "tab.activeBackground": "${accent}26",
     "tab.activeBorder": "${accent}",
     "tab.activeBorderTop": "#0000",
     "tab.activeForeground": "${foreground}",
     "tab.border": "${border}",
     "tab.hoverBackground": "${border}88",
-    "tab.inactiveBackground": "${background}",
+    "tab.inactiveBackground": "#0000",
     "tab.inactiveForeground": "${inactiveForeground}",
     "tab.lastPinnedBorder": "${foreground}33",
     "tab.unfocusedActiveBorder": "${listBackground}",
