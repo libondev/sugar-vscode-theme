@@ -27,7 +27,7 @@
     "dropdown.listBackground": "#EFEFEF",
     "editor.background": "#f1f0e9",
     "editor.foreground": "#35373d",
-    "editor.selectionBackground": "#1E754F50",
+    "editor.selectionBackground": "#1E754F40",
     "editorWidget.background": "#f1f0e9",
     "editorGroupHeader.tabsBackground": "#f1f0e9",
     "editorGroupHeader.tabsBorder": "#dddddd",
@@ -110,7 +110,7 @@
     "tab.unfocusedActiveBorderTop": "#dddddd",
     "tab.unfocusedHoverBackground": "#EFEFEF",
     "terminal.foreground": "#393A34",
-    "terminal.selectionBackground": "#1E754F50",
+    "terminal.selectionBackground": "#1E754F40",
     "terminal.tab.activeBorder": "#1E754F",
     "terminalCursor.foreground": "#1E754F",
     "textBlockQuote.background": "#dddddd",
@@ -157,7 +157,14 @@
       "scope": [
         "variable.other.property",
         "meta.object-literal.key",
-        "variable.other.enummember"
+        "variable.other.enummember",
+        // css variable
+        "variable.argument.css",
+        "meta.function-call.less",
+        "support.type.custom-property",
+        "entity.other.attribute-name.less",
+        "punctuation.definition.custom-property.less",
+        "variable.other.constant.animation-name.less"
       ],
       "settings": {
         "foreground": "#444444"
@@ -227,10 +234,6 @@
     },
     {
       "scope": [
-        "variable.css",
-        "variable.scss",
-        "support.type.custom-property",
-        "variable.argument.css",
         "entity.other.attribute-name",
         "invalid.deprecated.entity.other.attribute-name"
       ],

@@ -51,7 +51,7 @@ export function getTemplate(colors: Record<string, string>) {
     "dropdown.listBackground": "${listBackground}",
     "editor.background": "${background}",
     "editor.foreground": "${editorForeground}",
-    "editor.selectionBackground": "${accent}50",
+    "editor.selectionBackground": "${accent}40",
     "editorWidget.background": "${background}",
     "editorGroupHeader.tabsBackground": "${background}",
     "editorGroupHeader.tabsBorder": "${border}",
@@ -134,7 +134,7 @@ export function getTemplate(colors: Record<string, string>) {
     "tab.unfocusedActiveBorderTop": "${border}",
     "tab.unfocusedHoverBackground": "${listBackground}",
     "terminal.foreground": "${foreground}",
-    "terminal.selectionBackground": "${accent}50",
+    "terminal.selectionBackground": "${accent}40",
     "terminal.tab.activeBorder": "${accent}",
     "terminalCursor.foreground": "${accent}",
     "textBlockQuote.background": "${border}",
@@ -181,7 +181,14 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "variable.other.property",
         "meta.object-literal.key",
-        "variable.other.enummember"
+        "variable.other.enummember",
+        // css variable
+        "variable.argument.css",
+        "meta.function-call.less",
+        "support.type.custom-property",
+        "entity.other.attribute-name.less",
+        "punctuation.definition.custom-property.less",
+        "variable.other.constant.animation-name.less"
       ],
       "settings": {
         "foreground": "${theme.key}"
@@ -251,10 +258,6 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        "variable.css",
-        "variable.scss",
-        "support.type.custom-property",
-        "variable.argument.css",
         "entity.other.attribute-name",
         "invalid.deprecated.entity.other.attribute-name"
       ],
