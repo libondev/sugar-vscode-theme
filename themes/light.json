@@ -74,7 +74,7 @@
     "peekViewResult.background": "#EFEFEF",
     "pickerGroup.border": "#dddddd",
     "progressBar.background": "#1E754F",
-    "quickInput.background": "#f1f0e9",
+    "quickInput.background": "#EFEFEF",
     "quickInput.foreground": "#393A34",
     "quickInputList.focusBackground": "#dddddd",
     "quickInputList.focusForeground": "#393A34",
