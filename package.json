@@ -2,7 +2,7 @@
   "name": "sugar-vscode-theme",
   "displayName": "Sugar Theme",
   "type": "module",
-  "version": "0.14.5",
+  "version": "0.15.0",
   "description": "Sugar theme for Visual Studio Code",
   "publisher": "banlify",
   "author": "Libon <bon.li@outlook.com>",
@@ -33,6 +33,11 @@
         "label": "Sugar Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/dark.json"
+      },
+      {
+        "label": "Sugar JetBrains Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JetBrains-dark.json"
       },
       {
         "label": "Sugar Dark Italic",

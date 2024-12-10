@@ -9,7 +9,7 @@
     "activityBar.inactiveForeground": "#393A3488",
     "activityBarBadge.background": "#1E754F",
     "activityBarBadge.foreground": "#fff",
-    "badge.background": "#f1f0e9",
+    "badge.background": "#dddddd",
     "badge.foreground": "#393A34",
     "button.border": "#0000",
     "button.background": "#1E754F",
@@ -28,7 +28,11 @@
     "editor.background": "#f1f0e9",
     "editor.foreground": "#35373d",
     "editor.selectionBackground": "#1E754F40",
+    "editorStickyScroll.border": "#dddddd",
+    "editorStickyScroll.shadow": "#dddddd50",
+    "editorStickyScrollHover.background": "#dddddd",
     "editorWidget.background": "#f1f0e9",
+    "editorGroupHeader.border": "#dddddd",
     "editorGroupHeader.tabsBackground": "#f1f0e9",
     "editorGroupHeader.tabsBorder": "#dddddd",
     "editorGutter.addedBackground": "#1E754F",
@@ -135,7 +139,8 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#808080"
+        "fontStyle": "italic",
+        "foreground": "#888888"
       }
     },
     {
@@ -162,9 +167,8 @@
         "variable.argument.css",
         "meta.function-call.less",
         "support.type.custom-property",
-        "entity.other.attribute-name.less",
-        "punctuation.definition.custom-property.less",
-        "variable.other.constant.animation-name.less"
+        "variable.other.constant.animation-name",
+        "punctuation.definition.custom-property.less"
       ],
       "settings": {
         "foreground": "#444444"
@@ -190,7 +194,7 @@
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#8d7912"
+        "foreground": "#a77744"
       }
     },
     {
@@ -205,7 +209,7 @@
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "#418240"
+        "foreground": "#1E754F"
       }
     },
     {
@@ -334,7 +338,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#0770bb"
+        "foreground": "#066ab1"
       }
     },
     {
@@ -345,7 +349,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#683abd"
+        "foreground": "#6337b3"
       }
     },
     {
@@ -357,7 +361,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#683abd"
+        "foreground": "#6337b3"
       }
     },
     {
@@ -367,7 +371,7 @@
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "#0e7e97"
+        "foreground": "#1E754F"
       }
     },
     {
