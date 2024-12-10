@@ -9,26 +9,30 @@
     "activityBar.inactiveForeground": "#dfdfdf88",
     "activityBarBadge.background": "#059669",
     "activityBarBadge.foreground": "#fff",
-    "badge.background": "#1e1e1e",
+    "badge.background": "#424242",
     "badge.foreground": "#dfdfdf",
     "button.border": "#0000",
     "button.background": "#059669",
     "button.foreground": "#fff",
     "button.hoverBackground": "#059669e3",
-    "button.secondaryBackground": "#1e1e1e",
+    "button.secondaryBackground": "#282828",
     "button.secondaryForeground": "#dfdfdf",
     "button.secondaryHoverBackground": "#424242",
-    "checkbox.background": "#1e1e1e",
+    "checkbox.background": "#282828",
     "checkbox.border": "#424242",
     "debugToolBar.background": "#1e1e1e",
-    "dropdown.background": "#1e1e1e",
+    "dropdown.background": "#282828",
     "dropdown.border": "#424242",
     "dropdown.foreground": "#dfdfdf",
     "dropdown.listBackground": "#1F1F1F",
     "editor.background": "#1e1e1e",
     "editor.foreground": "#cccccc",
     "editor.selectionBackground": "#05966940",
+    "editorStickyScroll.border": "#424242",
+    "editorStickyScroll.shadow": "#42424250",
+    "editorStickyScrollHover.background": "#424242",
     "editorWidget.background": "#1e1e1e",
+    "editorGroupHeader.border": "#424242",
     "editorGroupHeader.tabsBackground": "#1e1e1e",
     "editorGroupHeader.tabsBorder": "#424242",
     "editorGutter.addedBackground": "#059669",
@@ -40,7 +44,7 @@
     "focusBorder": "#0000",
     "foreground": "#dfdfdf",
     "input.border": "#424242",
-    "input.background": "#1e1e1e",
+    "input.background": "#282828",
     "input.foreground": "#dfdfdf",
     "inputOption.activeBorder": "#059669",
     "inputOption.activeForeground": "#fff",
@@ -74,7 +78,7 @@
     "quickInput.foreground": "#dfdfdf",
     "quickInputList.focusBackground": "#424242",
     "quickInputList.focusForeground": "#dfdfdf",
-    "settings.dropdownBackground": "#1e1e1e",
+    "settings.dropdownBackground": "#282828",
     "settings.dropdownBorder": "#424242",
     "settings.headerForeground": "#dfdfdf",
     "settings.numberInputBorder": "#424242",
@@ -135,6 +139,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#5e8e4c"
       }
     },
@@ -162,9 +167,8 @@
         "variable.argument.css",
         "meta.function-call.less",
         "support.type.custom-property",
-        "entity.other.attribute-name.less",
-        "punctuation.definition.custom-property.less",
-        "variable.other.constant.animation-name.less"
+        "variable.other.constant.animation-name",
+        "punctuation.definition.custom-property.less"
       ],
       "settings": {
         "foreground": "#CFCFCF"
@@ -420,7 +424,7 @@
         "meta.at-rule.supports.header.css"
       ],
       "settings": {
-        "foreground": "#8888889F"
+        "foreground": "#888888AF"
       }
     },
     {

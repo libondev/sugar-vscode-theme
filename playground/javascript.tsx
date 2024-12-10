@@ -52,7 +52,7 @@ const logic = 1 === 2 !== 3 ? 111 : 222
 })();
 
 function Button({ onClick }: { onClick: () => void }): JSX.Element {
-  return <button class="test" onClick={ onClick }>Click me!</button>
+  return <button className="test" onClick={ onClick }>Click me!</button>
 }
 
 export function Component<Generics>(): Generics {
