@@ -71,9 +71,9 @@ export const lightThemeColors = {
 export const jetBrainsDarkThemeColors = {
   accent: '#059669',
   border: '#424242',
-  foreground: '#BCBEC4',
-  background: '#1e1f22',
-  listBackground: '#222222',
+  foreground: '#DADADA',
+  background: '#101214',
+  listBackground: '#2b2d30',
   editorForeground: '#BCBEC4',
   sidebarBackground: '#2b2d30',
 
