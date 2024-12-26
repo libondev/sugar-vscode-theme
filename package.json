@@ -42,12 +42,12 @@
       {
         "label": "Sugar Light",
         "uiTheme": "vs",
-        "path": "./themes/Light.json"
+        "path": "./themes/light.json"
       },
       {
         "label": "Sugar Light Italic",
         "uiTheme": "vs",
-        "path": "./themes/Light-italic.json"
+        "path": "./themes/light-italic.json"
       },
       {
         "label": "Sugar JetBrains Dark",

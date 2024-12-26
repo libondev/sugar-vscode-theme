@@ -50,6 +50,8 @@ export function getTemplate(colors: Record<string, string>) {
     "dropdown.listBackground": "${theme.listBackground}",
     "editor.background": "${background}",
     "editor.foreground": "${editorForeground}",
+    "editor.findMatchBackground": "${accent}90",
+    "editor.findMatchHighlightBackground": "${accent}40",
     "editor.selectionBackground": "${accent}40",
     "editorStickyScroll.border": "${border}",
     "editorStickyScroll.shadow": "${border}50",

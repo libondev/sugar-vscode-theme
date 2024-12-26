@@ -27,6 +27,8 @@
     "dropdown.listBackground": "#EFEFEF",
     "editor.background": "#f5f5f5",
     "editor.foreground": "#35373d",
+    "editor.findMatchBackground": "#1E754F90",
+    "editor.findMatchHighlightBackground": "#1E754F40",
     "editor.selectionBackground": "#1E754F40",
     "editorStickyScroll.border": "#dddddd",
     "editorStickyScroll.shadow": "#dddddd50",
@@ -170,7 +172,7 @@
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
-        "foreground": "#871094"
+        "foreground": "#7a0f86"
       }
     },
     {
@@ -269,7 +271,7 @@
         "entity.name.tag.custom.scss"
 			],
 			"settings": {
-				"foreground": "#871094"
+				"foreground": "#7a0f86"
 			}
     },
     {

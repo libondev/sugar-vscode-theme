@@ -60,7 +60,7 @@ export const lightThemeColors = {
   secondary: '#ABB2BF',
   attribute: '#a77744',
   tsBaseType: '#1E754F',
-  property: '#871094',
+  property: '#7a0f86',
   tsType: '#6337b3',
   caller: '#a77744',
   // json: '#b04444',
