@@ -19,7 +19,7 @@ export function getTemplate(colors: Record<string, string>) {
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
   theme.sidebarBackground ||= background
-  theme.inputBackground ||= theme.sidebarBackground
+  theme.inputBackground ||= '#0000'
 
   return `{
   "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
@@ -162,7 +162,6 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.definition.comment"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "${theme.comment}"
       }
     },
@@ -442,9 +441,7 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",
         "source.css.less punctuation.definition.group",
-        "invalid.illegal.character-not-allowed-here.html",
-        "meta.at-rule.supports.header",
-        "meta.at-rule.supports.header.css"
+        "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
         "foreground": "${theme.symbol}"

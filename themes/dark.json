@@ -15,10 +15,10 @@
     "button.background": "#059669",
     "button.foreground": "#fff",
     "button.hoverBackground": "#059669e3",
-    "button.secondaryBackground": "#282828",
+    "button.secondaryBackground": "#0000",
     "button.secondaryForeground": "#dfdfdf",
     "button.secondaryHoverBackground": "#424242",
-    "checkbox.background": "#282828",
+    "checkbox.background": "#0000",
     "checkbox.border": "#424242",
     "debugToolBar.background": "#1e1e1e",
     "dropdown.background": "#1e1e1e",
@@ -44,7 +44,7 @@
     "focusBorder": "#0000",
     "foreground": "#dfdfdf",
     "input.border": "#424242",
-    "input.background": "#282828",
+    "input.background": "#0000",
     "input.foreground": "#dfdfdf",
     "inputOption.activeBorder": "#059669",
     "inputOption.activeForeground": "#fff",
@@ -78,7 +78,7 @@
     "quickInput.foreground": "#dfdfdf",
     "quickInputList.focusBackground": "#424242",
     "quickInputList.focusForeground": "#dfdfdf",
-    "settings.dropdownBackground": "#282828",
+    "settings.dropdownBackground": "#0000",
     "settings.dropdownBorder": "#424242",
     "settings.headerForeground": "#dfdfdf",
     "settings.numberInputBorder": "#424242",
@@ -139,7 +139,6 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#5e8e4c"
       }
     },
@@ -419,9 +418,7 @@
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",
         "source.css.less punctuation.definition.group",
-        "invalid.illegal.character-not-allowed-here.html",
-        "meta.at-rule.supports.header",
-        "meta.at-rule.supports.header.css"
+        "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
         "foreground": "#888888AF"
