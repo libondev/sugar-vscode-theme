@@ -35,11 +35,6 @@
         "path": "./themes/dark.json"
       },
       {
-        "label": "Sugar JetBrains Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/JetBrains-dark.json"
-      },
-      {
         "label": "Sugar Dark Italic",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-italic.json"
@@ -53,6 +48,11 @@
         "label": "Sugar Light Italic",
         "uiTheme": "vs",
         "path": "./themes/Light-italic.json"
+      },
+      {
+        "label": "Sugar JetBrains Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JetBrains-dark.json"
       }
     ]
   },
