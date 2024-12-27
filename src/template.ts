@@ -19,7 +19,7 @@ export function getTemplate(colors: Record<string, string>) {
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
   theme.sidebarBackground ||= background
-  theme.inputBackground ||= '#0000'
+  theme.inputBackground ||= background
 
   return `{
   "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
@@ -76,7 +76,7 @@ export function getTemplate(colors: Record<string, string>) {
     "inputOption.activeBackground": "${accent}",
     "list.activeSelectionForeground": "#fff",
     "list.activeSelectionBackground": "${accent}",
-    "list.activeSelectionIconForeground": "#fff",
+    "list.activeSelectionIconForeground": "${foreground}",
     "list.hoverBackground": "${foreground}1f",
     "list.highlightForeground": "${accent}",
     "list.inactiveSelectionBackground": "${border}",
@@ -332,7 +332,16 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "storage.type",
-        "punctuation.definition.template-expression"
+        "punctuation.definition.template-expression",
+        "markup.heading",
+        // "punctuation.definition.list",
+        "entity.name.section.markdown",
+        "variable.other.link.underline",
+        "keyword.operator.logical.python",
+        "keyword.operator.logic",
+        "keyword.operator.logical.and",
+        "keyword.operator.logical.scss",
+        "keyword.operator.logical.feature"
       ],
       "settings": {
         "foreground": "${theme.storage}"
@@ -465,17 +474,6 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": "markup.italic",
       "settings": {
         "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": [
-        "markup.heading",
-        // "punctuation.definition.list",
-        "entity.name.section.markdown",
-        "variable.other.link.underline"
-      ],
-      "settings": {
-        "foreground": "${theme.storage}"
       }
     },
     {

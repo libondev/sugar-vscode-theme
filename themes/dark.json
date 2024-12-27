@@ -15,10 +15,10 @@
     "button.background": "#059669",
     "button.foreground": "#fff",
     "button.hoverBackground": "#059669e3",
-    "button.secondaryBackground": "#0000",
+    "button.secondaryBackground": "#1e1e1e",
     "button.secondaryForeground": "#dfdfdf",
     "button.secondaryHoverBackground": "#424242",
-    "checkbox.background": "#0000",
+    "checkbox.background": "#1e1e1e",
     "checkbox.border": "#424242",
     "debugToolBar.background": "#1e1e1e",
     "dropdown.background": "#1e1e1e",
@@ -46,14 +46,14 @@
     "focusBorder": "#0000",
     "foreground": "#dfdfdf",
     "input.border": "#424242",
-    "input.background": "#0000",
+    "input.background": "#1e1e1e",
     "input.foreground": "#dfdfdf",
     "inputOption.activeBorder": "#059669",
     "inputOption.activeForeground": "#fff",
     "inputOption.activeBackground": "#059669",
     "list.activeSelectionForeground": "#fff",
     "list.activeSelectionBackground": "#059669",
-    "list.activeSelectionIconForeground": "#fff",
+    "list.activeSelectionIconForeground": "#dfdfdf",
     "list.hoverBackground": "#dfdfdf1f",
     "list.highlightForeground": "#059669",
     "list.inactiveSelectionBackground": "#424242",
@@ -80,7 +80,7 @@
     "quickInput.foreground": "#dfdfdf",
     "quickInputList.focusBackground": "#424242",
     "quickInputList.focusForeground": "#dfdfdf",
-    "settings.dropdownBackground": "#0000",
+    "settings.dropdownBackground": "#1e1e1e",
     "settings.dropdownBorder": "#424242",
     "settings.headerForeground": "#dfdfdf",
     "settings.numberInputBorder": "#424242",
@@ -309,7 +309,16 @@
     {
       "scope": [
         "storage.type",
-        "punctuation.definition.template-expression"
+        "punctuation.definition.template-expression",
+        "markup.heading",
+        // "punctuation.definition.list",
+        "entity.name.section.markdown",
+        "variable.other.link.underline",
+        "keyword.operator.logical.python",
+        "keyword.operator.logic",
+        "keyword.operator.logical.and",
+        "keyword.operator.logical.scss",
+        "keyword.operator.logical.feature"
       ],
       "settings": {
         "foreground": "#56B6C2"
@@ -442,17 +451,6 @@
       "scope": "markup.italic",
       "settings": {
         "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": [
-        "markup.heading",
-        // "punctuation.definition.list",
-        "entity.name.section.markdown",
-        "variable.other.link.underline"
-      ],
-      "settings": {
-        "foreground": "#56B6C2"
       }
     },
     {

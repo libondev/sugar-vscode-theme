@@ -31,9 +31,15 @@ body {
   100% {}
 }
 
-@media (min-width: 100px) {
+@media (min-width: 100px) and (max-width: 100px) {
   body {
     width: 100%;
     animation: Animate .2s;
+  }
+}
+
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+  img[loading="lazy"] {
+    clip-path: inset(0.6px)
   }
 }

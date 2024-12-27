@@ -20,6 +20,9 @@ def is_odd(num):
 
 num = int(input("请输入一个整数: "))
 
+if a and b:
+
+
 if is_even(num):
     print(num, "是偶数")
 else:
