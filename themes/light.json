@@ -172,7 +172,7 @@
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
-        "foreground": "#7a0f86"
+        "foreground": "#750d80"
       }
     },
     {
@@ -271,7 +271,7 @@
         "entity.name.tag.custom.scss"
 			],
 			"settings": {
-				"foreground": "#7a0f86"
+				"foreground": "#750d80"
 			}
     },
     {
@@ -359,7 +359,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#6337b3"
+        "foreground": "#6836c6"
       }
     },
     {
@@ -371,7 +371,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#6337b3"
+        "foreground": "#6836c6"
       }
     },
     {
