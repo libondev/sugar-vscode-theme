@@ -52,7 +52,7 @@
       {
         "label": "Sugar JetBrains Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/JetBrains-dark.json"
+        "path": "./themes/dark-jb.json"
       }
     ]
   },

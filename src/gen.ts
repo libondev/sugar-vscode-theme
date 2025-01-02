@@ -26,7 +26,7 @@ async function rewriteColorTheme() {
       'utf8'
     ],
     [
-      'themes/JetBrains-dark.json',
+      'themes/dark-jb.json',
       getTemplate({
         mode: 'dark',
         ...jetBrainsDarkThemeColors

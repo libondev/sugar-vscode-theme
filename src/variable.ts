@@ -4,7 +4,7 @@ export const darkThemeColors = {
   foreground: '#dfdfdf',
   background: '#1e1e1e',
   listBackground: '#1F1F1F',
-  editorForeground: '#cccccc',
+  editorForeground: '#D4D4D4',
   sidebarBackground: '#282828',
 
   insert: '#059669',
@@ -12,7 +12,7 @@ export const darkThemeColors = {
   change: '#61AFEF',
 
   comment: '#5e8e4c',
-  variable: '#CFCFCF',
+  variable: '#D4D4D4',
   constant: '#e6c07b',
   keyword: '#E06C75',
   storage: '#56B6C2',
@@ -25,7 +25,7 @@ export const darkThemeColors = {
   secondary: '#ABB2BF',
   attribute: '#D9AD79',
   tsBaseType: '#56c2a2',
-  property: '#C586C0',
+  property: '#ca91c5',
   tsType: '#56c2a2',
   caller: '#D9AD79',
   // json: '#E06C75',
