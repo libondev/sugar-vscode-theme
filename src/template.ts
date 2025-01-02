@@ -32,7 +32,7 @@ export function getTemplate(colors: Record<string, string>) {
     "activityBar.inactiveForeground": "${inactiveForeground}",
     "activityBarBadge.background": "${accent}",
     "activityBarBadge.foreground": "#fff",
-    "badge.background": "${border}",
+    "badge.background": "${accent}40",
     "badge.foreground": "${foreground}",
     "button.border": "#0000",
     "button.background": "${accent}",
