@@ -27,8 +27,8 @@
     "dropdown.listBackground": "#f8f8f8",
     "editor.background": "#f5f5f5",
     "editor.foreground": "#35373d",
-    "editor.findMatchBackground": "#1E754F90",
-    "editor.findMatchHighlightBackground": "#1E754F40",
+    "editor.findMatchBackground": "#1E754F68",
+    "editor.findMatchHighlightBackground": "#1E754F38",
     "editor.selectionBackground": "#1E754F40",
     "editorStickyScroll.border": "#dddddd",
     "editorStickyScroll.shadow": "#dddddd50",
@@ -172,7 +172,7 @@
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
-        "foreground": "#750d80"
+        "foreground": "#6e0c79"
       }
     },
     {
@@ -181,7 +181,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#9f7241"
+        "foreground": "#986d3e"
       }
     },
     {
@@ -195,7 +195,7 @@
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#9f7241"
+        "foreground": "#986d3e"
       }
     },
     {
@@ -234,7 +234,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#9f7241"
+        "foreground": "#986d3e"
       }
     },
     {
@@ -243,7 +243,7 @@
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#9f7241"
+        "foreground": "#986d3e"
       }
     },
     {
@@ -252,7 +252,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#9f7241"
+        "foreground": "#986d3e"
       }
     },
     {
@@ -271,7 +271,7 @@
         "entity.name.tag.custom.scss"
 			],
 			"settings": {
-				"foreground": "#750d80"
+				"foreground": "#6e0c79"
 			}
     },
     {
@@ -420,7 +420,7 @@
         "meta.array.literal",
         // "meta.embedded.block",
         "meta.attribute.directive",
-        "meta.function.expression",
+        // "meta.function.expression",
         "storage.type.function.arrow",
         "punctuation.section.function",
         "punctuation.definition.entity",
@@ -432,7 +432,7 @@
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "#888888AF"
+        "foreground": "#88888888"
       }
     },
     {
