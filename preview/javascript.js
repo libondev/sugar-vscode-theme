@@ -1,14 +1,17 @@
-const btn = document.getElementById('btn')
-let count = 0
+import { defineComponent } from 'vue'
 
-function render() {
-  btn.innerText = `Count: ${count}`
-}
+export const App = defineComponent({
+  name: 'App',
+  setup() {
+    const count = ref(0)
 
-btn.addEventListener('click', () => {
-  // Count from 1 to 10.
-  if (count < 10) {
-    count += 1
-    render()
+    return () => (
+      <div>
+        <h1>Hello World</h1>
+        <button onClick={
+          () => count.value++
+        }>{ count.value }</button>
+      </div>
+    )
   }
 })

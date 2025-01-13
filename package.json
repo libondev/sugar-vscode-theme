@@ -50,9 +50,9 @@
         "path": "./themes/light-italic.json"
       },
       {
-        "label": "Sugar JetBrains Dark",
+        "label": "Sugar Dark Fleet",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-jb.json"
+        "path": "./themes/dark-fleet.json"
       }
     ]
   },

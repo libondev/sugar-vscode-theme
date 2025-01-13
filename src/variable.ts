@@ -2,10 +2,10 @@ export const darkThemeColors = {
   accent: '#059669',
   border: '#424242',
   foreground: '#dfdfdf',
-  background: '#1e1e1e',
+  background: '#1f1f1f',
   listBackground: '#1F1F1F',
   editorForeground: '#D4D4D4',
-  sidebarBackground: '#282828',
+  sidebarBackground: '#181818',
 
   insert: '#059669',
   delete: '#E06C75',
@@ -35,12 +35,12 @@ export const darkThemeColors = {
 
 export const lightThemeColors = {
   accent: '#1E754F',
-  border: '#dddddd',
+  border: '#dadada',
   foreground: '#393A34',
   background: '#f5f5f5',
   listBackground: '#f8f8f8',
   editorForeground: '#35373d',
-  // sidebarBackground: '#f1f0e9',
+  sidebarBackground: '#ebebec',
 
   insert: '#1E754F',
   delete: '#b04444',
@@ -68,7 +68,7 @@ export const lightThemeColors = {
   nil: '#b04444',
 }
 
-export const jetBrainsDarkThemeColors = {
+export const fleetDarkThemeColors = {
   accent: '#059669',
   border: '#424242',
   foreground: '#DADADA',

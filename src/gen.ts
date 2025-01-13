@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import { getTemplate } from './template'
 import {
   darkThemeColors,
-  jetBrainsDarkThemeColors,
+  fleetDarkThemeColors,
   lightThemeColors,
 } from './variable'
 
@@ -26,10 +26,10 @@ async function rewriteColorTheme() {
       'utf8'
     ],
     [
-      'themes/dark-jb.json',
+      'themes/dark-fleet.json',
       getTemplate({
         mode: 'dark',
-        ...jetBrainsDarkThemeColors
+        ...fleetDarkThemeColors
       }),
       'utf8'
     ],
