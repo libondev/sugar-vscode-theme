@@ -172,7 +172,7 @@
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
-        "foreground": "#6e0c79"
+        "foreground": "#7A3E9D"
       }
     },
     {
@@ -220,7 +220,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#0e7e97"
+        "foreground": "#267F99"
       }
     },
     {
@@ -271,7 +271,7 @@
         "entity.name.tag.custom.scss"
 			],
 			"settings": {
-				"foreground": "#6e0c79"
+				"foreground": "#7A3E9D"
 			}
     },
     {
@@ -321,7 +321,7 @@
         "keyword.operator.logical.feature"
       ],
       "settings": {
-        "foreground": "#0e7e97"
+        "foreground": "#267F99"
       }
     },
     {
@@ -359,7 +359,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#6836c6"
+        "foreground": "#5828b1"
       }
     },
     {
@@ -371,7 +371,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#6836c6"
+        "foreground": "#5828b1"
       }
     },
     {
