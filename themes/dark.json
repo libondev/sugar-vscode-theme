@@ -172,7 +172,7 @@
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
-        "foreground": "#ca91c5"
+        "foreground": "#C77DBB"
       }
     },
     {
@@ -271,7 +271,7 @@
         "entity.name.tag.custom.scss"
 			],
 			"settings": {
-				"foreground": "#ca91c5"
+				"foreground": "#C77DBB"
 			}
     },
     {
