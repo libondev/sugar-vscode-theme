@@ -18,15 +18,16 @@ export function getTemplate(colors: Record<string, string>) {
   theme.key ||= theme.css
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
-  theme.sidebarBackground ||= background
   theme.inputBackground ||= background
+  theme.sidebarBackground ||= background
+  theme.activeBackground ||= theme.sidebarBackground
 
   return `{
   "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
   "base": "vs-${mode}",
   "colors": {
     "activityBar.activeBorder": "${accent}",
-    "activityBar.background": "${theme.sidebarBackground}",
+    "activityBar.background": "${theme.activeBackground}",
     "activityBar.border": "${border}",
     "activityBar.foreground": "${foreground}",
     "activityBar.inactiveForeground": "${inactiveForeground}",
@@ -214,7 +215,6 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.definition.variable",
         "constant.character.escape",
         "punctuation.definition.group",
-        "constant.other.character-class",
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
@@ -240,7 +240,8 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "constant.language",
         "support.type.builtin",
-        "meta.module-reference"
+        "meta.module-reference",
+        "constant.other.character-class"
       ],
       "settings": {
         "foreground": "${theme.boolean}"
