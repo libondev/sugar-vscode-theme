@@ -335,7 +335,7 @@
         "support.type.object.module.js"
       ],
       "settings": {
-        "foreground": "#aa84f5"
+        "foreground": "#E06C75"
       }
     },
     {
@@ -359,7 +359,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#aa84f5"
       }
     },
     {
