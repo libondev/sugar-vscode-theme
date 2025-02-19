@@ -24,7 +24,7 @@ export const darkThemeColors = {
   function: '#61AFEF',
   symbol: '#8888888f',
   secondary: '#ABB2BF',
-  attribute: '#E5C07B',
+  attribute: '#dbb280',
   tsBaseType: '#56B6C2',
   property: '#C586C0',
   tsType: '#56c2a2',
