@@ -52,7 +52,7 @@ export function getTemplate(colors: Record<string, string>) {
     "editor.background": "${background}",
     "editor.foreground": "${editorForeground}",
     "editor.findMatchBackground": "${accent}68",
-    "editor.findMatchHighlightBackground": "${accent}38",
+    "editor.findMatchHighlightBackground": "${accent}30",
     "editor.selectionBackground": "${accent}40",
     "editorStickyScroll.border": "${border}",
     "editorStickyScroll.shadow": "${border}50",

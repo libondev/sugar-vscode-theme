@@ -28,7 +28,7 @@
     "editor.background": "#ffffff",
     "editor.foreground": "#35373d",
     "editor.findMatchBackground": "#1E754F68",
-    "editor.findMatchHighlightBackground": "#1E754F38",
+    "editor.findMatchHighlightBackground": "#1E754F30",
     "editor.selectionBackground": "#1E754F40",
     "editorStickyScroll.border": "#dadada",
     "editorStickyScroll.shadow": "#dadada50",
@@ -38,11 +38,11 @@
     "editorGroupHeader.tabsBackground": "#ebebec",
     "editorGroupHeader.tabsBorder": "#dadada",
     "editorGutter.addedBackground": "#1E754F",
-    "editorGutter.deletedBackground": "#E45649",
+    "editorGutter.deletedBackground": "#c9391d",
     "editorGutter.modifiedBackground": "#066ab2",
     "editorLineNumber.activeForeground": "#393A34AF",
     "editorLineNumber.foreground": "#393A3466",
-    "errorForeground": "#E45649",
+    "errorForeground": "#c9391d",
     "focusBorder": "#0000",
     "foreground": "#393A34",
     "input.border": "#dadada",
@@ -209,7 +209,7 @@
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "#50A14F"
+        "foreground": "#448943"
       }
     },
     {
@@ -293,7 +293,7 @@
         "keyword.control.anchor.regexp"
       ],
       "settings": {
-        "foreground": "#c9463a"
+        "foreground": "#be3e37"
       }
     },
     {
@@ -303,7 +303,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#c9463a"
+        "foreground": "#be3e37"
       }
     },
     {
@@ -335,7 +335,7 @@
         "support.type.object.module.js"
       ],
       "settings": {
-        "foreground": "#7045c4"
+        "foreground": "#be3e37"
       }
     },
     {
@@ -348,7 +348,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#0184BC"
+        "foreground": "#4B69C6"
       }
     },
     {
@@ -371,7 +371,7 @@
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#5F36B2"
+        "foreground": "#7045c4"
       }
     },
     {
@@ -408,7 +408,7 @@
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#939dae"
       }
     },
     {
@@ -468,7 +468,7 @@
         "punctuation.definition.deleted"
       ],
 			"settings": {
-				"foreground": "#E45649"
+				"foreground": "#c9391d"
 			}
 		},
 		{
