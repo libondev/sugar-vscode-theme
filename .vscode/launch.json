@@ -14,7 +14,8 @@
         "--extensionDevelopmentPath=${workspaceFolder}",
         "${workspaceFolder}/playground",
         // "--disable-extensions"
-      ]
+      ],
+      "preLaunchTask": "dev"
     }
   ]
 }
