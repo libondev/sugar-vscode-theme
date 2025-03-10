@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 type Person struct {
@@ -53,10 +52,6 @@ func main() {
 		return num%2 == 0
 	}
 
-	isOdd := func(num int) bool {
-		return num%2 != 0
-	}
-
 	num := 0
 	fmt.Print("请输入一个整数: ")
 	fmt.Scan(&num)
@@ -70,14 +65,15 @@ func main() {
 	// 循环和条件语句
 	for i := 0; i < 5; i++ {
 		fmt.Println(i)
+
+		// 使用条件语句
+		if i == 3 {
+			fmt.Println("i 等于 3")
+		} else {
+			fmt.Println("i 不等于 3")
+		}
 	}
 
-	// 使用条件语句
-	if i == 3 {
-		fmt.Println("i 等于 3")
-	} else {
-		fmt.Println("i 不等于 3")
-	}
 
 	// 使用循环和条件语句
 	for i := 0; i < 5; i++ {
@@ -95,9 +91,9 @@ func main() {
 	}
 
 	// 使用map和循环
-	person := map[string]int{"name": "张三", "age": 25, "city": "北京"}
+	person := map[string]string{"name": "张三", "age": "25", "city": "北京"}
 	for key, value := range person {
-		fmt.Printf("%s: %d\n", key, value)
+		fmt.Printf("%s: %s\n", key, value)
 	}
 
 	// 使用集合和循环
