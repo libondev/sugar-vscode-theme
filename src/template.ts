@@ -21,6 +21,7 @@ export function getTemplate(colors: Record<string, string>) {
   theme.inputBackground ||= background
   theme.sidebarBackground ||= background
   theme.activeBackground ||= theme.sidebarBackground
+  theme.regexp ||= theme.string
 
   return `{
   "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
@@ -222,6 +223,15 @@ export function getTemplate(colors: Record<string, string>) {
       }
     },
     {
+      "scope": [
+        "meta.group.regexp",
+        "constant.other.character-class"
+      ],
+      "settings": {
+        "foreground": "${theme.regexp}"
+      }
+    },
+    {
       "scope":[
         "string",
         "entity.name",
@@ -240,8 +250,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "constant.language",
         "support.type.builtin",
-        "meta.module-reference",
-        "constant.other.character-class"
+        "meta.module-reference"
       ],
       "settings": {
         "foreground": "${theme.boolean}"
@@ -302,9 +311,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "constant.language.null",
         "constant.language.undefined",
-        "keyword.operator.or.regexp",
-        "constant.language.import-export-all.ts",
-        "punctuation.definition.character-class.regexp"
+        "constant.language.import-export-all.ts"
       ],
       "settings": {
         "foreground": "${theme.nil}"
@@ -354,9 +361,11 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.modifier",
         "keyword.operator.new",
         "storage.type.class.jsdoc",
-        "keyword.operator.expression",
         "punctuation.separator.less",
-        "support.type.object.module.js"
+        "keyword.operator.or.regexp",
+        "keyword.operator.expression",
+        "support.type.object.module.js",
+        "punctuation.definition.character-class.regexp"
       ],
       "settings": {
         "foreground": "${theme.keyword}"
