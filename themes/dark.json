@@ -26,7 +26,7 @@
     "dropdown.foreground": "#dfdfdf",
     "dropdown.listBackground": "#1F1F1F",
     "editor.background": "#191b20",
-    "editor.foreground": "#E1E3E5",
+    "editor.foreground": "#E2E4E6",
     "editor.findMatchBackground": "#05966968",
     "editor.findMatchHighlightBackground": "#05966930",
     "editor.selectionBackground": "#05966940",
@@ -138,7 +138,8 @@
       "scope": [
         "comment",
         "string.comment",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "entity.name.type.instance.jsdoc"
       ],
       "settings": {
         "foreground": "#797d86"
@@ -156,7 +157,7 @@
         "keyword.operator.gradient"
       ],
       "settings": {
-        "foreground": "#E1E3E5"
+        "foreground": "#E2E4E6"
       }
     },
     {
@@ -200,6 +201,7 @@
     {
       "scope": [
         "meta.group.regexp",
+        "keyword.control.anchor.regexp",
         "constant.other.character-class"
       ],
       "settings": {
@@ -228,7 +230,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#62bac6"
       }
     },
     {
@@ -296,7 +298,6 @@
       "scope": [
         "entity.name.tag",
         // "support.class.component",
-        "keyword.control.anchor.regexp"
       ],
       "settings": {
         "foreground": "#79B8FF"
@@ -327,7 +328,7 @@
         "keyword.operator.logical.feature"
       ],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#62bac6"
       }
     },
     {
@@ -363,7 +364,6 @@
       "scope": [
         "support.class",
         "entity.name.type.class",
-        "entity.name.type.module",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -375,6 +375,7 @@
         "support.type",
         "entity.name.type",
         "meta.type.parameters",
+        "entity.name.type.module",
 				"meta.namespace.declaration",
 				"meta.function,meta.type.annotation"
       ],
@@ -389,7 +390,7 @@
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#62bac6"
       }
     },
     {
@@ -398,7 +399,7 @@
         "meta.embedded.block.html"
       ],
       "settings": {
-        "foreground": "#E1E3E5"
+        "foreground": "#E2E4E6"
       }
     },
     {

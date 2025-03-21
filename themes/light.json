@@ -138,7 +138,8 @@
       "scope": [
         "comment",
         "string.comment",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "entity.name.type.instance.jsdoc"
       ],
       "settings": {
         "foreground": "#888888"
@@ -200,6 +201,7 @@
     {
       "scope": [
         "meta.group.regexp",
+        "keyword.control.anchor.regexp",
         "constant.other.character-class"
       ],
       "settings": {
@@ -296,7 +298,6 @@
       "scope": [
         "entity.name.tag",
         // "support.class.component",
-        "keyword.control.anchor.regexp"
       ],
       "settings": {
         "foreground": "#4B69C6"
@@ -363,7 +364,6 @@
       "scope": [
         "support.class",
         "entity.name.type.class",
-        "entity.name.type.module",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -375,6 +375,7 @@
         "support.type",
         "entity.name.type",
         "meta.type.parameters",
+        "entity.name.type.module",
 				"meta.namespace.declaration",
 				"meta.function,meta.type.annotation"
       ],

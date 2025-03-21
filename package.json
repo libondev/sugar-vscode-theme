@@ -50,14 +50,14 @@
         "path": "./themes/light-italic.json"
       },
       {
-        "label": "Sugar Dark Faded",
+        "label": "Sugar Dark Focus",
         "uiTheme": "vs-dark",
-        "path": "./themes/faded-dark.json"
+        "path": "./themes/focus-dark.json"
       },
       {
-        "label": "Sugar Light Faded",
+        "label": "Sugar Light Focus",
         "uiTheme": "vs",
-        "path": "./themes/faded-light.json"
+        "path": "./themes/focus-light.json"
       }
     ]
   },

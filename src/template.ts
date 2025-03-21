@@ -13,15 +13,15 @@ export function getTemplate(colors: Record<string, string>) {
   // window blur foreground
   const inactiveForeground = foreground + '88'
 
+  theme.key ||= theme.css
   theme.json ||= theme.tag
   theme.css ||= theme.variable
-  theme.key ||= theme.css
+  theme.regexp ||= theme.string
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
   theme.inputBackground ||= background
   theme.sidebarBackground ||= background
   theme.activeBackground ||= theme.sidebarBackground
-  theme.regexp ||= theme.string
 
   return `{
   "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
@@ -163,7 +163,8 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "comment",
         "string.comment",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "entity.name.type.instance.jsdoc"
       ],
       "settings": {
         "foreground": "${theme.comment}"
@@ -225,6 +226,7 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "meta.group.regexp",
+        "keyword.control.anchor.regexp",
         "constant.other.character-class"
       ],
       "settings": {
@@ -321,7 +323,6 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "entity.name.tag",
         // "support.class.component",
-        "keyword.control.anchor.regexp"
       ],
       "settings": {
         "foreground": "${theme.tag}"
@@ -388,7 +389,6 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "support.class",
         "entity.name.type.class",
-        "entity.name.type.module",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -400,6 +400,7 @@ export function getTemplate(colors: Record<string, string>) {
         "support.type",
         "entity.name.type",
         "meta.type.parameters",
+        "entity.name.type.module",
 				"meta.namespace.declaration",
 				"meta.function,meta.type.annotation"
       ],
