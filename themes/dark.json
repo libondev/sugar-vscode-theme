@@ -296,7 +296,7 @@
     },
     {
       "scope": [
-        "entity.name.tag",
+        "entity.name.tag"
         // "support.class.component",
       ],
       "settings": {

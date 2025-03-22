@@ -1,10 +1,10 @@
 import fs from 'node:fs'
 import { getTemplate } from './template'
 import {
-    darkThemeColors,
-    focusDarkThemeColors,
-    focusLightThemeColors,
-    lightThemeColors
+  sugarDark,
+  sugarDarkFocus,
+  sugarLight,
+  sugarLightFocus
 } from './variable'
 
 async function rewriteColorTheme() {
@@ -14,7 +14,7 @@ async function rewriteColorTheme() {
       'themes/dark.json',
       getTemplate({
         mode: 'dark',
-        ...darkThemeColors
+        ...sugarDark
       }),
       'utf8'
     ],
@@ -22,7 +22,7 @@ async function rewriteColorTheme() {
       'themes/light.json',
       getTemplate({
         mode: 'light',
-        ...lightThemeColors
+        ...sugarLight
       }),
       'utf8'
     ],
@@ -30,7 +30,7 @@ async function rewriteColorTheme() {
       'themes/focus-dark.json',
       getTemplate({
         mode: 'dark',
-        ...focusDarkThemeColors
+        ...sugarDarkFocus
       }),
       'utf8'
     ],
@@ -38,7 +38,7 @@ async function rewriteColorTheme() {
       'themes/focus-light.json',
       getTemplate({
         mode: 'light',
-        ...focusLightThemeColors
+        ...sugarLightFocus
       }),
       'utf8'
     ],

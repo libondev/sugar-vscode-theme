@@ -1,4 +1,4 @@
-export const darkThemeColors = {
+export const sugarDark = {
   accent: '#059669',
   border: '#424242',
   foreground: '#dfdfdf',
@@ -34,7 +34,7 @@ export const darkThemeColors = {
   nil: '#CB7676',
 }
 
-export const lightThemeColors = {
+export const sugarLight = {
   accent: '#1E754F',
   border: '#dadada',
   foreground: '#35373d',
@@ -69,7 +69,7 @@ export const lightThemeColors = {
   nil: '#AA3731',
 }
 
-export const focusDarkThemeColors = {
+export const sugarDarkFocus = {
   accent: '#059669',
   border: '#424242',
   foreground: '#E2E4E6',
@@ -100,12 +100,12 @@ export const focusDarkThemeColors = {
   property: '#E2E4E6',
   tsType: '#62bac6',
   caller: '#888888',
-  json: '#98C379',
+  json: '#E2E4E6',
   tag: '#888888',
   nil: '#E2E4E6',
 }
 
-export const focusLightThemeColors = {
+export const sugarLightFocus = {
   accent: '#1E754F',
   border: '#dadada',
   foreground: '#393A34',
@@ -136,7 +136,7 @@ export const focusLightThemeColors = {
   property: '#24292E',
   tsType: '#267F99',
   caller: '#888888',
-  json: '#0451A5',
+  json: '#24292E',
   tag: '#888888',
   nil: '#24292E',
 }

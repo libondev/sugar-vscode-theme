@@ -14,8 +14,8 @@ export function getTemplate(colors: Record<string, string>) {
   const inactiveForeground = foreground + '88'
 
   theme.key ||= theme.css
-  theme.json ||= theme.tag
   theme.css ||= theme.variable
+  theme.json ||= theme.property
   theme.regexp ||= theme.string
   theme.storage ||= theme.keyword
   theme.classes ||= theme.attribute
@@ -321,7 +321,7 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        "entity.name.tag",
+        "entity.name.tag"
         // "support.class.component",
       ],
       "settings": {

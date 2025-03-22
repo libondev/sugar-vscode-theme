@@ -296,7 +296,7 @@
     },
     {
       "scope": [
-        "entity.name.tag",
+        "entity.name.tag"
         // "support.class.component",
       ],
       "settings": {
@@ -310,7 +310,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#98C379"
+        "foreground": "#E2E4E6"
       }
     },
     {
