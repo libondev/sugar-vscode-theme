@@ -43,8 +43,12 @@ const arrowFn = (a: number, b: number) => a + b
   array.forEach(console.log)
 
   try {
+    // this is a comment
     const instance = new ExportClass()
     typeof instance.testMethod
+    /**
+     * this is a comment
+     */
     delete instance.testProperty
   } catch (error) {
     console.log(error)

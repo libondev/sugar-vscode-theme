@@ -118,7 +118,7 @@ export const sugarLightFocus = {
   delete: '#A31515',
   change: '#4B69C6',
 
-  comment: '#999999af',
+  comment: '#999999cf',
   variable: '#24292E',
   constant: '#888888',
   keyword: '#888888',
