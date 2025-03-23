@@ -52,12 +52,12 @@
       {
         "label": "Sugar Dark Focus",
         "uiTheme": "vs-dark",
-        "path": "./themes/focus-dark.json"
+        "path": "./themes/dark-focus.json"
       },
       {
         "label": "Sugar Light Focus",
         "uiTheme": "vs",
-        "path": "./themes/focus-light.json"
+        "path": "./themes/light-focus.json"
       }
     ]
   },

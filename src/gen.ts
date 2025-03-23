@@ -27,7 +27,7 @@ async function rewriteColorTheme() {
       'utf8'
     ],
     [
-      'themes/focus-dark.json',
+      'themes/dark-focus.json',
       getTemplate({
         mode: 'dark',
         ...sugarDarkFocus
@@ -35,7 +35,7 @@ async function rewriteColorTheme() {
       'utf8'
     ],
     [
-      'themes/focus-light.json',
+      'themes/light-focus.json',
       getTemplate({
         mode: 'light',
         ...sugarLightFocus
