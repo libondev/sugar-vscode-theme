@@ -2,7 +2,7 @@
   "name": "sugar-vscode-theme",
   "displayName": "Sugar Theme",
   "type": "module",
-  "version": "0.17.5",
+  "version": "0.17.6",
   "description": "Sugar theme for Visual Studio Code",
   "publisher": "banlify",
   "author": "Libon <bon.li@outlook.com>",
