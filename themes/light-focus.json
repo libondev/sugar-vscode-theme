@@ -142,7 +142,7 @@
         "entity.name.type.instance.jsdoc"
       ],
       "settings": {
-        "foreground": "#999999cf"
+        "foreground": "#8B8B8B94"
       }
     },
     {
@@ -230,7 +230,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#A31515"
+        "foreground": "#267F99"
       }
     },
     {
@@ -244,7 +244,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#A31515"
+        "foreground": "#267F99"
       }
     },
     {
@@ -291,7 +291,7 @@
         "constant.language.import-export-all.ts"
       ],
       "settings": {
-        "foreground": "#24292E"
+        "foreground": "#267F99"
       }
     },
     {

@@ -89,9 +89,9 @@ export const sugarDarkFocus = {
   storage: '#888888',
   class: '#98C379',
   regexp: '#CE9178',
-  number: '#CE9178',
+  number: '#62bac6',
   string: '#CE9178',
-  boolean: '#CE9178',
+  boolean: '#62bac6',
   function: '#98C379',
   symbol: '#8B8B8B9F',
   secondary: '#8B8B8B9F',
@@ -102,7 +102,7 @@ export const sugarDarkFocus = {
   caller: '#888888',
   json: '#E2E4E6',
   tag: '#888888',
-  nil: '#E2E4E6',
+  nil: '#62bac6',
 }
 
 export const sugarLightFocus = {
@@ -118,16 +118,16 @@ export const sugarLightFocus = {
   delete: '#A31515',
   change: '#4B69C6',
 
-  comment: '#999999cf',
+  comment: '#8B8B8B94',
   variable: '#24292E',
   constant: '#888888',
   keyword: '#888888',
   storage: '#888888',
   class: '#0451A5',
   regexp: '#A31515',
-  number: '#A31515',
+  number: '#267F99',
   string: '#A31515',
-  boolean: '#A31515',
+  boolean: '#267F99',
   function: '#0451A5',
   symbol: '#8888889F',
   secondary: '#8888889F',
@@ -138,5 +138,5 @@ export const sugarLightFocus = {
   caller: '#888888',
   json: '#24292E',
   tag: '#888888',
-  nil: '#24292E',
+  nil: '#267F99',
 }
