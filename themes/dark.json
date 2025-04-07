@@ -26,7 +26,7 @@
     "dropdown.foreground": "#dfdfdf",
     "dropdown.listBackground": "#1F1F1F",
     "editor.background": "#191b20",
-    "editor.foreground": "#E2E4E6",
+    "editor.foreground": "#D4D4D4",
     "editor.findMatchBackground": "#05966968",
     "editor.findMatchHighlightBackground": "#05966930",
     "editor.selectionBackground": "#05966940",
@@ -142,7 +142,7 @@
         "entity.name.type.instance.jsdoc"
       ],
       "settings": {
-        "foreground": "#797d86"
+        "foreground": "#758575DD"
       }
     },
     {
@@ -151,13 +151,14 @@
         "property",
         "variable",
         "identifier",
+        "entity.name",
         "attribute.name",
         "meta.property-name",
         "meta.at-rule.header",
         "keyword.operator.gradient"
       ],
       "settings": {
-        "foreground": "#E2E4E6"
+        "foreground": "#D4D4D4"
       }
     },
     {
@@ -211,7 +212,6 @@
     {
       "scope":[
         "string",
-        "entity.name",
         "markup.underline.link",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
@@ -399,7 +399,7 @@
         "meta.embedded.block.html"
       ],
       "settings": {
-        "foreground": "#E2E4E6"
+        "foreground": "#D4D4D4"
       }
     },
     {

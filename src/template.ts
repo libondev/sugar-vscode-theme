@@ -176,6 +176,7 @@ export function getTemplate(colors: Record<string, string>) {
         "property",
         "variable",
         "identifier",
+        "entity.name",
         "attribute.name",
         "meta.property-name",
         "meta.at-rule.header",
@@ -236,7 +237,6 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope":[
         "string",
-        "entity.name",
         "markup.underline.link",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
@@ -405,7 +405,7 @@ export function getTemplate(colors: Record<string, string>) {
 				"meta.function,meta.type.annotation"
       ],
       "settings": {
-        "foreground": "${theme.tsType}"
+        "foreground": "${theme.type}"
       }
     },
     {
@@ -415,7 +415,7 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "${theme.tsBaseType}"
+        "foreground": "${theme.baseType}"
       }
     },
     {
