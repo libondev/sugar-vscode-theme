@@ -24,7 +24,7 @@ export function getTemplate(colors: Record<string, string>) {
   theme.activeBackground ||= theme.sidebarBackground
 
   return `{
-  "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
+  "name": "Sugar ${name}",
   "base": "vs-${mode}",
   "colors": {
     "activityBar.activeBorder": "${accent}",
@@ -191,7 +191,6 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.other.property",
         "meta.object-literal.key",
         "variable.other.enummember",
-        // css variable
         "variable.argument.css",
         "meta.function-call.less",
         "support.type.custom-property",
@@ -322,7 +321,6 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "entity.name.tag"
-        // "support.class.component",
       ],
       "settings": {
         "foreground": "${theme.tag}"
@@ -343,7 +341,6 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.type",
         "punctuation.definition.template-expression",
         "markup.heading",
-        // "punctuation.definition.list",
         "entity.name.section.markdown",
         "variable.other.link.underline",
         "keyword.operator.logical.python",
@@ -402,7 +399,8 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.type.parameters",
         "entity.name.type.module",
 				"meta.namespace.declaration",
-				"meta.function,meta.type.annotation"
+				"meta.function,meta.type.annotation",
+        "variable.language.relations.prisma"
       ],
       "settings": {
         "foreground": "${theme.type}"
@@ -452,9 +450,9 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.parameters",
         "keyword.operator",
         "meta.array.literal",
-        // "meta.embedded.block",
+        "source.prisma.array",
+        "source.prisma.embedded",
         "meta.attribute.directive",
-        // "meta.function.expression",
         "storage.type.function.arrow",
         "punctuation.section.function",
         "punctuation.definition.entity",
@@ -537,7 +535,7 @@ export function getTemplate(colors: Record<string, string>) {
       }
     }
   ]
-}`
+}`;
 }
 
 // function adjustHexColor(hexColor: string, relativeValue: number) {

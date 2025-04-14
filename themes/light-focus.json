@@ -1,5 +1,5 @@
 {
-  "name": "Sugar Light",
+  "name": "Sugar Light Focus",
   "base": "vs-light",
   "colors": {
     "activityBar.activeBorder": "#1E754F",
@@ -39,7 +39,7 @@
     "editorGroupHeader.tabsBorder": "#dadada",
     "editorGutter.addedBackground": "#1E754F",
     "editorGutter.deletedBackground": "#A31515",
-    "editorGutter.modifiedBackground": "#3d5ec2",
+    "editorGutter.modifiedBackground": "#4B69C6",
     "editorLineNumber.activeForeground": "#24292EAF",
     "editorLineNumber.foreground": "#24292E66",
     "errorForeground": "#A31515",
@@ -166,7 +166,6 @@
         "variable.other.property",
         "meta.object-literal.key",
         "variable.other.enummember",
-        // css variable
         "variable.argument.css",
         "meta.function-call.less",
         "support.type.custom-property",
@@ -297,7 +296,6 @@
     {
       "scope": [
         "entity.name.tag"
-        // "support.class.component",
       ],
       "settings": {
         "foreground": "#9A9A9A"
@@ -318,7 +316,6 @@
         "storage.type",
         "punctuation.definition.template-expression",
         "markup.heading",
-        // "punctuation.definition.list",
         "entity.name.section.markdown",
         "variable.other.link.underline",
         "keyword.operator.logical.python",
@@ -357,7 +354,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#3d5ec2"
+        "foreground": "#4B69C6"
       }
     },
     {
@@ -367,7 +364,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#3d5ec2"
+        "foreground": "#4B69C6"
       }
     },
     {
@@ -377,7 +374,8 @@
         "meta.type.parameters",
         "entity.name.type.module",
 				"meta.namespace.declaration",
-				"meta.function,meta.type.annotation"
+				"meta.function,meta.type.annotation",
+        "variable.language.relations.prisma"
       ],
       "settings": {
         "foreground": "#267F99"
@@ -427,9 +425,9 @@
         "meta.parameters",
         "keyword.operator",
         "meta.array.literal",
-        // "meta.embedded.block",
+        "source.prisma.array",
+        "source.prisma.embedded",
         "meta.attribute.directive",
-        // "meta.function.expression",
         "storage.type.function.arrow",
         "punctuation.section.function",
         "punctuation.definition.entity",
@@ -486,7 +484,7 @@
         "punctuation.definition.changed"
       ],
 			"settings": {
-				"foreground": "#3d5ec2"
+				"foreground": "#4B69C6"
 			}
 		},
     {

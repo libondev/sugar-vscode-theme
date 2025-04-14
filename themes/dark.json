@@ -166,7 +166,6 @@
         "variable.other.property",
         "meta.object-literal.key",
         "variable.other.enummember",
-        // css variable
         "variable.argument.css",
         "meta.function-call.less",
         "support.type.custom-property",
@@ -297,7 +296,6 @@
     {
       "scope": [
         "entity.name.tag"
-        // "support.class.component",
       ],
       "settings": {
         "foreground": "#79B8FF"
@@ -318,7 +316,6 @@
         "storage.type",
         "punctuation.definition.template-expression",
         "markup.heading",
-        // "punctuation.definition.list",
         "entity.name.section.markdown",
         "variable.other.link.underline",
         "keyword.operator.logical.python",
@@ -377,7 +374,8 @@
         "meta.type.parameters",
         "entity.name.type.module",
 				"meta.namespace.declaration",
-				"meta.function,meta.type.annotation"
+				"meta.function,meta.type.annotation",
+        "variable.language.relations.prisma"
       ],
       "settings": {
         "foreground": "#56c2a2"
@@ -427,9 +425,9 @@
         "meta.parameters",
         "keyword.operator",
         "meta.array.literal",
-        // "meta.embedded.block",
+        "source.prisma.array",
+        "source.prisma.embedded",
         "meta.attribute.directive",
-        // "meta.function.expression",
         "storage.type.function.arrow",
         "punctuation.section.function",
         "punctuation.definition.entity",
