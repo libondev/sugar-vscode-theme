@@ -10,27 +10,27 @@ export const sugarDark = {
 
   insert: '#059669',
   delete: '#E06C75',
-  change: '#79B8FF',
+  change: '#66adff',
 
   comment: '#758575DD',
   variable: '#DFDFDF',
-  constant: '#dbb280',
+  constant: '#d8ab74',
   keyword: '#E06C75',
   storage: '#62bac6',
   class: '#B392F0',
-  number: '#dbb280',
+  number: '#d8ab74',
   string: '#98C379',
   boolean: '#62bac6',
-  function: '#79B8FF',
+  function: '#66adff',
   symbol: '#8888888f',
   secondary: '#ABB2BF',
-  attribute: '#dbb280',
+  attribute: '#d8ab74',
   baseType: '#62bac6',
   property: '#C586C0',
   type: '#56c2a2',
-  caller: '#dbb280',
+  caller: '#d8ab74',
   json: '#E06C75',
-  tag: '#79B8FF',
+  tag: '#E06C75',
   nil: '#CB7676',
 }
 
@@ -65,7 +65,7 @@ export const sugarLight = {
   type: '#6D42C1',
   caller: '#9C5D27',
   json: '#A31515',
-  tag: '#4B69C6',
+  tag: '#A31515',
   nil: '#A31515',
 }
 
@@ -80,7 +80,7 @@ export const sugarDarkFocus = {
 
   insert: '#059669',
   delete: '#E06C75',
-  change: '#79B8FF',
+  change: '#66adff',
 
   comment: '#758575DD',
   variable: '#D4D4D4',

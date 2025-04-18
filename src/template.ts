@@ -179,27 +179,11 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name",
         "attribute.name",
         "meta.property-name",
-        "meta.at-rule.header",
+        // "meta.at-rule.header",
         "keyword.operator.gradient"
       ],
       "settings": {
         "foreground": "${theme.variable}"
-      }
-    },
-    {
-      "scope": [
-        "support.variable.property",
-        "variable.other.property",
-        "meta.object-literal.key",
-        "variable.other.enummember",
-        "variable.argument.css",
-        "meta.function-call.less",
-        "support.type.custom-property",
-        "variable.other.constant.animation-name",
-        "punctuation.definition.custom-property.less"
-      ],
-      "settings": {
-        "foreground": "${theme.property}"
       }
     },
     {
@@ -274,6 +258,8 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
+        "variable.parameter.misc.css",
+        "variable.parameter.url.scss",
         "entity.other.attribute-name",
         "invalid.deprecated.entity.other.attribute-name"
       ],
@@ -288,6 +274,24 @@ export function getTemplate(colors: Record<string, string>) {
       ],
       "settings": {
         "foreground": "${theme.classes}"
+      }
+    },
+    {
+      "scope": [
+        "variable.css",
+        "variable.scss",
+        "variable.argument.css",
+        "meta.function-call.less",
+        "variable.other.property",
+        "meta.object-literal.key",
+        "variable.other.enummember",
+        "support.variable.property",
+        "support.type.custom-property",
+        "variable.other.constant.animation-name",
+        "punctuation.definition.custom-property.less"
+      ],
+      "settings": {
+        "foreground": "${theme.property}"
       }
     },
     {
@@ -452,6 +456,7 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator",
         "meta.array.literal",
         "source.prisma.array",
+        "meta.feature-query.css",
         "source.prisma.embedded",
         "meta.attribute.directive",
         "meta.property-value.scss",
@@ -459,6 +464,7 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.section.function",
         "punctuation.definition.entity",
         "punctuation.separator.key-value",
+        "meta.at-rule.supports.header.css",
         "punctuation.definition.parameters",
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",

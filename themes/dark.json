@@ -39,7 +39,7 @@
     "editorGroupHeader.tabsBorder": "#424242",
     "editorGutter.addedBackground": "#059669",
     "editorGutter.deletedBackground": "#E06C75",
-    "editorGutter.modifiedBackground": "#79B8FF",
+    "editorGutter.modifiedBackground": "#66adff",
     "editorLineNumber.activeForeground": "#D8DEE9AF",
     "editorLineNumber.foreground": "#D8DEE966",
     "errorForeground": "#E06C75",
@@ -154,7 +154,7 @@
         "entity.name",
         "attribute.name",
         "meta.property-name",
-        "meta.at-rule.header",
+        // "meta.at-rule.header",
         "keyword.operator.gradient"
       ],
       "settings": {
@@ -163,27 +163,11 @@
     },
     {
       "scope": [
-        "support.variable.property",
-        "variable.other.property",
-        "meta.object-literal.key",
-        "variable.other.enummember",
-        "variable.argument.css",
-        "meta.function-call.less",
-        "support.type.custom-property",
-        "variable.other.constant.animation-name",
-        "punctuation.definition.custom-property.less"
-      ],
-      "settings": {
-        "foreground": "#C586C0"
-      }
-    },
-    {
-      "scope": [
         "support.variable",
         "variable.language"
       ],
       "settings": {
-        "foreground": "#dbb280"
+        "foreground": "#d8ab74"
       }
     },
     {
@@ -196,7 +180,7 @@
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#dbb280"
+        "foreground": "#d8ab74"
       }
     },
     {
@@ -244,16 +228,18 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#dbb280"
+        "foreground": "#d8ab74"
       }
     },
     {
       "scope": [
+        "variable.parameter.misc.css",
+        "variable.parameter.url.scss",
         "entity.other.attribute-name",
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#dbb280"
+        "foreground": "#d8ab74"
       }
     },
     {
@@ -262,7 +248,25 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#dbb280"
+        "foreground": "#d8ab74"
+      }
+    },
+    {
+      "scope": [
+        "variable.css",
+        "variable.scss",
+        "variable.argument.css",
+        "meta.function-call.less",
+        "variable.other.property",
+        "meta.object-literal.key",
+        "variable.other.enummember",
+        "support.variable.property",
+        "support.type.custom-property",
+        "variable.other.constant.animation-name",
+        "punctuation.definition.custom-property.less"
+      ],
+      "settings": {
+        "foreground": "#C586C0"
       }
     },
     {
@@ -299,7 +303,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#79B8FF"
+        "foreground": "#E06C75"
       }
     },
     {
@@ -355,7 +359,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#79B8FF"
+        "foreground": "#66adff"
       }
     },
     {
@@ -427,6 +431,7 @@
         "keyword.operator",
         "meta.array.literal",
         "source.prisma.array",
+        "meta.feature-query.css",
         "source.prisma.embedded",
         "meta.attribute.directive",
         "meta.property-value.scss",
@@ -434,6 +439,7 @@
         "punctuation.section.function",
         "punctuation.definition.entity",
         "punctuation.separator.key-value",
+        "meta.at-rule.supports.header.css",
         "punctuation.definition.parameters",
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",
@@ -486,7 +492,7 @@
         "punctuation.definition.changed"
       ],
 			"settings": {
-				"foreground": "#79B8FF"
+				"foreground": "#66adff"
 			}
 		},
     {
