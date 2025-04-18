@@ -4,7 +4,7 @@ export const sugarDark = {
   foreground: '#E4E4E4',
   background: '#1f1f1f',
   listBackground: '#1F1F1F',
-  editorForeground: '#D4D4D4',
+  editorForeground: '#D6D6D6',
   sidebarBackground: '#181818',
   // activeBackground: '#24262b',
 
@@ -13,7 +13,7 @@ export const sugarDark = {
   change: '#66adff',
 
   comment: '#758575DD',
-  variable: '#D4D4D4',
+  variable: '#D6D6D6',
   constant: '#d8ab74',
   keyword: '#E06C75',
   storage: '#62bac6',
@@ -75,7 +75,7 @@ export const sugarDarkFocus = {
   foreground: '#E4E4E4',
   background: '#0b0b09',
   listBackground: '#1F1F1F',
-  editorForeground: '#D4D4D4',
+  editorForeground: '#D6D6D6',
   sidebarBackground: '#0b0b09',
 
   insert: '#059669',
@@ -83,7 +83,7 @@ export const sugarDarkFocus = {
   change: '#66adff',
 
   comment: '#758575DD',
-  variable: '#D4D4D4',
+  variable: '#D6D6D6',
   constant: '#888888',
   keyword: '#888888',
   storage: '#888888',
@@ -97,10 +97,10 @@ export const sugarDarkFocus = {
   secondary: '#8B8B8B9F',
   attribute: '#888888',
   baseType: '#62bac6',
-  property: '#D4D4D4',
+  property: '#D6D6D6',
   type: '#62bac6',
   caller: '#888888',
-  json: '#D4D4D4',
+  json: '#D6D6D6',
   tag: '#888888',
   nil: '#62bac6',
 }
