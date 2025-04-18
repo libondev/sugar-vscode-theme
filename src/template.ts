@@ -188,6 +188,7 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
+        "support.variable.property",
         "variable.other.property",
         "meta.object-literal.key",
         "variable.other.enummember",
@@ -453,6 +454,7 @@ export function getTemplate(colors: Record<string, string>) {
         "source.prisma.array",
         "source.prisma.embedded",
         "meta.attribute.directive",
+        "meta.property-value.scss",
         "storage.type.function.arrow",
         "punctuation.section.function",
         "punctuation.definition.entity",
@@ -535,7 +537,7 @@ export function getTemplate(colors: Record<string, string>) {
       }
     }
   ]
-}`;
+}`
 }
 
 // function adjustHexColor(hexColor: string, relativeValue: number) {

@@ -163,6 +163,7 @@
     },
     {
       "scope": [
+        "support.variable.property",
         "variable.other.property",
         "meta.object-literal.key",
         "variable.other.enummember",
@@ -428,6 +429,7 @@
         "source.prisma.array",
         "source.prisma.embedded",
         "meta.attribute.directive",
+        "meta.property-value.scss",
         "storage.type.function.arrow",
         "punctuation.section.function",
         "punctuation.definition.entity",
