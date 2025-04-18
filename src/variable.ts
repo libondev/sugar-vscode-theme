@@ -2,10 +2,10 @@ export const sugarDark = {
   accent: '#059669',
   border: '#424242',
   foreground: '#E4E4E4',
-  background: '#191b20',
+  background: '#1f1f1f',
   listBackground: '#1F1F1F',
-  editorForeground: '#DFDFDF',
-  sidebarBackground: '#24262b',
+  editorForeground: '#D4D4D4',
+  sidebarBackground: '#181818',
   // activeBackground: '#24262b',
 
   insert: '#059669',
@@ -13,7 +13,7 @@ export const sugarDark = {
   change: '#66adff',
 
   comment: '#758575DD',
-  variable: '#DFDFDF',
+  variable: '#D4D4D4',
   constant: '#d8ab74',
   keyword: '#E06C75',
   storage: '#62bac6',
@@ -75,7 +75,7 @@ export const sugarDarkFocus = {
   foreground: '#E4E4E4',
   background: '#0b0b09',
   listBackground: '#1F1F1F',
-  editorForeground: '#DFDFDF',
+  editorForeground: '#D4D4D4',
   sidebarBackground: '#0b0b09',
 
   insert: '#059669',
@@ -83,7 +83,7 @@ export const sugarDarkFocus = {
   change: '#66adff',
 
   comment: '#758575DD',
-  variable: '#DFDFDF',
+  variable: '#D4D4D4',
   constant: '#888888',
   keyword: '#888888',
   storage: '#888888',

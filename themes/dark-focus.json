@@ -26,10 +26,10 @@
     "dropdown.foreground": "#E4E4E4",
     "dropdown.listBackground": "#1F1F1F",
     "editor.background": "#0b0b09",
-    "editor.foreground": "#DFDFDF",
+    "editor.foreground": "#D4D4D4",
     "editor.findMatchBackground": "#05966968",
-    "editor.findMatchHighlightBackground": "#05966930",
-    "editor.selectionBackground": "#05966940",
+    "editor.findMatchHighlightBackground": "#05966950",
+    "editor.selectionBackground": "#05966960",
     "editorStickyScroll.border": "#424242",
     "editorStickyScroll.shadow": "#42424250",
     "editorStickyScrollHover.background": "#424242",
@@ -158,7 +158,7 @@
         "keyword.operator.gradient"
       ],
       "settings": {
-        "foreground": "#DFDFDF"
+        "foreground": "#D4D4D4"
       }
     },
     {
@@ -402,7 +402,7 @@
         "meta.embedded.block.html"
       ],
       "settings": {
-        "foreground": "#DFDFDF"
+        "foreground": "#D4D4D4"
       }
     },
     {
