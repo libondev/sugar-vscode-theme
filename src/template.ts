@@ -456,6 +456,7 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.attribute.directive",
         // "meta.function.expression",
         "storage.type.function.arrow",
+        "support.constant.handlebars",
         "punctuation.section.function",
         "punctuation.definition.entity",
         "punctuation.separator.key-value",
