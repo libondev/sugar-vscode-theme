@@ -5,6 +5,5 @@
 
 ![light](./screenshots/light.png)
 ![dark](./screenshots/dark.png)
-![JetBrains-fleet](./screenshots/fleet.png)
 
 **Enjoy!**

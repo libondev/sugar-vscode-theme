@@ -2,7 +2,7 @@
   "name": "sugar-vscode-theme",
   "displayName": "Sugar Theme",
   "type": "module",
-  "version": "0.17.5",
+  "version": "0.17.9",
   "description": "Sugar theme for Visual Studio Code",
   "publisher": "banlify",
   "author": "Libon <bon.li@outlook.com>",
@@ -63,6 +63,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.2.0",
+    "@vscode/vsce": "^3.3.2",
     "tsx": "^4.17.0"
   }
 }

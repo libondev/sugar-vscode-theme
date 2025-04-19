@@ -24,7 +24,7 @@ export function getTemplate(colors: Record<string, string>) {
   theme.activeBackground ||= theme.sidebarBackground
 
   return `{
-  "name": "Sugar ${mode.slice(0, 1).toUpperCase()}${mode.slice(1)}",
+  "name": "Sugar ${name}",
   "base": "vs-${mode}",
   "colors": {
     "activityBar.activeBorder": "${accent}",
@@ -53,8 +53,8 @@ export function getTemplate(colors: Record<string, string>) {
     "editor.background": "${background}",
     "editor.foreground": "${editorForeground}",
     "editor.findMatchBackground": "${accent}68",
-    "editor.findMatchHighlightBackground": "${accent}30",
-    "editor.selectionBackground": "${accent}40",
+    "editor.findMatchHighlightBackground": "${accent}50",
+    "editor.selectionBackground": "${accent}60",
     "editorStickyScroll.border": "${border}",
     "editorStickyScroll.shadow": "${border}50",
     "editorStickyScrollHover.background": "${border}",
@@ -176,29 +176,14 @@ export function getTemplate(colors: Record<string, string>) {
         "property",
         "variable",
         "identifier",
+        "entity.name",
         "attribute.name",
         "meta.property-name",
-        "meta.at-rule.header",
+        // "meta.at-rule.header",
         "keyword.operator.gradient"
       ],
       "settings": {
         "foreground": "${theme.variable}"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.property",
-        "meta.object-literal.key",
-        "variable.other.enummember",
-        // css variable
-        "variable.argument.css",
-        "meta.function-call.less",
-        "support.type.custom-property",
-        "variable.other.constant.animation-name",
-        "punctuation.definition.custom-property.less"
-      ],
-      "settings": {
-        "foreground": "${theme.property}"
       }
     },
     {
@@ -236,7 +221,6 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope":[
         "string",
-        "entity.name",
         "markup.underline.link",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
@@ -274,6 +258,8 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
+        "variable.parameter.misc.css",
+        "variable.parameter.url.scss",
         "entity.other.attribute-name",
         "invalid.deprecated.entity.other.attribute-name"
       ],
@@ -288,6 +274,24 @@ export function getTemplate(colors: Record<string, string>) {
       ],
       "settings": {
         "foreground": "${theme.classes}"
+      }
+    },
+    {
+      "scope": [
+        "variable.css",
+        "variable.scss",
+        "variable.argument.css",
+        "meta.function-call.less",
+        "variable.other.property",
+        "meta.object-literal.key",
+        "variable.other.enummember",
+        "support.variable.property",
+        "support.type.custom-property",
+        "variable.other.constant.animation-name",
+        "punctuation.definition.custom-property.less"
+      ],
+      "settings": {
+        "foreground": "${theme.property}"
       }
     },
     {
@@ -322,7 +326,6 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "entity.name.tag"
-        // "support.class.component",
       ],
       "settings": {
         "foreground": "${theme.tag}"
@@ -343,7 +346,6 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.type",
         "punctuation.definition.template-expression",
         "markup.heading",
-        // "punctuation.definition.list",
         "entity.name.section.markdown",
         "variable.other.link.underline",
         "keyword.operator.logical.python",
@@ -402,10 +404,11 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.type.parameters",
         "entity.name.type.module",
 				"meta.namespace.declaration",
-				"meta.function,meta.type.annotation"
+				"meta.function,meta.type.annotation",
+        "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "${theme.tsType}"
+        "foreground": "${theme.type}"
       }
     },
     {
@@ -415,7 +418,7 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "${theme.tsBaseType}"
+        "foreground": "${theme.baseType}"
       }
     },
     {
@@ -452,14 +455,17 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.parameters",
         "keyword.operator",
         "meta.array.literal",
-        // "meta.embedded.block",
+        "source.prisma.array",
+        "meta.feature-query.css",
+        "source.prisma.embedded",
         "meta.attribute.directive",
-        // "meta.function.expression",
+        "meta.property-value.scss",
         "storage.type.function.arrow",
         "support.constant.handlebars",
         "punctuation.section.function",
         "punctuation.definition.entity",
         "punctuation.separator.key-value",
+        "meta.at-rule.supports.header.css",
         "punctuation.definition.parameters",
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",

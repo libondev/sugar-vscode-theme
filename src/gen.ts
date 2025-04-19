@@ -11,38 +11,42 @@ async function rewriteColorTheme() {
 
   const files: Parameters<typeof fs.writeFileSync>[] = [
     [
-      'themes/dark.json',
+      "themes/dark.json",
       getTemplate({
-        mode: 'dark',
-        ...sugarDark
+        mode: "dark",
+        name: "Dark",
+        ...sugarDark,
       }),
-      'utf8'
+      "utf8",
     ],
     [
-      'themes/light.json',
+      "themes/light.json",
       getTemplate({
-        mode: 'light',
-        ...sugarLight
+        mode: "light",
+        name: "Light",
+        ...sugarLight,
       }),
-      'utf8'
+      "utf8",
     ],
     [
-      'themes/dark-focus.json',
+      "themes/dark-focus.json",
       getTemplate({
-        mode: 'dark',
-        ...sugarDarkFocus
+        mode: "dark",
+        name: "Dark Focus",
+        ...sugarDarkFocus,
       }),
-      'utf8'
+      "utf8",
     ],
     [
-      'themes/light-focus.json',
+      "themes/light-focus.json",
       getTemplate({
-        mode: 'light',
-        ...sugarLightFocus
+        mode: "light",
+        name: "Light Focus",
+        ...sugarLightFocus,
       }),
-      'utf8'
+      "utf8",
     ],
-  ]
+  ];
 
   files.forEach((file) => {
     fs.writeFileSync(...file)
