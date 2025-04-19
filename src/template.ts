@@ -179,8 +179,12 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name",
         "attribute.name",
         "meta.property-name",
-        // "meta.at-rule.header",
-        "keyword.operator.gradient"
+        "meta.property-value.scss",
+        "entity.name.function.scss",
+        "keyword.operator.gradient",
+        "meta.at-rule.keyframe.less",
+        "support.type.custom-property",
+        "punctuation.definition.custom-property.less"
       ],
       "settings": {
         "foreground": "${theme.variable}"
@@ -261,6 +265,7 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.parameter.misc.css",
         "variable.parameter.url.scss",
         "entity.other.attribute-name",
+        "meta.at-rule.utility.body.tailwind",
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
@@ -278,17 +283,13 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        "variable.css",
-        "variable.scss",
-        "variable.argument.css",
+
         "meta.function-call.less",
         "variable.other.property",
         "meta.object-literal.key",
         "variable.other.enummember",
         "support.variable.property",
-        "support.type.custom-property",
-        "variable.other.constant.animation-name",
-        "punctuation.definition.custom-property.less"
+        "variable.other.constant.animation-name"
       ],
       "settings": {
         "foreground": "${theme.property}"
@@ -304,10 +305,10 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.other.keyframe-selector.less",
         "support.type.property-name.media",
         "meta.at-rule.media.header.css",
-        "entity.name.function.scss",
-        "meta.at-rule.keyframe.less",
         "entity.name.tag.custom.css",
-        "entity.name.tag.custom.scss"
+        "entity.name.tag.custom.scss",
+        "variable.other.constant.animation-name.less",
+        "support.constant.vendored.property-value.css"
 			],
 			"settings": {
 				"foreground": "${theme.property}"
@@ -459,7 +460,6 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.feature-query.css",
         "source.prisma.embedded",
         "meta.attribute.directive",
-        "meta.property-value.scss",
         "storage.type.function.arrow",
         "support.constant.handlebars",
         "punctuation.section.function",
