@@ -54,7 +54,7 @@ export const sugarLight = {
   storage: '#247A94',
   class: '#6D42C1',
   number: '#9C5D27',
-  string: '#3a7722',
+  string: '#1E754F',
   boolean: '#247A94',
   function: '#4B69C6',
   symbol: '#88888888',
