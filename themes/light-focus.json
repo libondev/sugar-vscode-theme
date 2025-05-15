@@ -151,7 +151,6 @@
         "property",
         "variable",
         "identifier",
-        "entity.name",
         "attribute.name",
         "meta.property-name",
         "meta.property-value.scss",
@@ -225,7 +224,6 @@
       "scope": [
         "number",
         "constant.numeric",
-        "keyword.other.unit",
         "meta.at-rule.keyframes.scss",
         "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
@@ -320,15 +318,15 @@
     {
       "scope": [
         "storage.type",
-        "punctuation.definition.template-expression",
         "markup.heading",
-        "entity.name.section.markdown",
         "variable.other.link.underline",
-        "keyword.operator.logical.python",
+        "punctuation.definition.template-expression",
+        "keyword.other.unit",
         "keyword.operator.logic",
         "keyword.operator.logical.and",
         "keyword.operator.logical.scss",
-        "keyword.operator.logical.feature"
+        "keyword.operator.logical.feature",
+        "keyword.operator.logical.python",
       ],
       "settings": {
         "foreground": "#9A9A9A"
@@ -343,6 +341,7 @@
         "punctuation.separator.less",
         "keyword.operator.or.regexp",
         "keyword.operator.expression",
+        "entity.name.section.markdown",
         "support.type.object.module.js",
         "punctuation.definition.character-class.regexp"
       ],
@@ -352,6 +351,8 @@
     },
     {
       "scope": [
+        "entity",
+        "entity.name",
         "support.function",
         "entity.name.function",
         "variable.language.super",
@@ -408,7 +409,6 @@
     },
     {
       "scope": [
-        "punctuation.accessor",
         "keyword.operator.ternary",
         "keyword.operator.logical",
         "keyword.operator.bitwise",
@@ -417,7 +417,6 @@
         "keyword.operator.relational",
         "keyword.operator.comparison",
         "keyword.operator.arithmetic",
-        "keyword.operator.assignment",
         "invalid.illegal.combinator.less"
       ],
       "settings": {
@@ -432,11 +431,13 @@
         "keyword.operator",
         "meta.array.literal",
         "source.prisma.array",
+        "punctuation.accessor",
         "meta.feature-query.css",
         "source.prisma.embedded",
         "meta.attribute.directive",
         "storage.type.function.arrow",
         "support.constant.handlebars",
+        "keyword.operator.assignment",
         "punctuation.section.function",
         "punctuation.definition.entity",
         "punctuation.separator.key-value",

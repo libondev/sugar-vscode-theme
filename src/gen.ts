@@ -1,11 +1,13 @@
-import fs from 'node:fs'
-import { getTemplate } from './template'
+import fs from 'node:fs';
+import { getTemplate } from './template';
 import {
   sugarDark,
   sugarDarkFocus,
+  sugarDarkVitesse,
   sugarLight,
-  sugarLightFocus
-} from './variable'
+  sugarLightFocus,
+  sugarLightVitesse
+} from './variable';
 
 async function rewriteColorTheme() {
 
@@ -43,6 +45,24 @@ async function rewriteColorTheme() {
         mode: "light",
         name: "Light Focus",
         ...sugarLightFocus,
+      }),
+      "utf8",
+    ],
+    [
+      "themes/dark-vitesse.json",
+      getTemplate({
+        mode: "dark",
+        name: "Dark Vitesse",
+        ...sugarDarkVitesse,
+      }),
+      "utf8",
+    ],
+    [
+      "themes/light-vitesse.json",
+      getTemplate({
+        mode: "light",
+        name: "Light Vitesse",
+        ...sugarLightVitesse,
       }),
       "utf8",
     ],

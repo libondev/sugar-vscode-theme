@@ -58,6 +58,16 @@
         "label": "Sugar Light Focus",
         "uiTheme": "vs",
         "path": "./themes/light-focus.json"
+      },
+      {
+        "label": "Sugar Dark Vitesse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-vitesse.json"
+      },
+      {
+        "label": "Sugar Light Vitesse",
+        "uiTheme": "vs",
+        "path": "./themes/light-vitesse.json"
       }
     ]
   },

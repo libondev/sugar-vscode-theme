@@ -12,6 +12,7 @@
     "jetbrains",
     "readwrite",
     "tsup",
+    "vitesse",
     "typeparameters"
   ],
   "commentTranslate.multiLineMerge": true
