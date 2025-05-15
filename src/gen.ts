@@ -4,6 +4,7 @@ import {
   sugarDark,
   sugarDarkFocus,
   sugarDarkVitesse,
+  sugarDarkVS,
   sugarLight,
   sugarLightFocus,
   sugarLightVitesse
@@ -63,6 +64,15 @@ async function rewriteColorTheme() {
         mode: "light",
         name: "Light Vitesse",
         ...sugarLightVitesse,
+      }),
+      "utf8",
+    ],
+    [
+      "themes/dark-vs.json",
+      getTemplate({
+        mode: "dark",
+        name: "Dark VS",
+        ...sugarDarkVS,
       }),
       "utf8",
     ],

@@ -35,19 +35,9 @@
         "path": "./themes/dark.json"
       },
       {
-        "label": "Sugar Dark Italic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-italic.json"
-      },
-      {
         "label": "Sugar Light",
         "uiTheme": "vs",
         "path": "./themes/light.json"
-      },
-      {
-        "label": "Sugar Light Italic",
-        "uiTheme": "vs",
-        "path": "./themes/light-italic.json"
       },
       {
         "label": "Sugar Dark Focus",
@@ -68,6 +58,11 @@
         "label": "Sugar Light Vitesse",
         "uiTheme": "vs",
         "path": "./themes/light-vitesse.json"
+      },
+      {
+        "label": "Sugar Dark VS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-vs.json"
       }
     ]
   },

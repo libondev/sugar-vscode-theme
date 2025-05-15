@@ -249,6 +249,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "number",
         "constant.numeric",
+        "keyword.other.unit",
         "meta.at-rule.keyframes.scss",
         "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
@@ -344,9 +345,10 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "storage.type",
         "markup.heading",
+        "storage.modifier",
+        "entity.name.section.markdown",
         "variable.other.link.underline",
         "punctuation.definition.template-expression",
-        "keyword.other.unit",
         "keyword.operator.logic",
         "keyword.operator.logical.and",
         "keyword.operator.logical.scss",
@@ -360,13 +362,11 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "keyword",
-        "storage.modifier",
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "punctuation.separator.less",
         "keyword.operator.or.regexp",
         "keyword.operator.expression",
-        "entity.name.section.markdown",
         "support.type.object.module.js",
         "punctuation.definition.character-class.regexp"
       ],
