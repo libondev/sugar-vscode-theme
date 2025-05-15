@@ -371,7 +371,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#9f84cf"
+        "foreground": "#977dc4"
       }
     },
     {
@@ -385,7 +385,7 @@
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "#5D99A9"
+        "foreground": "#5D9CAD"
       }
     },
     {
