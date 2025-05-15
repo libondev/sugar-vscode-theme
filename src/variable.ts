@@ -7,9 +7,9 @@ export const sugarDark = {
   editorForeground: '#D6D6D6',
   sidebarBackground: '#181818',
 
-  insert: '#059669',
-  delete: '#E06C75',
-  change: '#66adff',
+  insert: "#059669",
+  delete: "#E06C75",
+  change: "#66adff",
 
   comment: '#758575DD',
   variable: '#D6D6D6',
