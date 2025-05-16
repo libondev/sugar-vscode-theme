@@ -166,6 +166,14 @@
     },
     {
       "scope": [
+        "entity.other.attribute-name.html.vue"
+      ],
+      "settings": {
+        "foreground": "#9C5D27"
+      }
+    },
+    {
+      "scope": [
         "support.variable",
         "variable.language"
       ],
@@ -327,8 +335,8 @@
         "keyword.operator.logic",
         "keyword.operator.logical.and",
         "keyword.operator.logical.scss",
-        "keyword.operator.logical.feature",
         "keyword.operator.logical.python",
+        "keyword.operator.logical.feature"
       ],
       "settings": {
         "foreground": "#247A94"

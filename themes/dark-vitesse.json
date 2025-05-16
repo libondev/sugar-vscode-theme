@@ -166,6 +166,14 @@
     },
     {
       "scope": [
+        "entity.other.attribute-name.html.vue"
+      ],
+      "settings": {
+        "foreground": "#BD976A"
+      }
+    },
+    {
+      "scope": [
         "support.variable",
         "variable.language"
       ],
@@ -327,8 +335,8 @@
         "keyword.operator.logic",
         "keyword.operator.logical.and",
         "keyword.operator.logical.scss",
-        "keyword.operator.logical.feature",
         "keyword.operator.logical.python",
+        "keyword.operator.logical.feature"
       ],
       "settings": {
         "foreground": "#CB7676"
@@ -385,7 +393,7 @@
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "#5D9CAD"
+        "foreground": "#5ba6ba"
       }
     },
     {
@@ -395,7 +403,7 @@
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "#579f8a"
+        "foreground": "#4D9375"
       }
     },
     {

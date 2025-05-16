@@ -30,7 +30,9 @@ const modelValue = computed({
   }
 })
 
-const { log } = console
+function logger() {
+
+}
 
 console.log(modelValue.value)
 
@@ -38,11 +40,11 @@ modelValue.value.toString().split('')
 </script>
 
 <template>
-  <view>
-    <view v-for="num of 10" class="class-names" :title="modelValue" @click="log">
+  <div>
+    <div v-for="num of 10" class="class-names" :title="modelValue" @click="logger">
       {{ num }}
-    </view>
-  </view>
+    </div>
+  </div>
 </template>
 
 

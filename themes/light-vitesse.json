@@ -3,7 +3,7 @@
   "base": "vs-light",
   "colors": {
     "activityBar.activeBorder": "#1E754F",
-    "activityBar.background": "#ebebec",
+    "activityBar.background": "#ffffff",
     "activityBar.border": "#dadada",
     "activityBar.foreground": "#24292E",
     "activityBar.inactiveForeground": "#24292E88",
@@ -35,7 +35,7 @@
     "editorStickyScrollHover.background": "#dadada",
     "editorWidget.background": "#ffffff",
     "editorGroupHeader.border": "#dadada",
-    "editorGroupHeader.tabsBackground": "#ebebec",
+    "editorGroupHeader.tabsBackground": "#ffffff",
     "editorGroupHeader.tabsBorder": "#dadada",
     "editorGutter.addedBackground": "#377351",
     "editorGutter.deletedBackground": "#a25f5b",
@@ -86,9 +86,9 @@
     "settings.numberInputBorder": "#dadada",
 		"settings.textInputBorder": "#dadada",
     "sideBar.border": "#dadada",
-    "sideBar.background": "#ebebec",
+    "sideBar.background": "#ffffff",
     "sideBar.foreground": "#24292E",
-    "sideBarSectionHeader.background": "#ebebec",
+    "sideBarSectionHeader.background": "#ffffff",
     "sideBarSectionHeader.border": "#dadada",
     "sideBarSectionHeader.foreground": "#24292E",
     "sideBarTitle.foreground": "#24292E",
@@ -108,8 +108,8 @@
     "tab.activeBorderTop": "#0000",
     "tab.activeForeground": "#24292E",
     "tab.border": "#dadada",
-    "tab.hoverBackground": "#ebebecaf",
-    "tab.inactiveBackground": "#ebebec",
+    "tab.hoverBackground": "#ffffffaf",
+    "tab.inactiveBackground": "#ffffff",
     "tab.inactiveForeground": "#24292E88",
     "tab.lastPinnedBorder": "#24292E33",
     "tab.unfocusedActiveBorder": "#f8f8f8",
@@ -126,9 +126,9 @@
     "textPreformat.background": "#dadada",
     "titleBar.border": "#dadada",
     "titleBar.activeForeground": "#24292E",
-    "titleBar.activeBackground": "#ebebec",
+    "titleBar.activeBackground": "#ffffff",
     "titleBar.inactiveForeground": "#24292E88",
-    "titleBar.inactiveBackground": "#ebebec",
+    "titleBar.inactiveBackground": "#ffffff",
     "welcomePage.progress.foreground": "#1E754F",
     "welcomePage.tileBackground": "#dadada"
   },
@@ -159,6 +159,14 @@
         "meta.at-rule.keyframe.less",
         "support.type.custom-property",
         "punctuation.definition.custom-property.less"
+      ],
+      "settings": {
+        "foreground": "#B07D48"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.html.vue"
       ],
       "settings": {
         "foreground": "#B07D48"
@@ -327,8 +335,8 @@
         "keyword.operator.logic",
         "keyword.operator.logical.and",
         "keyword.operator.logical.scss",
-        "keyword.operator.logical.feature",
         "keyword.operator.logical.python",
+        "keyword.operator.logical.feature"
       ],
       "settings": {
         "foreground": "#AB5959"
@@ -395,7 +403,7 @@
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "#2E8F82"
+        "foreground": "#1E754F"
       }
     },
     {

@@ -191,6 +191,17 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
+        "entity.other.attribute-name.html.vue"
+      ],
+      "settings": {
+        "foreground": "${
+    ['Vitesse', 'VS'].find(key => name.includes(key))
+      ? theme.variable
+      : theme.attribute}"
+      }
+    },
+    {
+      "scope": [
         "support.variable",
         "variable.language"
       ],
@@ -352,8 +363,8 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator.logic",
         "keyword.operator.logical.and",
         "keyword.operator.logical.scss",
-        "keyword.operator.logical.feature",
         "keyword.operator.logical.python",
+        "keyword.operator.logical.feature"
       ],
       "settings": {
         "foreground": "${theme.storage}"
