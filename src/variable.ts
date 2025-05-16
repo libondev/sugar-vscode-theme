@@ -168,7 +168,7 @@ export const sugarDarkVitesse = {
   attribute: '#B8A965',
   baseType: '#4D9375',
   property: '#B8A965',
-  type: '#5ba6ba',
+  type: '#5b9fb1',
   caller: '#BD976A',
   json: '#B8A965',
   tag: '#4D9375',
