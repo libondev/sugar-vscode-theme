@@ -143,11 +143,11 @@ export const sugarLightFocus = {
 export const sugarDarkVitesse = {
   accent: '#059669',
   border: '#424242',
-  foreground: '#E4E4E4',
+  foreground: '#CCCCCC',
   background: '#000000',
   listBackground: '#121212',
   editorForeground: '#C8C8C8',
-  sidebarBackground: '#121212',
+  sidebarBackground: '#000000',
 
   insert: '#5c9176',
   delete: '#c17c78',
@@ -158,7 +158,7 @@ export const sugarDarkVitesse = {
   constant: '#C98A7D',
   keyword: '#4D9375',
   storage: '#CB7676',
-  class: '#977dc4',
+  class: '#a287d0',
   number: '#4C9A91',
   string: '#C98A7D',
   boolean: '#4D9375',
