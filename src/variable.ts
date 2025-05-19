@@ -189,7 +189,7 @@ export const sugarLightVitesse = {
   change: '#3968a0',
 
   comment: '#A0ADA0',
-  variable: '#B07D48',
+  variable: '#A97844',
   constant: '#B56959',
   keyword: '#1E754F',
   storage: '#AB5959',
@@ -204,7 +204,7 @@ export const sugarLightVitesse = {
   baseType: '#1E754F',
   property: '#998418',
   type: '#2E808F',
-  caller: '#B07D48',
+  caller: '#A97844',
   json: '#998418',
   tag: '#1E754F',
   nil: '#AB5959',

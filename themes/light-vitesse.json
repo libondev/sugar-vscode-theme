@@ -161,7 +161,7 @@
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
-        "foreground": "#B07D48"
+        "foreground": "#A97844"
       }
     },
     {
@@ -169,7 +169,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#B07D48"
+        "foreground": "#A97844"
       }
     },
     {
@@ -178,7 +178,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#B07D48"
+        "foreground": "#A97844"
       }
     },
     {
