@@ -299,7 +299,8 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.object-literal.key",
         "variable.other.enummember",
         "support.variable.property",
-        "variable.other.constant.animation-name"
+        "variable.other.object.property",
+        "variable.other.constant.property",
       ],
       "settings": {
         "foreground": "${theme.property}"
@@ -317,7 +318,7 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.at-rule.media.header.css",
         "entity.name.tag.custom.css",
         "entity.name.tag.custom.scss",
-        "variable.other.constant.animation-name.less",
+        "variable.other.constant.animation-name",
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
