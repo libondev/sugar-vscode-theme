@@ -297,8 +297,9 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.function-call.less",
         "variable.other.property",
         "meta.object-literal.key",
-        "variable.other.enummember",
         "support.variable.property",
+        "support.constant.property",
+        "variable.other.enummember",
         "variable.other.object.property",
         "variable.other.constant.property",
       ],
@@ -394,7 +395,6 @@ export function getTemplate(colors: Record<string, string>) {
         "support.function",
         "entity.name.function",
         "variable.language.super",
-        "support.constant.handlebars",
 				"entity.name.operator.custom-literal",
 				"source.powershell variable.other.member"
       ],
