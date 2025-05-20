@@ -177,7 +177,6 @@ export function getTemplate(colors: Record<string, string>) {
         "variable",
         "identifier",
         "attribute.name",
-        "meta.property-name",
         "meta.property-value.scss",
         "entity.name.function.scss",
         "keyword.operator.gradient",
@@ -293,7 +292,7 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-
+        "meta.property-name",
         "meta.function-call.less",
         "variable.other.property",
         "meta.object-literal.key",
