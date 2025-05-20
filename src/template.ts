@@ -470,6 +470,7 @@ export function getTemplate(colors: Record<string, string>) {
         "source.prisma.array",
         "punctuation.accessor",
         "meta.feature-query.css",
+        "meta.function.calc.css",
         "source.prisma.embedded",
         "meta.attribute.directive",
         "storage.type.function.arrow",
