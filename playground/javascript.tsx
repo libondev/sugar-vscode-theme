@@ -2,6 +2,7 @@
 // @ts-nocheck
 
 import { ExportClass, exportConst } from './javascript.js'
+export * from './javascript.js'
 
 export { exportConst }
 

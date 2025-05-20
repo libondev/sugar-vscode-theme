@@ -316,6 +316,7 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.other.keyframe-selector.less",
         "support.type.property-name.media",
         "meta.at-rule.media.header.css",
+        "meta.property-value.css",
         "entity.name.tag.custom.css",
         "entity.name.tag.custom.scss",
         "variable.other.constant.animation-name",
@@ -328,8 +329,7 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "constant.language.null",
-        "constant.language.undefined",
-        "constant.language.import-export-all.ts"
+        "constant.language.undefined"
       ],
       "settings": {
         "foreground": "${theme.nil}"
@@ -365,7 +365,8 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator.logical.and",
         "keyword.operator.logical.scss",
         "keyword.operator.logical.python",
-        "keyword.operator.logical.feature"
+        "keyword.operator.logical.feature",
+        "constant.language.import-export-all"
       ],
       "settings": {
         "foreground": "${theme.storage}"
