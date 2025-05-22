@@ -177,6 +177,8 @@ export function getTemplate(colors: Record<string, string>) {
         "variable",
         "identifier",
         "attribute.name",
+        "custom.variable",
+        "custom.punctuation",
         "meta.property-value.scss",
         "entity.name.function.scss",
         "keyword.operator.gradient",
