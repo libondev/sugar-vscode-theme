@@ -298,6 +298,8 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.function-call.less",
         "variable.other.property",
         "meta.object-literal.key",
+        "variable.object.property",
+        "meta.definition.property",
         "support.variable.property",
         "support.constant.property",
         "variable.other.enummember",
