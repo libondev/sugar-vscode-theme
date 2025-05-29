@@ -1,161 +1,136 @@
-export function getTemplate(colors: Record<string, string>) {
-  const {
-    name,
-    mode,
-    accent,
-    border,
-    background,
-    editorForeground,
-    foreground,
-    ...theme
-  } = colors;
-
-  // window blur foreground
-  const inactiveForeground = foreground + '88'
-
-  theme.key ||= theme.css
-  theme.css ||= theme.variable
-  theme.json ||= theme.property
-  theme.regexp ||= theme.string
-  theme.storage ||= theme.keyword
-  theme.classes ||= theme.attribute
-  theme.inputBackground ||= background
-  theme.sidebarBackground ||= background
-  theme.activeBackground ||= theme.sidebarBackground
-
-  return `{
-  "name": "Sugar ${name}",
-  "base": "vs-${mode}",
+{
+  "name": "Sugar Dark Fleet",
+  "base": "vs-dark",
   "colors": {
-    "activityBar.activeBorder": "${accent}",
-    "activityBar.background": "${theme.activeBackground}",
-    "activityBar.border": "${border}",
-    "activityBar.foreground": "${foreground}",
-    "activityBar.inactiveForeground": "${inactiveForeground}",
-    "activityBarBadge.background": "${accent}",
+    "activityBar.activeBorder": "#059669",
+    "activityBar.background": "#2b2d30",
+    "activityBar.border": "#424242",
+    "activityBar.foreground": "#DADADA",
+    "activityBar.inactiveForeground": "#DADADA88",
+    "activityBarBadge.background": "#059669",
     "activityBarBadge.foreground": "#fff",
-    "badge.background": "${accent}40",
-    "badge.foreground": "${foreground}",
+    "badge.background": "#05966940",
+    "badge.foreground": "#DADADA",
     "button.border": "#0000",
-    "button.background": "${accent}",
+    "button.background": "#059669",
     "button.foreground": "#fff",
-    "button.hoverBackground": "${accent}e3",
-    "button.secondaryBackground": "${theme.inputBackground}",
-    "button.secondaryForeground": "${foreground}",
-    "button.secondaryHoverBackground": "${border}",
-    "checkbox.background": "${theme.inputBackground}",
-    "checkbox.border": "${border}",
-    "debugToolBar.background": "${background}",
-    "dropdown.background": "${background}",
-    "dropdown.border": "${border}",
-    "dropdown.foreground": "${foreground}",
-    "dropdown.listBackground": "${theme.listBackground}",
-    "editor.background": "${background}",
-    "editor.foreground": "${editorForeground}",
-    "editor.findMatchBackground": "${accent}68",
-    "editor.findMatchHighlightBackground": "${accent}50",
-    "editor.selectionBackground": "${accent}60",
-    "editorStickyScroll.border": "${border}",
-    "editorStickyScroll.shadow": "${border}50",
-    "editorStickyScrollHover.background": "${border}",
-    "editorWidget.background": "${background}",
-    "editorGroupHeader.border": "${border}",
-    "editorGroupHeader.tabsBackground": "${theme.sidebarBackground}",
-    "editorGroupHeader.tabsBorder": "${border}",
-    "editorGutter.addedBackground": "${theme.insert}",
-    "editorGutter.deletedBackground": "${theme.delete}",
-    "editorGutter.modifiedBackground": "${theme.change}",
-    "editorLineNumber.activeForeground": "${foreground}AF",
-    "editorLineNumber.foreground": "${foreground}66",
-    "errorForeground": "${theme.delete}",
+    "button.hoverBackground": "#059669e3",
+    "button.secondaryBackground": "#101214",
+    "button.secondaryForeground": "#DADADA",
+    "button.secondaryHoverBackground": "#424242",
+    "checkbox.background": "#101214",
+    "checkbox.border": "#424242",
+    "debugToolBar.background": "#101214",
+    "dropdown.background": "#101214",
+    "dropdown.border": "#424242",
+    "dropdown.foreground": "#DADADA",
+    "dropdown.listBackground": "#2b2d30",
+    "editor.background": "#101214",
+    "editor.foreground": "#BCBEC4",
+    "editor.findMatchBackground": "#05966968",
+    "editor.findMatchHighlightBackground": "#05966950",
+    "editor.selectionBackground": "#05966960",
+    "editorStickyScroll.border": "#424242",
+    "editorStickyScroll.shadow": "#42424250",
+    "editorStickyScrollHover.background": "#424242",
+    "editorWidget.background": "#101214",
+    "editorGroupHeader.border": "#424242",
+    "editorGroupHeader.tabsBackground": "#2b2d30",
+    "editorGroupHeader.tabsBorder": "#424242",
+    "editorGutter.addedBackground": "#059669",
+    "editorGutter.deletedBackground": "#E06C75",
+    "editorGutter.modifiedBackground": "#61AFEF",
+    "editorLineNumber.activeForeground": "#DADADAAF",
+    "editorLineNumber.foreground": "#DADADA66",
+    "errorForeground": "#E06C75",
     "focusBorder": "#0000",
-    "foreground": "${foreground}",
-    "input.border": "${border}",
-    "input.background": "${theme.inputBackground}",
-    "input.foreground": "${foreground}",
-    "inputOption.activeBorder": "${accent}",
+    "foreground": "#DADADA",
+    "input.border": "#424242",
+    "input.background": "#101214",
+    "input.foreground": "#DADADA",
+    "inputOption.activeBorder": "#059669",
     "inputOption.activeForeground": "#fff",
-    "inputOption.activeBackground": "${accent}",
+    "inputOption.activeBackground": "#059669",
     "list.activeSelectionForeground": "#fff",
-    "list.activeSelectionBackground": "${accent}",
-    "list.activeSelectionIconForeground": "${foreground}",
-    "list.hoverBackground": "${foreground}1f",
-    "list.highlightForeground": "${accent}",
-    "list.inactiveSelectionBackground": "${border}",
-    "menu.border": "${border}",
-    "menu.background": "${theme.listBackground}",
-    "menu.foreground": "${foreground}",
-    "menu.selectionBackground": "${accent}",
+    "list.activeSelectionBackground": "#059669",
+    "list.activeSelectionIconForeground": "#DADADA",
+    "list.hoverBackground": "#DADADA1f",
+    "list.highlightForeground": "#059669",
+    "list.inactiveSelectionBackground": "#424242",
+    "menu.border": "#424242",
+    "menu.background": "#2b2d30",
+    "menu.foreground": "#DADADA",
+    "menu.selectionBackground": "#059669",
 		"menu.selectionForeground": "#fff",
-    "notificationCenterHeader.background": "${theme.listBackground}",
-    "notificationCenterHeader.foreground": "${foreground}",
-    "notifications.border": "${border}",
-    "notifications.background": "${theme.listBackground}",
-    "notifications.foreground": "${foreground}",
-    "panel.background": "${background}",
-    "panel.border": "${border}",
-    "panelInput.border": "${border}",
-    "panelTitle.activeBorder": "${accent}",
-    "panelTitle.activeForeground": "${foreground}",
-    "panelTitle.inactiveForeground": "${inactiveForeground}",
-    "peekViewResult.background": "${theme.listBackground}",
-    "pickerGroup.border": "${border}",
-    "progressBar.background": "${accent}",
-    "quickInput.background": "${theme.listBackground}",
-    "quickInput.foreground": "${foreground}",
-    "quickInputList.focusBackground": "${border}",
-    "quickInputList.focusForeground": "${foreground}",
-    "settings.dropdownBackground": "${theme.inputBackground}",
-    "settings.dropdownBorder": "${border}",
-    "settings.headerForeground": "${foreground}",
-    "settings.numberInputBorder": "${border}",
-		"settings.textInputBorder": "${border}",
-    "sideBar.border": "${border}",
-    "sideBar.background": "${theme.sidebarBackground}",
-    "sideBar.foreground": "${foreground}",
-    "sideBarSectionHeader.background": "${theme.sidebarBackground}",
-    "sideBarSectionHeader.border": "${border}",
-    "sideBarSectionHeader.foreground": "${foreground}",
-    "sideBarTitle.foreground": "${foreground}",
-    "statusBar.background": "${background}",
-    "statusBar.border": "${border}",
-    "statusBar.debuggingBackground": "${accent}",
+    "notificationCenterHeader.background": "#2b2d30",
+    "notificationCenterHeader.foreground": "#DADADA",
+    "notifications.border": "#424242",
+    "notifications.background": "#2b2d30",
+    "notifications.foreground": "#DADADA",
+    "panel.background": "#101214",
+    "panel.border": "#424242",
+    "panelInput.border": "#424242",
+    "panelTitle.activeBorder": "#059669",
+    "panelTitle.activeForeground": "#DADADA",
+    "panelTitle.inactiveForeground": "#DADADA88",
+    "peekViewResult.background": "#2b2d30",
+    "pickerGroup.border": "#424242",
+    "progressBar.background": "#059669",
+    "quickInput.background": "#2b2d30",
+    "quickInput.foreground": "#DADADA",
+    "quickInputList.focusBackground": "#424242",
+    "quickInputList.focusForeground": "#DADADA",
+    "settings.dropdownBackground": "#101214",
+    "settings.dropdownBorder": "#424242",
+    "settings.headerForeground": "#DADADA",
+    "settings.numberInputBorder": "#424242",
+		"settings.textInputBorder": "#424242",
+    "sideBar.border": "#424242",
+    "sideBar.background": "#2b2d30",
+    "sideBar.foreground": "#DADADA",
+    "sideBarSectionHeader.background": "#2b2d30",
+    "sideBarSectionHeader.border": "#424242",
+    "sideBarSectionHeader.foreground": "#DADADA",
+    "sideBarTitle.foreground": "#DADADA",
+    "statusBar.background": "#101214",
+    "statusBar.border": "#424242",
+    "statusBar.debuggingBackground": "#059669",
     "statusBar.debuggingForeground": "#fff",
-    "statusBar.focusBorder": "${accent}",
-    "statusBar.foreground": "${foreground}",
-    "statusBar.noFolderBackground": "${theme.listBackground}",
-    "statusBarItem.errorBackground": "${background}",
-    "statusBarItem.focusBorder": "${accent}",
-    "statusBarItem.remoteBackground": "${accent}",
+    "statusBar.focusBorder": "#059669",
+    "statusBar.foreground": "#DADADA",
+    "statusBar.noFolderBackground": "#2b2d30",
+    "statusBarItem.errorBackground": "#101214",
+    "statusBarItem.focusBorder": "#059669",
+    "statusBarItem.remoteBackground": "#059669",
     "statusBarItem.remoteForeground": "#fff",
-    "tab.activeBackground": "${background}",
-    "tab.activeBorder": "${background}",
+    "tab.activeBackground": "#101214",
+    "tab.activeBorder": "#101214",
     "tab.activeBorderTop": "#0000",
-    "tab.activeForeground": "${foreground}",
-    "tab.border": "${border}",
-    "tab.hoverBackground": "${theme.sidebarBackground}af",
-    "tab.inactiveBackground": "${theme.sidebarBackground}",
-    "tab.inactiveForeground": "${inactiveForeground}",
-    "tab.lastPinnedBorder": "${foreground}33",
-    "tab.unfocusedActiveBorder": "${theme.listBackground}",
-    "tab.unfocusedActiveBorderTop": "${border}",
-    "tab.unfocusedHoverBackground": "${theme.listBackground}",
-    "terminal.foreground": "${foreground}",
-    "terminal.selectionBackground": "${accent}40",
-    "terminal.tab.activeBorder": "${accent}",
-    "terminalCursor.foreground": "${accent}",
-    "textBlockQuote.background": "${border}",
-    "textCodeBlock.background": "${border}",
-    "textLink.activeForeground": "${accent}",
-    "textLink.foreground": "${accent}",
-    "textPreformat.background": "${border}",
-    "titleBar.border": "${border}",
-    "titleBar.activeForeground": "${foreground}",
-    "titleBar.activeBackground": "${theme.sidebarBackground}",
-    "titleBar.inactiveForeground": "${inactiveForeground}",
-    "titleBar.inactiveBackground": "${theme.sidebarBackground}",
-    "welcomePage.progress.foreground": "${accent}",
-    "welcomePage.tileBackground": "${border}"
+    "tab.activeForeground": "#DADADA",
+    "tab.border": "#424242",
+    "tab.hoverBackground": "#2b2d30af",
+    "tab.inactiveBackground": "#2b2d30",
+    "tab.inactiveForeground": "#DADADA88",
+    "tab.lastPinnedBorder": "#DADADA33",
+    "tab.unfocusedActiveBorder": "#2b2d30",
+    "tab.unfocusedActiveBorderTop": "#424242",
+    "tab.unfocusedHoverBackground": "#2b2d30",
+    "terminal.foreground": "#DADADA",
+    "terminal.selectionBackground": "#05966940",
+    "terminal.tab.activeBorder": "#059669",
+    "terminalCursor.foreground": "#059669",
+    "textBlockQuote.background": "#424242",
+    "textCodeBlock.background": "#424242",
+    "textLink.activeForeground": "#059669",
+    "textLink.foreground": "#059669",
+    "textPreformat.background": "#424242",
+    "titleBar.border": "#424242",
+    "titleBar.activeForeground": "#DADADA",
+    "titleBar.activeBackground": "#2b2d30",
+    "titleBar.inactiveForeground": "#DADADA88",
+    "titleBar.inactiveBackground": "#2b2d30",
+    "welcomePage.progress.foreground": "#059669",
+    "welcomePage.tileBackground": "#424242"
   },
   "semanticHighlighting": true,
   "tokenColors": [
@@ -167,7 +142,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name.type.instance.jsdoc"
       ],
       "settings": {
-        "foreground": "${theme.comment}"
+        "foreground": "#7A7E85"
       }
     },
     {
@@ -187,7 +162,7 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
-        "foreground": "${theme.variable}"
+        "foreground": "#BCBEC4"
       }
     },
     {
@@ -195,10 +170,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "${
-    ['Vitesse', 'VS'].find(key => name.includes(key))
-      ? theme.variable
-      : theme.attribute}"
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -207,7 +179,7 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.language"
       ],
       "settings": {
-        "foreground": "${theme.caller}"
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -220,7 +192,7 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "${theme.constant}"
+        "foreground": "#D5B778"
       }
     },
     {
@@ -230,7 +202,7 @@ export function getTemplate(colors: Record<string, string>) {
         "constant.other.character-class"
       ],
       "settings": {
-        "foreground": "${theme.regexp}"
+        "foreground": "#6AAB73"
       }
     },
     {
@@ -244,7 +216,7 @@ export function getTemplate(colors: Record<string, string>) {
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "${theme.string}"
+        "foreground": "#6AAB73"
       }
     },
     {
@@ -254,7 +226,7 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "${theme.boolean}"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -268,7 +240,7 @@ export function getTemplate(colors: Record<string, string>) {
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "${theme.number}"
+        "foreground": "#2AACB8"
       }
     },
     {
@@ -280,7 +252,7 @@ export function getTemplate(colors: Record<string, string>) {
         "invalid.deprecated.entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "${theme.attribute}"
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -289,7 +261,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "${theme.classes}"
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -307,7 +279,7 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.other.constant.property"
       ],
       "settings": {
-        "foreground": "${theme.property}"
+        "foreground": "#C77DBB"
       }
     },
     {
@@ -327,7 +299,7 @@ export function getTemplate(colors: Record<string, string>) {
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "${theme.property}"
+				"foreground": "#C77DBB"
 			}
     },
     {
@@ -336,7 +308,7 @@ export function getTemplate(colors: Record<string, string>) {
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "${theme.nil}"
+        "foreground": "#CB7676"
       }
     },
     {
@@ -344,7 +316,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "${theme.tag}"
+        "foreground": "#D5B778"
       }
     },
     {
@@ -354,7 +326,7 @@ export function getTemplate(colors: Record<string, string>) {
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "${theme.json}"
+        "foreground": "#C77DBB"
       }
     },
     {
@@ -373,7 +345,7 @@ export function getTemplate(colors: Record<string, string>) {
         "constant.language.import-export-all"
       ],
       "settings": {
-        "foreground": "${theme.storage}"
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -388,7 +360,7 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "${theme.keyword}"
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -402,7 +374,7 @@ export function getTemplate(colors: Record<string, string>) {
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "${theme.function}"
+        "foreground": "#66A6FF"
       }
     },
     {
@@ -412,7 +384,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "${theme.class}"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -426,7 +398,7 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "${theme.type}"
+        "foreground": "#2FBAA3"
       }
     },
     {
@@ -436,7 +408,7 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.type.numeric.go"
       ],
       "settings": {
-        "foreground": "${theme.baseType}"
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -445,7 +417,7 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.embedded.block.html"
       ],
       "settings": {
-        "foreground": "${editorForeground}"
+        "foreground": "#BCBEC4"
       }
     },
     {
@@ -461,7 +433,7 @@ export function getTemplate(colors: Record<string, string>) {
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "${theme.secondary}"
+        "foreground": "#8b95a7"
       }
     },
     {
@@ -491,7 +463,7 @@ export function getTemplate(colors: Record<string, string>) {
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "${theme.symbol}"
+        "foreground": "#88888888"
       }
     },
     {
@@ -518,7 +490,7 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.definition.inserted"
       ],
 			"settings": {
-				"foreground": "${theme.insert}"
+				"foreground": "#059669"
 			}
 		},
 		{
@@ -527,7 +499,7 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.definition.deleted"
       ],
 			"settings": {
-				"foreground": "${theme.delete}"
+				"foreground": "#E06C75"
 			}
 		},
 		{
@@ -536,7 +508,7 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.definition.changed"
       ],
 			"settings": {
-				"foreground": "${theme.change}"
+				"foreground": "#61AFEF"
 			}
 		},
     {
@@ -562,23 +534,4 @@ export function getTemplate(colors: Record<string, string>) {
       }
     }
   ]
-}`
 }
-
-// function adjustHexColor(hexColor: string, relativeValue: number) {
-//   hexColor = hexColor.replace(/^#/, '');
-
-//   const rgb = [
-//     parseInt(hexColor.slice(0, 2), 16),
-//     parseInt(hexColor.slice(2, 4), 16),
-//     parseInt(hexColor.slice(4, 6), 16),
-//   ];
-
-//   const r = Math.floor(Math.max(0, Math.min(255, rgb[0] * relativeValue)));
-//   const g = Math.floor(Math.max(0, Math.min(255, rgb[1] * relativeValue)));
-//   const b = Math.floor(Math.max(0, Math.min(255, rgb[2] * relativeValue)));
-
-//   const adjustedHexColor = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
-
-//   return adjustedHexColor;
-// }

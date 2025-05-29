@@ -276,7 +276,7 @@
         "support.constant.property",
         "variable.other.enummember",
         "variable.other.object.property",
-        "variable.other.constant.property",
+        "variable.other.constant.property"
       ],
       "settings": {
         "foreground": "#B8A965"
