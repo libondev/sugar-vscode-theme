@@ -185,6 +185,7 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator.gradient",
         "meta.at-rule.keyframe.less",
         "support.type.custom-property",
+        "constant.language.import-export-all",
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
@@ -364,13 +365,12 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.modifier",
         "entity.name.section.markdown",
         "variable.other.link.underline",
-        "punctuation.definition.template-expression",
         "keyword.operator.logic",
         "keyword.operator.logical.and",
         "keyword.operator.logical.scss",
         "keyword.operator.logical.python",
         "keyword.operator.logical.feature",
-        "constant.language.import-export-all"
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "${theme.storage}"
