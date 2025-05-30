@@ -213,7 +213,7 @@ export const sugarDarkVS = {
   accent: "#059669",
   border: "#424242",
   foreground: "#E4E4E4",
-  background: "#121212",
+  background: "#1e1e1e",
   listBackground: "#1F1F1F",
   editorForeground: "#D6D6D6",
   sidebarBackground: "#181818",

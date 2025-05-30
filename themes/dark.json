@@ -153,6 +153,7 @@
         "identifier",
         "attribute.name",
         "custom.variable",
+        "support.variable",
         "custom.punctuation",
         "meta.property-value.scss",
         "entity.name.function.scss",
@@ -175,7 +176,6 @@
     },
     {
       "scope": [
-        "support.variable",
         "variable.language"
       ],
       "settings": {
