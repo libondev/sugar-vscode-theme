@@ -368,6 +368,7 @@
         "entity",
         "entity.name",
         "support.function",
+        "meta.function-call",
         "entity.name.function",
         "variable.language.super",
 				"entity.name.operator.custom-literal",
