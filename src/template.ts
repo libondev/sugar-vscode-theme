@@ -396,6 +396,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity",
         "entity.name",
         "support.function",
+        "meta.function-call",
         "entity.name.function",
         "variable.language.super",
 				"entity.name.operator.custom-literal",
