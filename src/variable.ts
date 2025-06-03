@@ -144,7 +144,7 @@ export const sugarDarkVitesse = {
   accent: "#059669",
   border: "#424242",
   foreground: "#CCCCCC",
-  background: "#121212",
+  background: "#080808",
   listBackground: "#181818",
   editorForeground: "#C8C8C8",
 
