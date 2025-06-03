@@ -67,6 +67,7 @@ export function getTemplate(colors: Record<string, string>) {
     "editorGutter.modifiedBackground": "${theme.change}",
     "editorLineNumber.activeForeground": "${foreground}AF",
     "editorLineNumber.foreground": "${foreground}66",
+    "editorInlayHint.foreground": "${theme.symbol}",
     "errorForeground": "${theme.delete}",
     "focusBorder": "#0000",
     "foreground": "${foreground}",
@@ -462,21 +463,27 @@ export function getTemplate(colors: Record<string, string>) {
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "${theme.secondary}"
+        "foreground": "${theme.operator}"
       }
     },
     {
       "scope": [
+        "source.ts",
+        "delimiter",
         "meta.brace",
         "punctuation",
         "meta.parameters",
         "keyword.operator",
+        "meta.objectliteral",
         "meta.array.literal",
         "source.prisma.array",
         "punctuation.accessor",
+        "meta.type.annotation",
         "meta.feature-query.css",
         "meta.function.calc.css",
         "source.prisma.embedded",
+        "meta.tag.block.any.html",
+        "meta.tag.inline.any.html",
         "meta.attribute.directive",
         "storage.type.function.arrow",
         "support.constant.handlebars",
@@ -486,9 +493,11 @@ export function getTemplate(colors: Record<string, string>) {
         "punctuation.separator.key-value",
         "meta.at-rule.supports.header.css",
         "punctuation.definition.parameters",
+        "meta.tag.structure.input.void.html",
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",
         "source.css.less punctuation.definition.group",
+        "meta.embedded.block.github-actions-expression",
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {

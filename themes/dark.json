@@ -42,6 +42,7 @@
     "editorGutter.modifiedBackground": "#66adff",
     "editorLineNumber.activeForeground": "#E4E4E4AF",
     "editorLineNumber.foreground": "#E4E4E466",
+    "editorInlayHint.foreground": "#888888cf",
     "errorForeground": "#E06C75",
     "focusBorder": "#0000",
     "foreground": "#E4E4E4",
@@ -439,16 +440,22 @@
     },
     {
       "scope": [
+        "source.ts",
+        "delimiter",
         "meta.brace",
         "punctuation",
         "meta.parameters",
         "keyword.operator",
+        "meta.objectliteral",
         "meta.array.literal",
         "source.prisma.array",
         "punctuation.accessor",
+        "meta.type.annotation",
         "meta.feature-query.css",
         "meta.function.calc.css",
         "source.prisma.embedded",
+        "meta.tag.block.any.html",
+        "meta.tag.inline.any.html",
         "meta.attribute.directive",
         "storage.type.function.arrow",
         "support.constant.handlebars",
@@ -458,13 +465,15 @@
         "punctuation.separator.key-value",
         "meta.at-rule.supports.header.css",
         "punctuation.definition.parameters",
+        "meta.tag.structure.input.void.html",
         "punctuation.definition.typeparameters",
         "punctuation.definition.attribute-selector",
         "source.css.less punctuation.definition.group",
+        "meta.embedded.block.github-actions-expression",
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "#888888af"
+        "foreground": "#888888cf"
       }
     },
     {
