@@ -279,8 +279,10 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.parameter.misc.css",
         "variable.parameter.url.scss",
         "entity.other.attribute-name",
+        "punctuation.definition.entity.css",
         "meta.at-rule.utility.body.tailwind",
-        "invalid.deprecated.entity.other.attribute-name"
+        "invalid.deprecated.entity.other.attribute-name",
+        "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
         "foreground": "${theme.attribute}"
@@ -484,6 +486,7 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.tag.block.any.html",
         "meta.tag.inline.any.html",
         "meta.attribute.directive",
+        "entity.name.tag.reference",
         "storage.type.function.arrow",
         "support.constant.handlebars",
         "keyword.operator.assignment",
