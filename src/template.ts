@@ -186,7 +186,6 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator.gradient",
         "meta.at-rule.keyframe.less",
         "support.type.custom-property",
-        "constant.language.import-export-all",
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
@@ -199,7 +198,7 @@ export function getTemplate(colors: Record<string, string>) {
       ],
       "settings": {
         "foreground": "${
-    ['Vitesse', 'VS'].find(key => name.includes(key))
+    ['Vitesse'].find(key => name.includes(key))
       ? theme.variable
       : theme.attribute}"
       }
@@ -218,8 +217,10 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name.constant",
         "meta.definition.variable",
         "constant.character.escape",
+        "keyword.operator.or.regexp",
         "punctuation.definition.group",
-        "keyword.operator.quantifier.regexp"
+        "keyword.operator.quantifier.regexp",
+        "punctuation.definition.character-class.regexp"
       ],
       "settings": {
         "foreground": "${theme.constant}"
@@ -383,10 +384,8 @@ export function getTemplate(colors: Record<string, string>) {
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "punctuation.separator.less",
-        "keyword.operator.or.regexp",
         "keyword.operator.expression",
-        "support.type.object.module.js",
-        "punctuation.definition.character-class.regexp"
+        "support.type.object.module.js"
       ],
       "settings": {
         "foreground": "${theme.keyword}"

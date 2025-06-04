@@ -161,7 +161,6 @@
         "keyword.operator.gradient",
         "meta.at-rule.keyframe.less",
         "support.type.custom-property",
-        "constant.language.import-export-all",
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
@@ -190,8 +189,10 @@
         "entity.name.constant",
         "meta.definition.variable",
         "constant.character.escape",
+        "keyword.operator.or.regexp",
         "punctuation.definition.group",
-        "keyword.operator.quantifier.regexp"
+        "keyword.operator.quantifier.regexp",
+        "punctuation.definition.character-class.regexp"
       ],
       "settings": {
         "foreground": "#D5B778"
@@ -355,10 +356,8 @@
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "punctuation.separator.less",
-        "keyword.operator.or.regexp",
         "keyword.operator.expression",
-        "support.type.object.module.js",
-        "punctuation.definition.character-class.regexp"
+        "support.type.object.module.js"
       ],
       "settings": {
         "foreground": "#CF8E6D"
