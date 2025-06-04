@@ -36,7 +36,7 @@ const bit = 0 | 1 & 2 ^ 3 << 4 >> 5 >>> 6
 const logic = 1 === 2 !== 3 ? 111 : 222
 const arrowFn = (a: number, b: number) => a + b
 
-(() => {
+;(() => {
   while (Math.random() > 0.5) { }
 
   for (let i = 0; i < 10; i++) { }
