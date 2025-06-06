@@ -349,7 +349,7 @@
         "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "#c83342"
+        "foreground": "#c33240"
       }
     },
     {
@@ -362,7 +362,7 @@
         "support.type.object.module.js"
       ],
       "settings": {
-        "foreground": "#c83342"
+        "foreground": "#c33240"
       }
     },
     {
@@ -436,7 +436,7 @@
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "#c83342"
+        "foreground": "#c33240"
       }
     },
     {
