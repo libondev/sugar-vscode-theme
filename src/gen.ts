@@ -9,6 +9,7 @@ import {
   sugarLight,
   sugarLightVS,
   sugarLightFocus,
+  sugarLightGithub,
   sugarLightVitesse
 } from './variable';
 
@@ -84,6 +85,15 @@ async function rewriteColorTheme() {
         mode: "light",
         name: "Light VS",
         ...sugarLightVS,
+      }),
+      "utf8",
+    ],
+    [
+      "themes/light-github.json",
+      getTemplate({
+        mode: "light",
+        name: "Light Github",
+        ...sugarLightGithub,
       }),
       "utf8",
     ],

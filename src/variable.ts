@@ -279,6 +279,41 @@ export const sugarLightVS = {
   nil: "#A31515",
 }
 
+export const sugarLightGithub = {
+  accent: "#1E754F",
+  border: "#dadada",
+  foreground: "#24292E",
+  background: "#fafafa",
+  listBackground: "#f8f8f8",
+  editorForeground: "#24292E",
+  sidebarBackground: "#eaeaeb",
+
+  insert: "#1E754F",
+  delete: "#A31515",
+  change: "#4B69C6",
+
+  comment: "#6A737D",
+  variable: "#005CC5",
+  constant: "#005CC5",
+  keyword: "#D73A49",
+  storage: "#D73A49",
+  class: "#6F42C1",
+  number: "#005CC5",
+  string: "#22863A",
+  boolean: "#005CC5",
+  function: "#6F42C1",
+  symbol: "#88888888",
+  operator: "#D73A49",
+  attribute: "#6F42C1",
+  baseType: "#22863A",
+  property: "#24292E",
+  type: "#6F42C1",
+  caller: "#975923",
+  json: "#005CC5",
+  tag: "#22863A",
+  nil: "#A31515",
+}
+
 export const sugarDarkFleet = {
   accent: '#059669',
   border: '#424242',

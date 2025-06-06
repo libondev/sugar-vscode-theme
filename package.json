@@ -65,6 +65,11 @@
         "path": "./themes/light-vs.json"
       },
       {
+        "label": "Sugar Light Github",
+        "uiTheme": "vs",
+        "path": "./themes/light-github.json"
+      },
+      {
         "label": "Sugar Dark VS",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-vs.json"
