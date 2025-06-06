@@ -294,7 +294,7 @@ export const sugarLightGithub = {
 
   comment: "#6A737D",
   variable: "#005CC5",
-  constant: "#005CC5",
+  constant: "#975923",
   keyword: "#bd3240",
   storage: "#bd3240",
   class: "#6F42C1",
