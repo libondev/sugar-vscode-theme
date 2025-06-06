@@ -313,7 +313,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#A31515"
+        "foreground": "#975923"
       }
     },
     {
@@ -349,7 +349,7 @@
         "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#c83342"
       }
     },
     {
@@ -362,7 +362,7 @@
         "support.type.object.module.js"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#c83342"
       }
     },
     {
@@ -436,7 +436,7 @@
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#c83342"
       }
     },
     {

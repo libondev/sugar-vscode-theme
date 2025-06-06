@@ -295,15 +295,15 @@ export const sugarLightGithub = {
   comment: "#6A737D",
   variable: "#005CC5",
   constant: "#005CC5",
-  keyword: "#D73A49",
-  storage: "#D73A49",
+  keyword: "#c83342",
+  storage: "#c83342",
   class: "#6F42C1",
   number: "#005CC5",
   string: "#22863A",
   boolean: "#005CC5",
   function: "#6F42C1",
   symbol: "#88888888",
-  operator: "#D73A49",
+  operator: "#c83342",
   attribute: "#6F42C1",
   baseType: "#22863A",
   property: "#24292E",
@@ -311,7 +311,7 @@ export const sugarLightGithub = {
   caller: "#975923",
   json: "#005CC5",
   tag: "#22863A",
-  nil: "#A31515",
+  nil: "#975923",
 }
 
 export const sugarDarkFleet = {
