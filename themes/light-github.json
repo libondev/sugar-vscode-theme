@@ -243,7 +243,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#005CC5"
+        "foreground": "#975923"
       }
     },
     {
@@ -313,7 +313,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#975923"
+        "foreground": "#c33240"
       }
     },
     {

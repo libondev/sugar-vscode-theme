@@ -298,7 +298,7 @@ export const sugarLightGithub = {
   keyword: "#c33240",
   storage: "#c33240",
   class: "#6F42C1",
-  number: "#005CC5",
+  number: "#975923",
   string: "#22863A",
   boolean: "#005CC5",
   function: "#6F42C1",
@@ -311,7 +311,7 @@ export const sugarLightGithub = {
   caller: "#975923",
   json: "#005CC5",
   tag: "#22863A",
-  nil: "#975923",
+  nil: "#c33240",
 }
 
 export const sugarDarkFleet = {
