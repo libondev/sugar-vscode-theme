@@ -7,6 +7,7 @@ import {
   sugarDarkVitesse,
   sugarDarkVS,
   sugarLight,
+  sugarLightVS,
   sugarLightFocus,
   sugarLightVitesse
 } from './variable';
@@ -74,6 +75,15 @@ async function rewriteColorTheme() {
         mode: "dark",
         name: "Dark VS",
         ...sugarDarkVS,
+      }),
+      "utf8",
+    ],
+    [
+      "themes/light-vs.json",
+      getTemplate({
+        mode: "light",
+        name: "Light VS",
+        ...sugarLightVS,
       }),
       "utf8",
     ],

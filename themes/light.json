@@ -172,7 +172,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#9C5D27"
+        "foreground": "#975923"
       }
     },
     {
@@ -180,7 +180,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#9C5D27"
+        "foreground": "#975923"
       }
     },
     {
@@ -195,7 +195,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#9C5D27"
+        "foreground": "#975923"
       }
     },
     {
@@ -243,7 +243,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#9C5D27"
+        "foreground": "#975923"
       }
     },
     {
@@ -257,7 +257,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#9C5D27"
+        "foreground": "#975923"
       }
     },
     {
@@ -266,7 +266,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#9C5D27"
+        "foreground": "#975923"
       }
     },
     {
@@ -384,6 +384,7 @@
       "scope": [
         "support.class",
         "entity.name.type.class",
+        "entity.name.type.module",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -395,7 +396,6 @@
         "support.type",
         "entity.name.type",
         "meta.type.parameters",
-        "entity.name.type.module",
 				"meta.namespace.declaration",
 				"meta.function,meta.type.annotation",
         "variable.language.relations.prisma"

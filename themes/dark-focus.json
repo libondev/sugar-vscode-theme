@@ -384,6 +384,7 @@
       "scope": [
         "support.class",
         "entity.name.type.class",
+        "entity.name.type.module",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -395,7 +396,6 @@
         "support.type",
         "entity.name.type",
         "meta.type.parameters",
-        "entity.name.type.module",
 				"meta.namespace.declaration",
 				"meta.function,meta.type.annotation",
         "variable.language.relations.prisma"

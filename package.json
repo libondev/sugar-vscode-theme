@@ -60,6 +60,11 @@
         "path": "./themes/light-vitesse.json"
       },
       {
+        "label": "Sugar Light VS",
+        "uiTheme": "vs",
+        "path": "./themes/light-vs.json"
+      },
+      {
         "label": "Sugar Dark VS",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-vs.json"

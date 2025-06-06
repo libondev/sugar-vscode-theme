@@ -412,6 +412,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "support.class",
         "entity.name.type.class",
+        "entity.name.type.module",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -423,7 +424,6 @@ export function getTemplate(colors: Record<string, string>) {
         "support.type",
         "entity.name.type",
         "meta.type.parameters",
-        "entity.name.type.module",
 				"meta.namespace.declaration",
 				"meta.function,meta.type.annotation",
         "variable.language.relations.prisma"
