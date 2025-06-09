@@ -310,8 +310,8 @@ export const sugarDarkGithub = {
   type: "#B392F0",
   caller: "#d69c73",
   json: "#9ECBFF",
-  tag: "#9ECBFF",
-  nil: "#E06C75",
+  tag: "#79B8FF",
+  nil: "#79B8FF",
 }
 
 export const sugarLightGithub = {
@@ -346,7 +346,7 @@ export const sugarLightGithub = {
   caller: "#975923",
   json: "#005CC5",
   tag: "#22863A",
-  nil: "#bd3240",
+  nil: "#005CC5",
 }
 
 export const sugarDarkFleet = {

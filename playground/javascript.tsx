@@ -30,7 +30,7 @@ const object: Record<string, any> = {
   'string': 'only a string',
 }
 const symbol = Symbol('symbol')
-const nullable = undefined || null
+const nullable = undefined || null === undefined !== null
 const regexp = /^(?:13\d|14[5|7]|15[0-3|5-9]|17[0|135-8]|18\d|166|198|199)\d{8}$/gim
 const bit = 0 | 1 & 2 ^ 3 << 4 >> 5 >>> 6
 const logic = 1 === 2 !== 3 ? 111 : 222

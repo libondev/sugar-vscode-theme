@@ -313,7 +313,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#79B8FF"
       }
     },
     {
@@ -321,7 +321,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#9ECBFF"
+        "foreground": "#79B8FF"
       }
     },
     {
