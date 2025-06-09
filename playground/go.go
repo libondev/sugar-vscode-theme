@@ -29,6 +29,12 @@ func main() {
 		return a / b, nil
 	}
 
+	test := func (a string) {
+		fmt.Println(a)
+	}
+
+	test("123")
+
 	num1 := float64(0)
 	num2 := float64(0)
 	fmt.Print("请输入两个数，用空格分隔: ")

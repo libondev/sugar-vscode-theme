@@ -434,9 +434,12 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        "support.type.primitive",
-        "storage.type.string.go",
-        "storage.type.numeric.go"
+        "storage.type.error",
+        "storage.type.string",
+        "storage.type.symbol",
+        "storage.type.numeric",
+        "storage.type.boolean",
+        "support.type.primitive"
       ],
       "settings": {
         "foreground": "${theme.baseType}"
