@@ -283,10 +283,10 @@ export const sugarDarkGithub = {
   accent: '#059669',
   border: '#424242',
   foreground: '#DADADA',
-  background: '#1f1f1f',
+  background: '#181818',
   listBackground: '#2b2d30',
   editorForeground: '#BCBEC4',
-  sidebarBackground: '#2b2d30',
+  sidebarBackground: '#181818',
 
   insert: "#059669",
   delete: "#E06C75",
