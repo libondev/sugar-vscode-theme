@@ -172,7 +172,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#E50000"
+        "foreground": "#D22020"
       }
     },
     {
@@ -180,7 +180,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#975923"
+        "foreground": "#D22020"
       }
     },
     {
@@ -195,7 +195,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#975923"
+        "foreground": "#D22020"
       }
     },
     {
@@ -257,7 +257,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#E50000"
+        "foreground": "#D22020"
       }
     },
     {
@@ -266,7 +266,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#E50000"
+        "foreground": "#D22020"
       }
     },
     {

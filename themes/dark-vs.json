@@ -180,7 +180,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#d8ab74"
+        "foreground": "#D7BA7D"
       }
     },
     {
@@ -195,7 +195,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#d8ab74"
+        "foreground": "#D7BA7D"
       }
     },
     {
