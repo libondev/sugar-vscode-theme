@@ -198,7 +198,7 @@ export function getTemplate(colors: Record<string, string>) {
       ],
       "settings": {
         "foreground": "${
-    ['Vitesse'].find(key => name.includes(key))
+    ['Vitesse', 'VS'].find(key => name.includes(key))
       ? theme.variable
       : theme.attribute}"
       }
