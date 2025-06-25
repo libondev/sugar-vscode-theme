@@ -412,7 +412,7 @@ export const sugarDarkOne = {
   attribute: '#D19A66',
   baseType: '#56B6C2',
   property: '#E06C75',
-  type: '#61AFEF',
+  type: '#56B6C2',
   caller: '#E5C07B',
   json: '#E06C75',
   tag: '#E06C75',

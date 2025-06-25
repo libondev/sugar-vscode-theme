@@ -411,7 +411,7 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        "support.class",
+        // "support.class",
         "entity.name.type.class",
         "entity.name.type.module",
         "entity.other.inherited-class"
