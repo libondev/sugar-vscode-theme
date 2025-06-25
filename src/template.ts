@@ -173,7 +173,7 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        "support",
+        // "support",
         "property",
         "variable",
         "identifier",
@@ -303,8 +303,8 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.function-call.less",
         "variable.other.property",
         "meta.object-literal.key",
-        "variable.object.property",
         "meta.definition.property",
+        "variable.object.property",
         "support.variable.property",
         "support.constant.property",
         "variable.other.enummember",
@@ -383,6 +383,7 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "keyword",
+        "constant.character",
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "punctuation.separator.less",

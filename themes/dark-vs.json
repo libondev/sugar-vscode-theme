@@ -148,7 +148,7 @@
     },
     {
       "scope": [
-        "support",
+        // "support",
         "property",
         "variable",
         "identifier",
@@ -275,8 +275,8 @@
         "meta.function-call.less",
         "variable.other.property",
         "meta.object-literal.key",
-        "variable.object.property",
         "meta.definition.property",
+        "variable.object.property",
         "support.variable.property",
         "support.constant.property",
         "variable.other.enummember",
@@ -355,6 +355,7 @@
     {
       "scope": [
         "keyword",
+        "constant.character",
         "keyword.operator.new",
         "storage.type.class.jsdoc",
         "punctuation.separator.less",
