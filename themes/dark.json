@@ -39,7 +39,7 @@
     "editorGroupHeader.tabsBorder": "#424242",
     "editorGutter.addedBackground": "#059669",
     "editorGutter.deletedBackground": "#E06C75",
-    "editorGutter.modifiedBackground": "#66adff",
+    "editorGutter.modifiedBackground": "#61AFEF",
     "editorLineNumber.activeForeground": "#E4E4E4AF",
     "editorLineNumber.foreground": "#E4E4E466",
     "editorInlayHint.foreground": "#888888af",
@@ -143,7 +143,7 @@
         "entity.name.type.instance.jsdoc"
       ],
       "settings": {
-        "foreground": "#758575DD"
+        "foreground": "#7F848E"
       }
     },
     {
@@ -172,7 +172,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#d8ab74"
+        "foreground": "#D19A66"
       }
     },
     {
@@ -180,7 +180,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#d8ab74"
+        "foreground": "#D19A66"
       }
     },
     {
@@ -195,7 +195,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#d8ab74"
+        "foreground": "#D19A66"
       }
     },
     {
@@ -243,7 +243,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#d8ab74"
+        "foreground": "#D19A66"
       }
     },
     {
@@ -251,13 +251,13 @@
         "variable.parameter.misc.css",
         "variable.parameter.url.scss",
         "entity.other.attribute-name",
-        "punctuation.definition.entity.css",
+        "punctuation.definition.entity.",
         "meta.at-rule.utility.body.tailwind",
         "invalid.deprecated.entity.other.attribute-name",
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#d8ab74"
+        "foreground": "#D19A66"
       }
     },
     {
@@ -266,7 +266,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#d8ab74"
+        "foreground": "#D19A66"
       }
     },
     {
@@ -378,13 +378,14 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#66adff"
+        "foreground": "#61AFEF"
       }
     },
     {
       "scope": [
         "entity.name.type.class",
         "entity.name.type.module",
+        "support.class.component",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -402,7 +403,7 @@
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "#56c2a2"
+        "foreground": "#4EC9B0"
       }
     },
     {
@@ -415,7 +416,7 @@
         "support.type.primitive"
       ],
       "settings": {
-        "foreground": "#62bac6"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -467,7 +468,6 @@
         "support.constant.handlebars",
         "keyword.operator.assignment",
         "punctuation.section.function",
-        "punctuation.definition.entity",
         "punctuation.separator.key-value",
         "meta.at-rule.supports.header.css",
         "punctuation.definition.parameters",
@@ -524,7 +524,7 @@
         "punctuation.definition.changed"
       ],
 			"settings": {
-				"foreground": "#66adff"
+				"foreground": "#61AFEF"
 			}
 		},
     {

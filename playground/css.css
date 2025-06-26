@@ -15,7 +15,7 @@ body {
   --var: 123;
   width: 100%;
   height: var(--var);
-  & .item {
+  &__item {
     width: 100%;
   }
 }

@@ -279,7 +279,7 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.parameter.misc.css",
         "variable.parameter.url.scss",
         "entity.other.attribute-name",
-        "punctuation.definition.entity.css",
+        "punctuation.definition.entity.",
         "meta.at-rule.utility.body.tailwind",
         "invalid.deprecated.entity.other.attribute-name",
         "entity.other.attribute-name.parent-selector-suffix"
@@ -413,6 +413,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "entity.name.type.class",
         "entity.name.type.module",
+        "support.class.component",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -495,7 +496,6 @@ export function getTemplate(colors: Record<string, string>) {
         "support.constant.handlebars",
         "keyword.operator.assignment",
         "punctuation.section.function",
-        "punctuation.definition.entity",
         "punctuation.separator.key-value",
         "meta.at-rule.supports.header.css",
         "punctuation.definition.parameters",

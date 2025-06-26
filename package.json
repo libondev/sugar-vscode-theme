@@ -83,11 +83,6 @@
         "label": "Sugar Dark Github",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-github.json"
-      },
-      {
-        "label": "Sugar Dark One",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-one.json"
       }
     ]
   },

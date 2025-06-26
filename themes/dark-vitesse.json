@@ -251,7 +251,7 @@
         "variable.parameter.misc.css",
         "variable.parameter.url.scss",
         "entity.other.attribute-name",
-        "punctuation.definition.entity.css",
+        "punctuation.definition.entity.",
         "meta.at-rule.utility.body.tailwind",
         "invalid.deprecated.entity.other.attribute-name",
         "entity.other.attribute-name.parent-selector-suffix"
@@ -385,6 +385,7 @@
       "scope": [
         "entity.name.type.class",
         "entity.name.type.module",
+        "support.class.component",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -467,7 +468,6 @@
         "support.constant.handlebars",
         "keyword.operator.assignment",
         "punctuation.section.function",
-        "punctuation.definition.entity",
         "punctuation.separator.key-value",
         "meta.at-rule.supports.header.css",
         "punctuation.definition.parameters",

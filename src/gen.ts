@@ -5,7 +5,6 @@ import {
   sugarDarkFleet,
   sugarDarkFocus,
   sugarDarkGithub,
-  sugarDarkOne,
   sugarDarkVitesse,
   sugarDarkVS,
   sugarLight,
@@ -105,15 +104,6 @@ async function rewriteColorTheme() {
         mode: "dark",
         name: "Dark Fleet",
         ...sugarDarkFleet,
-      }),
-      "utf8",
-    ],
-    [
-      "themes/dark-one.json",
-      getTemplate({
-        mode: "dark",
-        name: "Dark One",
-        ...sugarDarkOne,
       }),
       "utf8",
     ],
