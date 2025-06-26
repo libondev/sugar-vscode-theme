@@ -185,6 +185,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.name.function.scss",
         "keyword.operator.gradient",
         "meta.at-rule.keyframe.less",
+        "meta.function-call.arguments",
         "support.type.custom-property",
         "punctuation.definition.custom-property.less"
       ],
