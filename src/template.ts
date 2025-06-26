@@ -173,7 +173,7 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        // "support",
+        "support",
         "property",
         "variable",
         "identifier",
@@ -411,7 +411,6 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
-        // "support.class",
         "entity.name.type.class",
         "entity.name.type.module",
         "entity.other.inherited-class"
@@ -423,6 +422,7 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "support.type",
+        "support.class",
         "entity.name.type",
         "meta.type.parameters",
 				"meta.namespace.declaration",

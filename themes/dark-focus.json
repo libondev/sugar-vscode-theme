@@ -148,7 +148,7 @@
     },
     {
       "scope": [
-        // "support",
+        "support",
         "property",
         "variable",
         "identifier",
@@ -383,7 +383,6 @@
     },
     {
       "scope": [
-        // "support.class",
         "entity.name.type.class",
         "entity.name.type.module",
         "entity.other.inherited-class"
@@ -395,6 +394,7 @@
     {
       "scope": [
         "support.type",
+        "support.class",
         "entity.name.type",
         "meta.type.parameters",
 				"meta.namespace.declaration",
