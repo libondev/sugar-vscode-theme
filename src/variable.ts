@@ -414,7 +414,7 @@ export const sugarDarkMidnight = {
   property: "#C8C8C8",
   type: "#8FBCBB",
   caller: "#81A1C1",
-  json: "#8FBCBB",
+  json: "#81A1C1",
   tag: "#81A1C1",
   nil: "#B48EAD",
 }
