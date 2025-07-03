@@ -4,7 +4,7 @@ export const sugarDark = {
   foreground: "#E4E4E4",
   background: "#121212",
   listBackground: "#1F1F1F",
-  editorForeground: "#D4D4D4",
+  editorForeground: "#D8D8D8",
   sidebarBackground: "#181818",
 
   insert: "#059669",
@@ -12,7 +12,7 @@ export const sugarDark = {
   change: "#61AFEF",
 
   comment: "#7F848E",
-  variable: "#D4D4D4",
+  variable: "#D8D8D8",
   constant: "#D19A66",
   keyword: "#E06C75",
   storage: "#62bac6",
@@ -74,7 +74,7 @@ export const sugarDarkFocus = {
   foreground: "#E4E4E4",
   background: "#0b0b09",
   listBackground: "#1F1F1F",
-  editorForeground: "#D4D4D4",
+  editorForeground: "#D8D8D8",
   sidebarBackground: "#0b0b09",
 
   insert: "#059669",
@@ -82,7 +82,7 @@ export const sugarDarkFocus = {
   change: "#66adff",
 
   comment: "#758575DD",
-  variable: "#D4D4D4",
+  variable: "#D8D8D8",
   constant: "#888888",
   keyword: "#888888",
   storage: "#888888",
@@ -96,10 +96,10 @@ export const sugarDarkFocus = {
   operator: "#888888af",
   attribute: "#888888",
   baseType: "#62bac6",
-  property: "#D4D4D4",
+  property: "#D8D8D8",
   type: "#62bac6",
   caller: "#888888",
-  json: "#D4D4D4",
+  json: "#D8D8D8",
   tag: "#888888",
   nil: "#62bac6",
 }
@@ -215,7 +215,7 @@ export const sugarDarkVS = {
   foreground: "#E4E4E4",
   background: "#1f1f1f",
   listBackground: "#1F1F1F",
-  editorForeground: "#D4D4D4",
+  editorForeground: "#D8D8D8",
   sidebarBackground: "#181818",
 
   insert: "#059669",
@@ -233,7 +233,7 @@ export const sugarDarkVS = {
   boolean: "#569CD6",
   function: "#DCDCAA",
   symbol: "#888888af",
-  operator: "#D4D4D4",
+  operator: "#D8D8D8",
   attribute: "#9CDCFE",
   baseType: "#4EC9B0",
   property: "#9CDCFE",
@@ -390,7 +390,7 @@ export const sugarDarkMidnight = {
   foreground: "#BCBEC4",
   background: "#121212",
   listBackground: "#2b2d30",
-  editorForeground: "#C8C8C8",
+  editorForeground: "#D8D8D8",
   sidebarBackground: "#191c22",
 
   insert: "#a3be8c",
@@ -398,7 +398,7 @@ export const sugarDarkMidnight = {
   change: "#ebcb8b",
 
   comment: "#8597BCA6",
-  variable: "#C8C8C8",
+  variable: "#D8D8D8",
   constant: "#EBCB8B",
   keyword: "#81A1C1",
   storage: "#81A1C1",
