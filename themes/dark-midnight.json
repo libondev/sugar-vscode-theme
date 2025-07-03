@@ -173,7 +173,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#88C0D0"
       }
     },
     {
@@ -258,7 +258,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#88C0D0"
       }
     },
     {
@@ -267,7 +267,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#88C0D0"
       }
     },
     {

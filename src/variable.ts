@@ -409,7 +409,7 @@ export const sugarDarkMidnight = {
   function: "#88C0D0",
   symbol: "#888888af",
   operator: "#81A1C1",
-  attribute: "#8FBCBB",
+  attribute: "#88C0D0",
   baseType: "#8FBCBB",
   property: "#C8C8C8",
   type: "#8FBCBB",
