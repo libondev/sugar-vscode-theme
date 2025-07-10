@@ -411,7 +411,7 @@ export const sugarDarkMidnight = {
   operator: "#81A1C1",
   attribute: "#88C0D0",
   baseType: "#8FBCBB",
-  property: "#C8C8C8",
+  property: "#D8D8D8",
   type: "#8FBCBB",
   caller: "#81A1C1",
   json: "#81A1C1",

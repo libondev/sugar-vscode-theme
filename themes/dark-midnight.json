@@ -285,7 +285,7 @@
         "variable.other.constant.property"
       ],
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#D8D8D8"
       }
     },
     {
@@ -305,7 +305,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#C8C8C8"
+				"foreground": "#D8D8D8"
 			}
     },
     {
