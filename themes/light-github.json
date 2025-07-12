@@ -206,7 +206,7 @@
         "constant.other.character-class"
       ],
       "settings": {
-        "foreground": "#22863A"
+        "foreground": "#1e7933"
       }
     },
     {
@@ -220,7 +220,7 @@
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "#22863A"
+        "foreground": "#1e7933"
       }
     },
     {
@@ -322,7 +322,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#22863A"
+        "foreground": "#1e7933"
       }
     },
     {
@@ -417,7 +417,7 @@
         "support.type.primitive"
       ],
       "settings": {
-        "foreground": "#22863A"
+        "foreground": "#1e7933"
       }
     },
     {
@@ -442,7 +442,7 @@
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "#bd3240"
+        "foreground": "undefined"
       }
     },
     {
