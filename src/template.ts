@@ -254,7 +254,6 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "constant.language",
-        "support.type.builtin",
         "meta.module-reference"
       ],
       "settings": {
@@ -442,6 +441,7 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.type.symbol",
         "storage.type.numeric",
         "storage.type.boolean",
+        "support.type.builtin",
         "support.type.primitive"
       ],
       "settings": {

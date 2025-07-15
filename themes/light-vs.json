@@ -226,7 +226,6 @@
     {
       "scope": [
         "constant.language",
-        "support.type.builtin",
         "meta.module-reference"
       ],
       "settings": {
@@ -414,6 +413,7 @@
         "storage.type.symbol",
         "storage.type.numeric",
         "storage.type.boolean",
+        "support.type.builtin",
         "support.type.primitive"
       ],
       "settings": {
