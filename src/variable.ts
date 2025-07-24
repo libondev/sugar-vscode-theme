@@ -386,18 +386,18 @@ export const sugarDarkFleet = {
 export const sugarDarkMidnight = {
   accent: "#059669",
   border: "#424242",
-  foreground: "#BCBEC4",
+  foreground: "#D8D8D8",
   background: "#121212",
   listBackground: "#2b2d30",
-  editorForeground: "#D8D8D8",
+  editorForeground: "#DDDDDD",
   sidebarBackground: "#191c22",
 
   insert: "#a3be8c",
   delete: "#bf616a",
-  change: "#ebcb8b",
+  change: "#EBCB8B",
 
   comment: "#8597BCA6",
-  variable: "#D8D8D8",
+  variable: "#DDDDDD",
   constant: "#EBCB8B",
   keyword: "#81A1C1",
   storage: "#81A1C1",
