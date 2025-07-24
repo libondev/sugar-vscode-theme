@@ -173,7 +173,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#772FDA"
+        "foreground": "#975923"
       }
     },
     {
@@ -257,7 +257,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#772FDA"
+        "foreground": "#975923"
       }
     },
     {
@@ -266,7 +266,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#772FDA"
+        "foreground": "#975923"
       }
     },
     {
@@ -313,7 +313,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#005CC5"
+        "foreground": "#1e7933"
       }
     },
     {
@@ -378,7 +378,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#772FDA"
+        "foreground": "#661FCA"
       }
     },
     {
@@ -389,7 +389,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#772FDA"
+        "foreground": "#661FCA"
       }
     },
     {
@@ -403,7 +403,7 @@
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "#772FDA"
+        "foreground": "#661FCA"
       }
     },
     {

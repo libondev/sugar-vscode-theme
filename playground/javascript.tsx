@@ -62,7 +62,7 @@ function Button({ onClick }: { onClick: () => void }): JSX.Element {
 }
 
 export function Component<Generics>(): Generics {
-  const handleClick = (ev: MouseEvent) => {
+  const handleClick = (ev: MouseEvent | undefined) => {
     console.log(ev, object?.aaa)
   }
 
