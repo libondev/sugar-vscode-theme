@@ -164,8 +164,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "comment",
         "string.comment",
-        "punctuation.definition.comment",
-        "entity.name.type.instance.jsdoc"
+        "punctuation.definition.comment"
       ],
       "settings": {
         "foreground": "${theme.comment}"

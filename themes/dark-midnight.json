@@ -139,8 +139,7 @@
       "scope": [
         "comment",
         "string.comment",
-        "punctuation.definition.comment",
-        "entity.name.type.instance.jsdoc"
+        "punctuation.definition.comment"
       ],
       "settings": {
         "foreground": "#8597BCA6"
