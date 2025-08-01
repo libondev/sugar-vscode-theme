@@ -42,7 +42,7 @@
     "editorGutter.modifiedBackground": "#EBCB8B",
     "editorLineNumber.activeForeground": "#D8D8D8AF",
     "editorLineNumber.foreground": "#D8D8D866",
-    "editorInlayHint.foreground": "#888888af",
+    "editorInlayHint.foreground": "#888888bf",
     "errorForeground": "#bf616a",
     "focusBorder": "#0000",
     "foreground": "#D8D8D8",
@@ -479,7 +479,7 @@
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "#888888af"
+        "foreground": "#888888bf"
       }
     },
     {
