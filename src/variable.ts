@@ -307,7 +307,7 @@ export const sugarDarkGithub = {
   attribute: "#D19A66",
   baseType: "#4EC9B0",
   property: "#9ECBFF",
-  type: "#B392F0",
+  type: "#4EC9B0",
   caller: "#D19A66",
   json: "#9ECBFF",
   tag: "#79B8FF",
