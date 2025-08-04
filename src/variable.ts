@@ -283,7 +283,7 @@ export const sugarDarkGithub = {
   accent: '#059669',
   border: '#424242',
   foreground: '#DADADA',
-  background: '#1c1f23',
+  background: '#181818',
   listBackground: '#2b2d30',
   editorForeground: '#BCBEC4',
   sidebarBackground: '#1f2428',
