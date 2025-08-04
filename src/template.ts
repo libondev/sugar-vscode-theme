@@ -178,7 +178,6 @@ export function getTemplate(colors: Record<string, string>) {
         "identifier",
         "attribute.name",
         "custom.variable",
-        "support.variable",
         "custom.punctuation",
         "meta.property-value.scss",
         "entity.name.function.scss",
@@ -197,14 +196,14 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "${
-    ['Vitesse', 'VS'].find(key => name.includes(key))
+        "foreground": "${['Vitesse', 'VS'].find(key => name.includes(key))
       ? theme.variable
       : theme.attribute}"
       }
     },
     {
       "scope": [
+        "support.variable",
         "variable.language"
       ],
       "settings": {

@@ -4,7 +4,7 @@ export const sugarDark = {
   foreground: "#E4E4E4",
   background: "#121212",
   listBackground: "#1F1F1F",
-  editorForeground: "#D8D8D8",
+  editorForeground: "#CCCCCC",
   sidebarBackground: "#181818",
 
   insert: "#059669",
@@ -12,17 +12,17 @@ export const sugarDark = {
   change: "#61AFEF",
 
   comment: "#7F848E",
-  variable: "#D8D8D8",
-  constant: "#D19A66",
+  variable: "#CCCCCC",
+  constant: "#D5B778",
   keyword: "#E06C75",
-  storage: "#62bac6",
+  storage: "#56B6C2",
   class: "#B392F0",
   number: "#D19A66",
   string: "#98C379",
-  boolean: "#62bac6",
+  boolean: "#56B6C2",
   function: "#61AFEF",
   symbol: "#888888bf",
-  operator: "#ABB2BF",
+  operator: "#E06C75",
   attribute: "#D19A66",
   baseType: "#56B6C2",
   property: "#C586C0",
@@ -30,7 +30,7 @@ export const sugarDark = {
   caller: "#D19A66",
   json: "#E06C75",
   tag: "#E06C75",
-  nil: "#CB7676",
+  nil: "#56B6C2",
 }
 
 export const sugarLight = {
@@ -88,20 +88,20 @@ export const sugarDarkFocus = {
   storage: "#888888",
   class: "#98C379",
   regexp: "#CE9178",
-  number: "#62bac6",
+  number: "#56B6C2",
   string: "#CE9178",
-  boolean: "#62bac6",
+  boolean: "#56B6C2",
   function: "#98C379",
   symbol: "#888888bf",
   operator: "#888888bf",
   attribute: "#888888",
-  baseType: "#62bac6",
+  baseType: "#56B6C2",
   property: "#D8D8D8",
-  type: "#62bac6",
+  type: "#56B6C2",
   caller: "#888888",
   json: "#D8D8D8",
   tag: "#888888",
-  nil: "#62bac6",
+  nil: "#56B6C2",
 }
 
 export const sugarLightFocus = {
@@ -346,41 +346,6 @@ export const sugarLightGithub = {
   json: "#005CC5",
   tag: "#1e7933",
   nil: "#1e7933",
-}
-
-export const sugarDarkFleet = {
-  accent: "#059669",
-  border: "#424242",
-  foreground: "#DADADA",
-  background: "#101214",
-  listBackground: "#2b2d30",
-  editorForeground: "#BCBEC4",
-  sidebarBackground: "#2b2d30",
-
-  insert: "#059669",
-  delete: "#E06C75",
-  change: "#61AFEF",
-
-  comment: "#7A7E85",
-  variable: "#BCBEC4",
-  constant: "#D5B778",
-  keyword: "#CF8E6D",
-  storage: "#CF8E6D",
-  class: "#56B6C2",
-  number: "#2AACB8",
-  string: "#6AAB73",
-  boolean: "#56B6C2",
-  function: "#66A6FF",
-  symbol: "#888888bf",
-  operator: "#8b95a7",
-  attribute: "#CF8E6D",
-  baseType: "#CF8E6D",
-  property: "#C77DBB",
-  type: "#2FBAA3",
-  caller: "#CF8E6D",
-  json: "#C77DBB",
-  tag: "#D5B778",
-  nil: "#CB7676",
 }
 
 export const sugarDarkMidnight = {

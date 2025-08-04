@@ -153,7 +153,6 @@
         "identifier",
         "attribute.name",
         "custom.variable",
-        "support.variable",
         "custom.punctuation",
         "meta.property-value.scss",
         "entity.name.function.scss",
@@ -177,6 +176,7 @@
     },
     {
       "scope": [
+        "support.variable",
         "variable.language"
       ],
       "settings": {
@@ -228,7 +228,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#62bac6"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -242,7 +242,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#62bac6"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -312,7 +312,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#62bac6"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -402,7 +402,7 @@
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "#62bac6"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -416,7 +416,7 @@
         "support.type.primitive"
       ],
       "settings": {
-        "foreground": "#62bac6"
+        "foreground": "#56B6C2"
       }
     },
     {

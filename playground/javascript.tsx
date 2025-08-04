@@ -35,14 +35,17 @@ const nullable = undefined || null === undefined !== null
 const regexp = /^(?:13\d|14[5|7]|15[0-3|5-9]|17[0|135-8]|18\d|166|198|199)\d{8}$/gim
 const bit = 0 | 1 & 2 ^ 3 << 4 >> 5 >>> 6
 const logic = 1 === 2 !== 3 ? 111 : 222
-const arrowFn = (a: number, b: number) => a + b
+const arrowFn = (a: number, b: number) => a + b + 1
 
-;(() => {
+(() => {
   while (Math.random() > 0.5) { }
 
   for (let i = 0; i < 10; i++) { }
 
   array.forEach(console.log)
+
+  let value = undefined
+  let nullValue = null
 
   try {
     // this is a comment

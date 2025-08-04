@@ -1,9 +1,7 @@
 import fs from 'node:fs';
 import { getTemplate } from './template';
 import {
-  sugarDark,
-  sugarDarkFleet,
-  sugarDarkFocus,
+  sugarDark, sugarDarkFocus,
   sugarDarkGithub,
   sugarDarkMidnight,
   sugarDarkVitesse,
@@ -96,15 +94,6 @@ async function rewriteColorTheme() {
         mode: "light",
         name: "Light Github",
         ...sugarLightGithub,
-      }),
-      "utf8",
-    ],
-    [
-      "themes/dark-fleet.json",
-      getTemplate({
-        mode: "dark",
-        name: "Dark Fleet",
-        ...sugarDarkFleet,
       }),
       "utf8",
     ],
