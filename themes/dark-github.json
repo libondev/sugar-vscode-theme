@@ -26,7 +26,7 @@
     "dropdown.foreground": "#DADADA",
     "dropdown.listBackground": "#2b2d30",
     "editor.background": "#181818",
-    "editor.foreground": "#BCBEC4",
+    "editor.foreground": "#D4D4D4",
     "editor.findMatchBackground": "#05966968",
     "editor.findMatchHighlightBackground": "#05966950",
     "editor.selectionBackground": "#05966960",
@@ -330,7 +330,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#9ECBFF"
+        "foreground": "#79B8FF"
       }
     },
     {
@@ -388,7 +388,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#4EC9B0"
+        "foreground": "#79B8FF"
       }
     },
     {
@@ -425,7 +425,7 @@
         "meta.embedded.block.html"
       ],
       "settings": {
-        "foreground": "#BCBEC4"
+        "foreground": "#D4D4D4"
       }
     },
     {

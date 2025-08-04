@@ -285,7 +285,7 @@ export const sugarDarkGithub = {
   foreground: '#DADADA',
   background: '#181818',
   listBackground: '#2b2d30',
-  editorForeground: '#BCBEC4',
+  editorForeground: '#D4D4D4',
   sidebarBackground: '#1f2428',
 
   insert: "#059669",
@@ -297,7 +297,7 @@ export const sugarDarkGithub = {
   constant: "#D19A66",
   keyword: "#E06C75",
   storage: "#E06C75",
-  class: "#4EC9B0",
+  class: "#79B8FF",
   number: "#79B8FF",
   string: "#9ECBFF",
   boolean: "#79B8FF",
@@ -309,7 +309,7 @@ export const sugarDarkGithub = {
   property: "#9ECBFF",
   type: "#B392F0",
   caller: "#D19A66",
-  json: "#9ECBFF",
+  json: "#79B8FF",
   tag: "#7ed794",
   nil: "#9ECBFF",
 }

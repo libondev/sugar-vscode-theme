@@ -24,6 +24,7 @@ const object: Record<string, any> = {
   aaa: 1,
   bbb: 2,
   array,
+  string: 'lorem long text...',
   class: Array,
   function: () => { },
   [`${string}`]: `string`,
@@ -91,6 +92,8 @@ export class Demo extends React.Component {
     return <div>Hello World</div>;
   }
 }
+
+const demo = new Demo()
 
 namespace Namespace {
   export const a = 1
