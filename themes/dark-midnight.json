@@ -42,7 +42,7 @@
     "editorGutter.modifiedBackground": "#EBCB8B",
     "editorLineNumber.activeForeground": "#D8D8D8AF",
     "editorLineNumber.foreground": "#D8D8D866",
-    "editorInlayHint.foreground": "#888888bf",
+    "editorInlayHint.foreground": "#999999cf",
     "errorForeground": "#bf616a",
     "focusBorder": "#0000",
     "foreground": "#D8D8D8",
@@ -153,9 +153,9 @@
         "identifier",
         "attribute.name",
         "custom.variable",
-        "support.variable",
         "custom.punctuation",
         "meta.property-value.scss",
+        "support.variable.property",
         "entity.name.function.scss",
         "keyword.operator.gradient",
         "meta.at-rule.keyframe.less",
@@ -172,11 +172,12 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#88C0D0"
+        "foreground": "#B48EAD"
       }
     },
     {
       "scope": [
+        "support.variable",
         "variable.language"
       ],
       "settings": {
@@ -211,6 +212,7 @@
     {
       "scope":[
         "string",
+        "source.ini",
         "markup.underline.link",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
@@ -256,7 +258,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#88C0D0"
+        "foreground": "#B48EAD"
       }
     },
     {
@@ -265,7 +267,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#88C0D0"
+        "foreground": "#B48EAD"
       }
     },
     {
@@ -276,14 +278,13 @@
         "meta.object-literal.key",
         "meta.definition.property",
         "variable.object.property",
-        "support.variable.property",
         "support.constant.property",
         "variable.other.enummember",
         "variable.other.object.property",
         "variable.other.constant.property"
       ],
       "settings": {
-        "foreground": "#C8C8C8"
+        "foreground": "#DDDDDD"
       }
     },
     {
@@ -303,7 +304,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#C8C8C8"
+				"foreground": "#DDDDDD"
 			}
     },
     {
@@ -395,10 +396,11 @@
       "scope": [
         "support.type",
         "support.class",
+        "meta.function",
         "entity.name.type",
         "meta.type.parameters",
+				"meta.type.annotation",
 				"meta.namespace.declaration",
-				"meta.function,meta.type.annotation",
         "variable.language.relations.prisma"
       ],
       "settings": {
@@ -448,6 +450,7 @@
       "scope": [
         "source.ts",
         "delimiter",
+        "meta.block",
         "meta.brace",
         "punctuation",
         "meta.parameters",
@@ -479,7 +482,7 @@
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "#888888bf"
+        "foreground": "#999999cf"
       }
     },
     {

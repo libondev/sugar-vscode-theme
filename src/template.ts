@@ -178,9 +178,9 @@ export function getTemplate(colors: Record<string, string>) {
         "identifier",
         "attribute.name",
         "custom.variable",
-        "support.variable",
         "custom.punctuation",
         "meta.property-value.scss",
+        "support.variable.property",
         "entity.name.function.scss",
         "keyword.operator.gradient",
         "meta.at-rule.keyframe.less",
@@ -197,14 +197,14 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "${
-    ['Vitesse', 'VS'].find(key => name.includes(key))
+        "foreground": "${['Vitesse', 'VS'].find(key => name.includes(key))
       ? theme.variable
       : theme.attribute}"
       }
     },
     {
       "scope": [
+        "support.variable",
         "variable.language"
       ],
       "settings": {
@@ -239,6 +239,7 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope":[
         "string",
+        "source.ini",
         "markup.underline.link",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
@@ -304,7 +305,6 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.object-literal.key",
         "meta.definition.property",
         "variable.object.property",
-        "support.variable.property",
         "support.constant.property",
         "variable.other.enummember",
         "variable.other.object.property",
@@ -423,10 +423,11 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "support.type",
         "support.class",
+        "meta.function",
         "entity.name.type",
         "meta.type.parameters",
+				"meta.type.annotation",
 				"meta.namespace.declaration",
-				"meta.function,meta.type.annotation",
         "variable.language.relations.prisma"
       ],
       "settings": {
@@ -476,6 +477,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "source.ts",
         "delimiter",
+        "meta.block",
         "meta.brace",
         "punctuation",
         "meta.parameters",

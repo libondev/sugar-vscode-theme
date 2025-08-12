@@ -42,7 +42,7 @@
     "editorGutter.modifiedBackground": "#4B69C6",
     "editorLineNumber.activeForeground": "#24292EAF",
     "editorLineNumber.foreground": "#24292E66",
-    "editorInlayHint.foreground": "#8888889F",
+    "editorInlayHint.foreground": "#777777cf",
     "errorForeground": "#A31515",
     "focusBorder": "#0000",
     "foreground": "#24292E",
@@ -153,9 +153,9 @@
         "identifier",
         "attribute.name",
         "custom.variable",
-        "support.variable",
         "custom.punctuation",
         "meta.property-value.scss",
+        "support.variable.property",
         "entity.name.function.scss",
         "keyword.operator.gradient",
         "meta.at-rule.keyframe.less",
@@ -177,6 +177,7 @@
     },
     {
       "scope": [
+        "support.variable",
         "variable.language"
       ],
       "settings": {
@@ -211,6 +212,7 @@
     {
       "scope":[
         "string",
+        "source.ini",
         "markup.underline.link",
         "meta.embedded.assembly",
 				"meta.attribute-selector.scss",
@@ -276,7 +278,6 @@
         "meta.object-literal.key",
         "meta.definition.property",
         "variable.object.property",
-        "support.variable.property",
         "support.constant.property",
         "variable.other.enummember",
         "variable.other.object.property",
@@ -395,10 +396,11 @@
       "scope": [
         "support.type",
         "support.class",
+        "meta.function",
         "entity.name.type",
         "meta.type.parameters",
+				"meta.type.annotation",
 				"meta.namespace.declaration",
-				"meta.function,meta.type.annotation",
         "variable.language.relations.prisma"
       ],
       "settings": {
@@ -448,6 +450,7 @@
       "scope": [
         "source.ts",
         "delimiter",
+        "meta.block",
         "meta.brace",
         "punctuation",
         "meta.parameters",
@@ -479,7 +482,7 @@
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "#8888889F"
+        "foreground": "#777777cf"
       }
     },
     {
