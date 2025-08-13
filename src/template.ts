@@ -1,3 +1,5 @@
+import { terminalColors } from './variable';
+
 export function getTemplate(colors: Record<string, string>) {
   const {
     name,
@@ -22,6 +24,20 @@ export function getTemplate(colors: Record<string, string>) {
   theme.inputBackground ||= background
   theme.sidebarBackground ||= background
   theme.activeBackground ||= theme.sidebarBackground
+
+  const terminalColorString = Object.keys(terminalColors).reduce((acc, cur) => {
+    let [bright, normal] = terminalColors[cur]
+
+    if (mode === 'light') {
+      [normal, bright] = [bright, normal]
+    }
+
+    acc += `
+    "terminal.ansiBright${cur}": "${bright}",
+    "terminal.ansi${cur}": "${normal}",`
+
+    return acc
+  }, '')
 
   return `{
   "name": "Sugar ${name}",
@@ -141,10 +157,10 @@ export function getTemplate(colors: Record<string, string>) {
     "tab.unfocusedActiveBorder": "${theme.listBackground}",
     "tab.unfocusedActiveBorderTop": "${border}",
     "tab.unfocusedHoverBackground": "${theme.listBackground}",
+    "terminalCursor.foreground": "${accent}",
     "terminal.foreground": "${foreground}",
     "terminal.selectionBackground": "${accent}40",
-    "terminal.tab.activeBorder": "${accent}",
-    "terminalCursor.foreground": "${accent}",
+    "terminal.tab.activeBorder": "${accent}",${terminalColorString}
     "textBlockQuote.background": "${border}",
     "textCodeBlock.background": "${border}",
     "textLink.activeForeground": "${accent}",
@@ -308,7 +324,8 @@ export function getTemplate(colors: Record<string, string>) {
         "support.constant.property",
         "variable.other.enummember",
         "variable.other.object.property",
-        "variable.other.constant.property"
+        "variable.other.constant.property",
+        "constant.language.import-export-all"
       ],
       "settings": {
         "foreground": "${theme.property}"

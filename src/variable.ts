@@ -1,3 +1,13 @@
+export const terminalColors = {
+  Black: ['#8F8F8F', '#7D7D7D'],
+  Blue: ['#0070F3', '#0060D1'],
+  Cyan: ['#12A594', '#0D8C7D'],
+  Green: ['#46A758', '#63C174'],
+  Magenta: ['#E93D82', '#DE2670'],
+  Red: ['#E5484D', '#DA3036'],
+  Yellow: ['#A26F01', '#E5C07B']
+}
+
 export const sugarDark = {
   accent: "#059669",
   border: "#424242",
@@ -43,17 +53,17 @@ export const sugarLight = {
   sidebarBackground: "#ebebec",
 
   insert: "#1E754F",
-  delete: "#CF222E",
+  delete: "#c5202b",
   change: "#4B69C6",
 
   comment: "#758575DD",
   variable: "#24292E",
   constant: "#975923",
-  keyword: "#CF222E",
+  keyword: "#c5202b",
   storage: "#247A94",
   class: "#6D42C1",
   number: "#975923",
-  string: "#1E754F",
+  string: "#468c45",
   boolean: "#247A94",
   function: "#4B69C6",
   symbol: "#777777cf",
@@ -63,9 +73,9 @@ export const sugarLight = {
   property: "#7A3E9D",
   type: "#6D42C1",
   caller: "#975923",
-  json: "#CF222E",
-  tag: "#CF222E",
-  nil: "#CF222E",
+  json: "#c5202b",
+  tag: "#c5202b",
+  nil: "#c5202b",
 }
 
 export const sugarDarkFocus = {
@@ -114,7 +124,7 @@ export const sugarLightFocus = {
   sidebarBackground: "#ebebec",
 
   insert: "#1E754F",
-  delete: "#CF222E",
+  delete: "#c5202b",
   change: "#4B69C6",
 
   comment: "#758575DD",
@@ -123,9 +133,9 @@ export const sugarLightFocus = {
   keyword: "#9A9A9A",
   storage: "#9A9A9A",
   class: "#4B69C6",
-  regexp: "#CF222E",
+  regexp: "#A31515",
   number: "#267F99",
-  string: "#CF222E",
+  string: "#A31515",
   boolean: "#267F99",
   function: "#4B69C6",
   symbol: "#777777cf",
@@ -254,7 +264,7 @@ export const sugarLightVS = {
   sidebarBackground: "#ebebec",
 
   insert: "#1E754F",
-  delete: "#CF222E",
+  delete: "#c5202b",
   change: "#4B69C6",
 
   comment: "#008000",
@@ -264,7 +274,7 @@ export const sugarLightVS = {
   storage: "#0000FF",
   class: "#267F99",
   number: "#098658",
-  string: "#CF222E",
+  string: "#c5202b",
   boolean: "#0000FF",
   function: "#795E26",
   symbol: "#777777cf",
@@ -276,7 +286,7 @@ export const sugarLightVS = {
   caller: "#D22020",
   json: "#0451A5",
   tag: "#800000",
-  nil: "#CF222E",
+  nil: "#c5202b",
 }
 
 export const sugarDarkGithub = {
@@ -324,7 +334,7 @@ export const sugarLightGithub = {
   sidebarBackground: "#eaeaeb",
 
   insert: "#1E754F",
-  delete: "#CF222E",
+  delete: "#c5202b",
   change: "#4B69C6",
 
   comment: "#6A737D",
@@ -412,7 +422,7 @@ export const sugarDarkOne = {
   baseType: "#56B6C2",
   property: "#E06C75",
   type: "#E5C07B",
-  caller: "#E06C75",
+  caller: "#D19A66",
   json: "#E06C75",
   tag: "#E06C75",
   nil: "#D19A66",
@@ -428,27 +438,27 @@ export const sugarLightOne = {
   sidebarBackground: "#ebebec",
 
   insert: "#50A14F",
-  delete: "#CF222E",
+  delete: "#bd1f29",
   change: "#006CC6",
 
   comment: "#7F848E",
   variable: "#383A42",
-  constant: "#b27a01",
+  constant: "#a26f01",
   keyword: "#A626A4",
   storage: "#A626A4",
-  class: "#b27a01",
-  number: "#b27a01",
-  string: "#50A14F",
-  boolean: "#b27a01",
+  class: "#a26f01",
+  number: "#a26f01",
+  string: "#468c45",
+  boolean: "#a26f01",
   function: "#006CC6",
   symbol: "#999999cf",
   operator: "#267F99",
-  attribute: "#b27a01",
+  attribute: "#a26f01",
   baseType: "#267F99",
-  property: "#CF222E",
-  type: "#b27a01",
-  caller: "#CF222E",
-  json: "#CF222E",
-  tag: "#CF222E",
-  nil: "#b27a01",
+  property: "#bd1f29",
+  type: "#a26f01",
+  caller: "#a26f01",
+  json: "#bd1f29",
+  tag: "#bd1f29",
+  nil: "#bd1f29",
 }

@@ -38,12 +38,12 @@
     "editorGroupHeader.tabsBackground": "#eaeaeb",
     "editorGroupHeader.tabsBorder": "#dadada",
     "editorGutter.addedBackground": "#1E754F",
-    "editorGutter.deletedBackground": "#A31515",
+    "editorGutter.deletedBackground": "#c5202b",
     "editorGutter.modifiedBackground": "#4B69C6",
     "editorLineNumber.activeForeground": "#24292EAF",
     "editorLineNumber.foreground": "#24292E66",
     "editorInlayHint.foreground": "#777777cf",
-    "errorForeground": "#A31515",
+    "errorForeground": "#c5202b",
     "focusBorder": "#0000",
     "foreground": "#24292E",
     "input.border": "#dadada",
@@ -116,10 +116,24 @@
     "tab.unfocusedActiveBorder": "#f8f8f8",
     "tab.unfocusedActiveBorderTop": "#dadada",
     "tab.unfocusedHoverBackground": "#f8f8f8",
+    "terminalCursor.foreground": "#1E754F",
     "terminal.foreground": "#24292E",
     "terminal.selectionBackground": "#1E754F40",
     "terminal.tab.activeBorder": "#1E754F",
-    "terminalCursor.foreground": "#1E754F",
+    "terminal.ansiBrightBlack": "#7D7D7D",
+    "terminal.ansiBlack": "#8F8F8F",
+    "terminal.ansiBrightBlue": "#0060D1",
+    "terminal.ansiBlue": "#0070F3",
+    "terminal.ansiBrightCyan": "#0D8C7D",
+    "terminal.ansiCyan": "#12A594",
+    "terminal.ansiBrightGreen": "#63C174",
+    "terminal.ansiGreen": "#46A758",
+    "terminal.ansiBrightMagenta": "#DE2670",
+    "terminal.ansiMagenta": "#E93D82",
+    "terminal.ansiBrightRed": "#DA3036",
+    "terminal.ansiRed": "#E5484D",
+    "terminal.ansiBrightYellow": "#E5C07B",
+    "terminal.ansiYellow": "#A26F01",
     "textBlockQuote.background": "#dadada",
     "textCodeBlock.background": "#dadada",
     "textLink.activeForeground": "#1E754F",
@@ -281,7 +295,8 @@
         "support.constant.property",
         "variable.other.enummember",
         "variable.other.object.property",
-        "variable.other.constant.property"
+        "variable.other.constant.property",
+        "constant.language.import-export-all"
       ],
       "settings": {
         "foreground": "#24292E"
@@ -518,7 +533,7 @@
         "punctuation.definition.deleted"
       ],
 			"settings": {
-				"foreground": "#A31515"
+				"foreground": "#c5202b"
 			}
 		},
 		{
