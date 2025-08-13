@@ -38,12 +38,12 @@
     "editorGroupHeader.tabsBackground": "#ebebec",
     "editorGroupHeader.tabsBorder": "#dadada",
     "editorGutter.addedBackground": "#50A14F",
-    "editorGutter.deletedBackground": "#D73A49",
-    "editorGutter.modifiedBackground": "#4078F2",
+    "editorGutter.deletedBackground": "#CF222E",
+    "editorGutter.modifiedBackground": "#006CC6",
     "editorLineNumber.activeForeground": "#24292EAF",
     "editorLineNumber.foreground": "#24292E66",
     "editorInlayHint.foreground": "#999999cf",
-    "errorForeground": "#D73A49",
+    "errorForeground": "#CF222E",
     "focusBorder": "#0000",
     "foreground": "#24292E",
     "input.border": "#dadada",
@@ -172,7 +172,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#C18401"
+        "foreground": "#b27a01"
       }
     },
     {
@@ -181,7 +181,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#CF222E"
       }
     },
     {
@@ -196,7 +196,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#C18401"
+        "foreground": "#b27a01"
       }
     },
     {
@@ -230,7 +230,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#C18401"
+        "foreground": "#b27a01"
       }
     },
     {
@@ -244,7 +244,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#C18401"
+        "foreground": "#b27a01"
       }
     },
     {
@@ -258,7 +258,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#C18401"
+        "foreground": "#b27a01"
       }
     },
     {
@@ -267,7 +267,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#C18401"
+        "foreground": "#b27a01"
       }
     },
     {
@@ -284,7 +284,7 @@
         "variable.other.constant.property"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#CF222E"
       }
     },
     {
@@ -304,7 +304,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#D73A49"
+				"foreground": "#CF222E"
 			}
     },
     {
@@ -313,7 +313,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#C18401"
+        "foreground": "#b27a01"
       }
     },
     {
@@ -321,7 +321,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#CF222E"
       }
     },
     {
@@ -331,7 +331,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#CF222E"
       }
     },
     {
@@ -378,7 +378,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#4078F2"
+        "foreground": "#006CC6"
       }
     },
     {
@@ -389,7 +389,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#C18401"
+        "foreground": "#b27a01"
       }
     },
     {
@@ -404,7 +404,7 @@
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "#C18401"
+        "foreground": "#b27a01"
       }
     },
     {
@@ -418,7 +418,7 @@
         "support.type.primitive"
       ],
       "settings": {
-        "foreground": "#0184BC"
+        "foreground": "#267F99"
       }
     },
     {
@@ -443,7 +443,7 @@
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "#0184BC"
+        "foreground": "#267F99"
       }
     },
     {
@@ -518,7 +518,7 @@
         "punctuation.definition.deleted"
       ],
 			"settings": {
-				"foreground": "#D73A49"
+				"foreground": "#CF222E"
 			}
 		},
 		{
@@ -527,7 +527,7 @@
         "punctuation.definition.changed"
       ],
 			"settings": {
-				"foreground": "#4078F2"
+				"foreground": "#006CC6"
 			}
 		},
     {

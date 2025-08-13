@@ -43,13 +43,13 @@ export const sugarLight = {
   sidebarBackground: "#ebebec",
 
   insert: "#1E754F",
-  delete: "#A31515",
+  delete: "#CF222E",
   change: "#4B69C6",
 
   comment: "#758575DD",
   variable: "#24292E",
   constant: "#975923",
-  keyword: "#A31515",
+  keyword: "#CF222E",
   storage: "#247A94",
   class: "#6D42C1",
   number: "#975923",
@@ -63,9 +63,9 @@ export const sugarLight = {
   property: "#7A3E9D",
   type: "#6D42C1",
   caller: "#975923",
-  json: "#A31515",
-  tag: "#A31515",
-  nil: "#A31515",
+  json: "#CF222E",
+  tag: "#CF222E",
+  nil: "#CF222E",
 }
 
 export const sugarDarkFocus = {
@@ -114,7 +114,7 @@ export const sugarLightFocus = {
   sidebarBackground: "#ebebec",
 
   insert: "#1E754F",
-  delete: "#A31515",
+  delete: "#CF222E",
   change: "#4B69C6",
 
   comment: "#758575DD",
@@ -123,9 +123,9 @@ export const sugarLightFocus = {
   keyword: "#9A9A9A",
   storage: "#9A9A9A",
   class: "#4B69C6",
-  regexp: "#A31515",
+  regexp: "#CF222E",
   number: "#267F99",
-  string: "#A31515",
+  string: "#CF222E",
   boolean: "#267F99",
   function: "#4B69C6",
   symbol: "#777777cf",
@@ -254,7 +254,7 @@ export const sugarLightVS = {
   sidebarBackground: "#ebebec",
 
   insert: "#1E754F",
-  delete: "#A31515",
+  delete: "#CF222E",
   change: "#4B69C6",
 
   comment: "#008000",
@@ -264,7 +264,7 @@ export const sugarLightVS = {
   storage: "#0000FF",
   class: "#267F99",
   number: "#098658",
-  string: "#A31515",
+  string: "#CF222E",
   boolean: "#0000FF",
   function: "#795E26",
   symbol: "#777777cf",
@@ -276,7 +276,7 @@ export const sugarLightVS = {
   caller: "#D22020",
   json: "#0451A5",
   tag: "#800000",
-  nil: "#A31515",
+  nil: "#CF222E",
 }
 
 export const sugarDarkGithub = {
@@ -324,7 +324,7 @@ export const sugarLightGithub = {
   sidebarBackground: "#eaeaeb",
 
   insert: "#1E754F",
-  delete: "#A31515",
+  delete: "#CF222E",
   change: "#4B69C6",
 
   comment: "#6A737D",
@@ -428,27 +428,27 @@ export const sugarLightOne = {
   sidebarBackground: "#ebebec",
 
   insert: "#50A14F",
-  delete: "#D73A49",
-  change: "#4078F2",
+  delete: "#CF222E",
+  change: "#006CC6",
 
   comment: "#7F848E",
   variable: "#383A42",
-  constant: "#C18401",
+  constant: "#b27a01",
   keyword: "#A626A4",
   storage: "#A626A4",
-  class: "#C18401",
-  number: "#C18401",
+  class: "#b27a01",
+  number: "#b27a01",
   string: "#50A14F",
-  boolean: "#C18401",
-  function: "#4078F2",
+  boolean: "#b27a01",
+  function: "#006CC6",
   symbol: "#999999cf",
-  operator: "#0184BC",
-  attribute: "#C18401",
-  baseType: "#0184BC",
-  property: "#D73A49",
-  type: "#C18401",
-  caller: "#D73A49",
-  json: "#D73A49",
-  tag: "#D73A49",
-  nil: "#C18401",
+  operator: "#267F99",
+  attribute: "#b27a01",
+  baseType: "#267F99",
+  property: "#CF222E",
+  type: "#b27a01",
+  caller: "#CF222E",
+  json: "#CF222E",
+  tag: "#CF222E",
+  nil: "#b27a01",
 }
