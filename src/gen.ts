@@ -4,11 +4,13 @@ import {
   sugarDark, sugarDarkFocus,
   sugarDarkGithub,
   sugarDarkMidnight,
+  sugarDarkOne,
   sugarDarkVitesse,
   sugarDarkVS,
   sugarLight,
   sugarLightFocus,
   sugarLightGithub,
+  sugarLightOne,
   sugarLightVitesse,
   sugarLightVS
 } from './variable';
@@ -23,7 +25,6 @@ async function rewriteColorTheme() {
         name: "Dark",
         ...sugarDark,
       }),
-      "utf8",
     ],
     [
       "themes/light.json",
@@ -32,7 +33,6 @@ async function rewriteColorTheme() {
         name: "Light",
         ...sugarLight,
       }),
-      "utf8",
     ],
     [
       "themes/dark-focus.json",
@@ -41,7 +41,6 @@ async function rewriteColorTheme() {
         name: "Dark Focus",
         ...sugarDarkFocus,
       }),
-      "utf8",
     ],
     [
       "themes/light-focus.json",
@@ -50,7 +49,6 @@ async function rewriteColorTheme() {
         name: "Light Focus",
         ...sugarLightFocus,
       }),
-      "utf8",
     ],
     [
       "themes/dark-vitesse.json",
@@ -59,7 +57,6 @@ async function rewriteColorTheme() {
         name: "Dark Vitesse",
         ...sugarDarkVitesse,
       }),
-      "utf8",
     ],
     [
       "themes/light-vitesse.json",
@@ -68,7 +65,6 @@ async function rewriteColorTheme() {
         name: "Light Vitesse",
         ...sugarLightVitesse,
       }),
-      "utf8",
     ],
     [
       "themes/dark-vs.json",
@@ -77,7 +73,6 @@ async function rewriteColorTheme() {
         name: "Dark VS",
         ...sugarDarkVS,
       }),
-      "utf8",
     ],
     [
       "themes/light-vs.json",
@@ -86,7 +81,6 @@ async function rewriteColorTheme() {
         name: "Light VS",
         ...sugarLightVS,
       }),
-      "utf8",
     ],
     [
       "themes/light-github.json",
@@ -95,7 +89,6 @@ async function rewriteColorTheme() {
         name: "Light Github",
         ...sugarLightGithub,
       }),
-      "utf8",
     ],
     [
       "themes/dark-github.json",
@@ -104,7 +97,6 @@ async function rewriteColorTheme() {
         name: "Dark Github",
         ...sugarDarkGithub,
       }),
-      "utf8",
     ],
     [
       "themes/dark-midnight.json",
@@ -113,12 +105,28 @@ async function rewriteColorTheme() {
         name: "Dark Midnight",
         ...sugarDarkMidnight,
       }),
-      "utf8",
+    ],
+    [
+      "themes/dark-one.json",
+      getTemplate({
+        mode: "dark",
+        name: "Dark One",
+        ...sugarDarkOne,
+      }),
+    ],
+    [
+      "themes/light-one.json",
+      getTemplate({
+        mode: "light",
+        name: "Light One",
+        ...sugarLightOne,
+      }),
     ],
   ];
 
   files.forEach((file) => {
-    fs.writeFileSync(...file)
+    // @ts-expect-error
+    fs.writeFileSync(...file, 'utf-8')
   })
 
 }
