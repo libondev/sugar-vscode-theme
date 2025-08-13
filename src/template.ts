@@ -254,7 +254,7 @@ export function getTemplate(colors: Record<string, string>) {
       }
     },
     {
-      "scope":[
+      "scope": [
         "string",
         "source.ini",
         "markup.underline.link",

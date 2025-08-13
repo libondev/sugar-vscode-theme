@@ -189,7 +189,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#a26f01"
+        "foreground": "#A26F01"
       }
     },
     {
@@ -198,7 +198,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#a26f01"
+        "foreground": "#A26F01"
       }
     },
     {
@@ -213,7 +213,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#a26f01"
+        "foreground": "#A26F01"
       }
     },
     {
@@ -227,7 +227,7 @@
       }
     },
     {
-      "scope":[
+      "scope": [
         "string",
         "source.ini",
         "markup.underline.link",
@@ -247,7 +247,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#a26f01"
+        "foreground": "#A26F01"
       }
     },
     {
@@ -261,7 +261,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#a26f01"
+        "foreground": "#A26F01"
       }
     },
     {
@@ -275,7 +275,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#a26f01"
+        "foreground": "#A26F01"
       }
     },
     {
@@ -284,7 +284,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#a26f01"
+        "foreground": "#A26F01"
       }
     },
     {
@@ -407,7 +407,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#a26f01"
+        "foreground": "#267F99"
       }
     },
     {
@@ -422,7 +422,7 @@
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "#a26f01"
+        "foreground": "#A26F01"
       }
     },
     {

@@ -227,7 +227,7 @@
       }
     },
     {
-      "scope":[
+      "scope": [
         "string",
         "source.ini",
         "markup.underline.link",
@@ -407,7 +407,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#E5C07B"
+        "foreground": "#56B6C2"
       }
     },
     {
