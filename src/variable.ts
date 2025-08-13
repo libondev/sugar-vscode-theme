@@ -1,11 +1,12 @@
 export const terminalColors = {
-  Black: ['#8F8F8F', '#7D7D7D'],
+  Black: ['#777777', '#393a34'],
   Blue: ['#0070F3', '#0060D1'],
   Cyan: ['#12A594', '#0D8C7D'],
   Green: ['#46A758', '#63C174'],
   Magenta: ['#E93D82', '#DE2670'],
   Red: ['#E5484D', '#DA3036'],
-  Yellow: ['#A26F01', '#E5C07B']
+  Yellow: ['#A26F01', '#E5C07B'],
+  White: ['#ffffff', '#ffffff']
 }
 
 export const sugarDark = {
@@ -124,7 +125,7 @@ export const sugarLightFocus = {
   sidebarBackground: "#ebebec",
 
   insert: "#1E754F",
-  delete: "#c5202b",
+  delete: "#CF222E",
   change: "#4B69C6",
 
   comment: "#758575DD",
@@ -438,7 +439,7 @@ export const sugarLightOne = {
   sidebarBackground: "#ebebec",
 
   insert: "#50A14F",
-  delete: "#bd1f29",
+  delete: "#C11f2A",
   change: "#006CC6",
 
   comment: "#7F848E",
@@ -455,10 +456,10 @@ export const sugarLightOne = {
   operator: "#267F99",
   attribute: "#a26f01",
   baseType: "#267F99",
-  property: "#bd1f29",
+  property: "#C11f2A",
   type: "#a26f01",
   caller: "#a26f01",
-  json: "#bd1f29",
-  tag: "#bd1f29",
-  nil: "#bd1f29",
+  json: "#C11f2A",
+  tag: "#C11f2A",
+  nil: "#C11f2A",
 }
