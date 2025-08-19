@@ -1,11 +1,11 @@
 export const terminalColors = {
   Black: ['#777777', '#393a34'],
   Blue: ['#0070F3', '#0060D1'],
-  Cyan: ['#12A594', '#0D8C7D'],
+  Cyan: ['#14b8a6', '#0D8C7D'],
   Green: ['#46A758', '#63C174'],
   Magenta: ['#E93D82', '#DE2670'],
   Red: ['#E5484D', '#DA3036'],
-  Yellow: ['#A26F01', '#E5C07B'],
+  Yellow: ['#fbbf24', '#E5C07B'],
   White: ['#ffffff', '#ffffff']
 }
 
