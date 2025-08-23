@@ -8,7 +8,6 @@ import {
   sugarDarkVitesse,
   sugarDarkVS,
   sugarLight,
-  sugarLightFocus,
   sugarLightOne,
   sugarLightVitesse,
   sugarLightVS
@@ -39,14 +38,6 @@ async function rewriteColorTheme() {
         mode: "dark",
         name: "Dark Focus",
         ...sugarDarkFocus,
-      }),
-    ],
-    [
-      "themes/light-focus.json",
-      getTemplate({
-        mode: "light",
-        name: "Light Focus",
-        ...sugarLightFocus,
       }),
     ],
     [
