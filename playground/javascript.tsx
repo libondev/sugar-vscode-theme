@@ -22,7 +22,9 @@ const array: number[] = [1, 2, 3] + []
 
 const object: Record<string, any> = {
   aaa: 1,
-  bbb: 2,
+  bbb: true,
+  ccc: [],
+  ddd: {},
   array,
   string: 'lorem long text...',
   class: Array,
@@ -69,12 +71,12 @@ function Button({ onClick }: { onClick: () => void }): JSX.Element {
 
 export function Component<Generics>(): Generics {
   const handleClick = (ev: MouseEvent | undefined) => {
-    console.log(ev, object?.aaa)
+    console.log(ev, ev?.target)
   }
 
   return (
     <div>
-      <h1 title="title" className={ 'text-lg' } style='--font-size: 1.2rem;'>
+      <h1 title="title" className={ ev?.target } style='--font-size: 1.2rem;'>
         <span> Click the button to see some confetti! </span>
       </h1>
 

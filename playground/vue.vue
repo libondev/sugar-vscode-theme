@@ -1,4 +1,4 @@
-<script setup>
+<script lang="ts" setup>
 import { computed, ref } from 'vue'
 
 const props = defineProps({
@@ -24,7 +24,7 @@ const modelValue = computed({
   get() {
     return props.modelValue
   },
-  set(value) {
+  set(value: string) {
     state.value = value
     emits('update:modelValue', value)
   }
@@ -41,7 +41,11 @@ modelValue.value.toString().split('')
 
 <template>
   <div>
-    <div v-for="num of 10" class="class-names" :title="modelValue" @click="logger">
+    <div v-for="num of 10"
+      class="class-names"
+      :title="modelValue"
+      @click="logger"
+    >
       {{ num }}
     </div>
   </div>
