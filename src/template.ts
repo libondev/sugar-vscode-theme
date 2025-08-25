@@ -322,6 +322,7 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.object-literal.key",
         "meta.definition.property",
         "variable.object.property",
+        "support.variable.property",
         "support.constant.property",
         "variable.other.enummember",
         "variable.other.object.property",
