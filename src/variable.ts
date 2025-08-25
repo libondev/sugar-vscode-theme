@@ -5,7 +5,7 @@ export const terminalColors = {
   Green: ['#46A758', '#63C174'],
   Magenta: ['#E93D82', '#DE2670'],
   Red: ['#E5484D', '#DA3036'],
-  Yellow: ['#fbbf24', '#E5C07B'],
+  Yellow: ['#A26F01', '#E5C07B'],
   White: ['#ffffff', '#ffffff']
 }
 
