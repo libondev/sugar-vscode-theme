@@ -13,10 +13,10 @@ export const sugarDark = {
   accent: "#059669",
   border: "#424242",
   foreground: "#E4E4E4",
-  background: "#1b1e23",
+  background: "#181818",
   listBackground: "#1F1F1F",
-  editorForeground: "#BBBBBB",
-  sidebarBackground: "#181818",
+  editorForeground: "#CCCCCC",
+  sidebarBackground: "#121212",
 
   insert: "#059669",
   delete: "#E06C75",
