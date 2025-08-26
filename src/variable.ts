@@ -24,7 +24,7 @@ export const sugarDark = {
 
   comment: "#7F848E",
   variable: "#61AFEF",
-  constant: "#61AFEF",
+  constant: "#56B6C2",
   keyword: "#E06C75",
   storage: "#56B6C2",
   class: "#B392F0",
