@@ -20,11 +20,11 @@ export const sugarDark = {
 
   insert: "#059669",
   delete: "#E06C75",
-  change: "#61AFEF",
+  change: "#59A0DB",
 
   comment: "#7F848E",
-  variable: "#61AFEF",
-  constant: "#56B6C2",
+  variable: "#BCBCBC",
+  constant: "#59A0DB",
   keyword: "#E06C75",
   storage: "#56B6C2",
   class: "#B392F0",
