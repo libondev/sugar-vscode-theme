@@ -81,7 +81,7 @@ export function getTemplate(colors: Record<string, string>) {
     "editorGutter.addedBackground": "${theme.insert}",
     "editorGutter.deletedBackground": "${theme.delete}",
     "editorGutter.modifiedBackground": "${theme.change}",
-    "editorLineNumber.activeForeground": "${foreground}AF",
+    "editorLineNumber.activeForeground": "${foreground}",
     "editorLineNumber.foreground": "${foreground}66",
     "editorInlayHint.foreground": "${theme.symbol}",
     "errorForeground": "${theme.delete}",

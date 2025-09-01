@@ -40,7 +40,7 @@
     "editorGutter.addedBackground": "#50A14F",
     "editorGutter.deletedBackground": "#C11f2A",
     "editorGutter.modifiedBackground": "#006CC6",
-    "editorLineNumber.activeForeground": "#24292EAF",
+    "editorLineNumber.activeForeground": "#24292E",
     "editorLineNumber.foreground": "#24292E66",
     "editorInlayHint.foreground": "#999999cf",
     "errorForeground": "#C11f2A",
