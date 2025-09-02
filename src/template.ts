@@ -405,7 +405,6 @@ export function getTemplate(colors: Record<string, string>) {
         "constant.character",
         "keyword.operator.new",
         "storage.type.class.jsdoc",
-        "punctuation.separator.less",
         "keyword.operator.expression",
         "support.type.object.module.js"
       ],
@@ -509,6 +508,7 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.type.annotation",
         "meta.feature-query.css",
         "meta.function.calc.css",
+        "meta.property-list.css",
         "source.prisma.embedded",
         "meta.tag.block.any.html",
         "meta.tag.inline.any.html",

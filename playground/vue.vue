@@ -63,27 +63,42 @@ modelValue.value.toString().split('')
 
 body::after{
   content: '';
+  & {
+    width: min(100px, 20vw);
+    color: red;
+  }
 }
 </style>
 
-<style scoped>
-.w-800px ::v-deep .el-form-item--mini.el-form-item,
-.w-800px ::v-deep .el-form-item--small.el-form-item {
+<style lang="postcss" scoped>
+.w-100 ::v-deep .el-form-item,
+.w-100 ::v-deep .el-form-item--small.el-form-item {
   margin-bottom: 16px;
 }
 
 body::after{
   content: '';
+
+  & {
+    width: min(100px, 20vw);
+    color: red;
+  }
 }
+
 </style>
 
 <style lang="less" scoped>
-.w-800px ::v-deep .el-form-item--mini.el-form-item,
-.w-800px ::v-deep .el-form-item--small.el-form-item {
+.w-100 ::v-deep .item,
+.w-100 ::v-deep .item {
   margin-bottom: 16px;
 }
 
 body::after{
   content: '';
+
+  & {
+    width: min(100px, 20vw);
+    color: red;
+  }
 }
 </style>
