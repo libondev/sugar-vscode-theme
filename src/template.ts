@@ -214,7 +214,7 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "${['Vitesse', 'VS'].find(key => name.includes(key))
+        "foreground": "${['VS'].find(key => name.includes(key))
       ? theme.variable
       : theme.attribute}"
       }
@@ -281,6 +281,7 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "number",
         "constant.numeric",
+        "keyword.other.unit",
         "meta.at-rule.keyframes.scss",
         "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",

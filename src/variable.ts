@@ -140,7 +140,7 @@ export const sugarDarkVitesse = {
   function: "#80A665",
   symbol: "#999999cf",
   operator: "#CB7676",
-  attribute: "#B8A965",
+  attribute: "#BD976A",
   baseType: "#4D9375",
   property: "#B8A965",
   type: "#5b9fb1",

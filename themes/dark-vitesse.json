@@ -254,6 +254,7 @@
       "scope": [
         "number",
         "constant.numeric",
+        "keyword.other.unit",
         "meta.at-rule.keyframes.scss",
         "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
@@ -274,7 +275,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#B8A965"
+        "foreground": "#BD976A"
       }
     },
     {
@@ -283,7 +284,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#B8A965"
+        "foreground": "#BD976A"
       }
     },
     {
