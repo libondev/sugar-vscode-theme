@@ -281,7 +281,6 @@ export function getTemplate(colors: Record<string, string>) {
       "scope": [
         "number",
         "constant.numeric",
-        "keyword.other.unit",
         "meta.at-rule.keyframes.scss",
         "entity.other.keyframe-offset",
         "entity.other.attribute-name.scss",
