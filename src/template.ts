@@ -26,7 +26,7 @@ export function getTemplate(colors: Record<string, string>) {
   theme.activeBackground ||= theme.sidebarBackground
 
   const terminalColorString = Object.keys(terminalColors).reduce((acc, cur) => {
-    let [bright, normal] = terminalColors[cur]
+    let [bright, normal] = terminalColors[cur as keyof typeof terminalColors];
 
     if (mode === 'light') {
       [normal, bright] = [bright, normal]
