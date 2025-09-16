@@ -402,6 +402,7 @@
     },
     {
       "scope": [
+        "entity.name.namespace",
         "entity.name.type.class",
         "entity.name.type.module",
         "support.class.component",

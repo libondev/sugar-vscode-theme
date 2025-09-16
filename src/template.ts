@@ -214,9 +214,11 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "${['VS'].find(key => name.includes(key))
-      ? theme.variable
-      : theme.attribute}"
+        "foreground": "${
+          ["VS"].find((key) => name.includes(key))
+            ? theme.variable
+            : theme.attribute
+        }"
       }
     },
     {
@@ -429,6 +431,7 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
+        "entity.name.namespace",
         "entity.name.type.class",
         "entity.name.type.module",
         "support.class.component",
@@ -600,7 +603,7 @@ export function getTemplate(colors: Record<string, string>) {
       }
     }
   ]
-}`
+}`;
 }
 
 // function adjustHexColor(hexColor: string, relativeValue: number) {
