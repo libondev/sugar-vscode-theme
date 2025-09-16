@@ -6,7 +6,7 @@ export const terminalColors = {
   Magenta: ["#E93D82", "#DE2670"],
   Red: ["#E5484D", "#DA3036"],
   Yellow: ["#E5C07B", "#E5C07B"],
-  White: ["#ffffff", "#ffffff"],
+  White: ["#cccccc", "#cccccc"],
 };
 
 export const sugarDark = {
