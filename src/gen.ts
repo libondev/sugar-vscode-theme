@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import { getTemplate } from './template';
 import {
-  sugarDark, sugarDarkFocus,
+  sugarDark,
+  sugarDarkFleet,
+  sugarDarkFocus,
   sugarDarkGithub,
   sugarDarkMidnight,
   sugarDarkOne,
@@ -10,11 +12,10 @@ import {
   sugarLight,
   sugarLightOne,
   sugarLightVitesse,
-  sugarLightVS
-} from './variable';
+  sugarLightVS,
+} from "./variable";
 
 async function rewriteColorTheme() {
-
   const files: Parameters<typeof fs.writeFileSync>[] = [
     [
       "themes/dark.json",
@@ -104,13 +105,20 @@ async function rewriteColorTheme() {
         ...sugarLightOne,
       }),
     ],
+    [
+      "themes/dark-fleet.json",
+      getTemplate({
+        mode: "dark",
+        name: "Fleet",
+        ...sugarDarkFleet,
+      }),
+    ],
   ];
 
   files.forEach((file) => {
     // @ts-expect-error
-    fs.writeFileSync(...file, 'utf-8')
-  })
-
+    fs.writeFileSync(...file, "utf-8");
+  });
 }
 
 rewriteColorTheme()

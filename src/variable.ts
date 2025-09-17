@@ -394,3 +394,38 @@ export const sugarLightOne = {
   tag: "#C11f2A",
   nil: "#C11f2A",
 };
+
+export const sugarDarkFleet = {
+  accent: "#059669",
+  border: "#424242",
+  foreground: "#DADADA",
+  background: "#101214",
+  listBackground: "#2b2d30",
+  editorForeground: "#BCBEC4",
+  sidebarBackground: "#2b2d30",
+
+  insert: "#059669",
+  delete: "#E06C75",
+  change: "#61AFEF",
+
+  comment: "#7A7E85",
+  variable: "#BCBEC4",
+  constant: "#D5B778",
+  keyword: "#CF8E6D",
+  storage: "#CF8E6D",
+  class: "#56B6C2",
+  number: "#2AACB8",
+  string: "#6AAB73",
+  boolean: "#2AACB8",
+  function: "#66A6FF",
+  symbol: "#88888888",
+  secondary: "#8b95a7",
+  attribute: "#CF8E6D",
+  baseType: "#CF8E6D",
+  property: "#C77DBB",
+  type: "#D5B778",
+  caller: "#CF8E6D",
+  json: "#C77DBB",
+  tag: "#D5B778",
+  nil: "#CB7676",
+};
