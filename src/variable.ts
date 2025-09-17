@@ -369,7 +369,7 @@ export const sugarLightOne = {
   editorForeground: "#24292E",
   sidebarBackground: "#ebebec",
 
-  insert: "#50A14F",
+  insert: "#1E754F",
   delete: "#C11f2A",
   change: "#006CC6",
 
@@ -393,4 +393,4 @@ export const sugarLightOne = {
   json: "#C11f2A",
   tag: "#C11f2A",
   nil: "#C11f2A",
-}
+};

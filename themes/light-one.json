@@ -37,7 +37,7 @@
     "editorGroupHeader.border": "#dadada",
     "editorGroupHeader.tabsBackground": "#ebebec",
     "editorGroupHeader.tabsBorder": "#dadada",
-    "editorGutter.addedBackground": "#50A14F",
+    "editorGutter.addedBackground": "#1E754F",
     "editorGutter.deletedBackground": "#C11f2A",
     "editorGutter.modifiedBackground": "#006CC6",
     "editorLineNumber.activeForeground": "#24292E",
@@ -530,7 +530,7 @@
         "punctuation.definition.inserted"
       ],
 			"settings": {
-				"foreground": "#50A14F"
+				"foreground": "#1E754F"
 			}
 		},
 		{
