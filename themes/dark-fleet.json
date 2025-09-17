@@ -42,7 +42,7 @@
     "editorGutter.modifiedBackground": "#61AFEF",
     "editorLineNumber.activeForeground": "#DADADA",
     "editorLineNumber.foreground": "#DADADA66",
-    "editorInlayHint.foreground": "#88888888",
+    "editorInlayHint.foreground": "#999999cf",
     "errorForeground": "#E06C75",
     "focusBorder": "#0000",
     "foreground": "#DADADA",
@@ -463,7 +463,7 @@
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "undefined"
+        "foreground": "#CF8E6D"
       }
     },
     {
@@ -503,7 +503,7 @@
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "#88888888"
+        "foreground": "#999999cf"
       }
     },
     {

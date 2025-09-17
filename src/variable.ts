@@ -42,7 +42,7 @@ export const sugarDark = {
   json: "#E06C75",
   tag: "#E06C75",
   nil: "#56B6C2",
-}
+};
 
 export const sugarLight = {
   accent: "#1E754F",
@@ -68,7 +68,6 @@ export const sugarLight = {
   boolean: "#247A94",
   function: "#005CC5",
   symbol: "#777777cf",
-  // operator: "#939dae",
   operator: "#C11f2A",
   attribute: "#A26F01",
   baseType: "#247A94",
@@ -78,7 +77,7 @@ export const sugarLight = {
   json: "#C11f2A",
   tag: "#C11f2A",
   nil: "#247A94",
-}
+};
 
 export const sugarDarkFocus = {
   accent: "#059669",
@@ -114,7 +113,7 @@ export const sugarDarkFocus = {
   json: "#D8D8D8",
   tag: "#888888",
   nil: "#56B6C2",
-}
+};
 
 export const sugarDarkVitesse = {
   accent: "#059669",
@@ -148,7 +147,7 @@ export const sugarDarkVitesse = {
   json: "#B8A965",
   tag: "#4D9375",
   nil: "#CB7676",
-}
+};
 
 export const sugarLightVitesse = {
   accent: "#1E754F",
@@ -183,7 +182,7 @@ export const sugarLightVitesse = {
   json: "#998418",
   tag: "#1E754F",
   nil: "#AB5959",
-}
+};
 
 export const sugarDarkVS = {
   accent: "#059669",
@@ -218,7 +217,7 @@ export const sugarDarkVS = {
   json: "#9CDCFE",
   tag: "#569CD6",
   nil: "#CB7676",
-}
+};
 
 export const sugarLightVS = {
   accent: "#1E754F",
@@ -253,16 +252,16 @@ export const sugarLightVS = {
   json: "#0451A5",
   tag: "#800000",
   nil: "#c5202b",
-}
+};
 
 export const sugarDarkGithub = {
-  accent: '#059669',
-  border: '#424242',
-  foreground: '#DADADA',
-  background: '#181818',
-  listBackground: '#2b2d30',
-  editorForeground: '#D4D4D4',
-  sidebarBackground: '#1f2428',
+  accent: "#059669",
+  border: "#424242",
+  foreground: "#DADADA",
+  background: "#181818",
+  listBackground: "#2b2d30",
+  editorForeground: "#D4D4D4",
+  sidebarBackground: "#1f2428",
 
   insert: "#059669",
   delete: "#E06C75",
@@ -288,7 +287,7 @@ export const sugarDarkGithub = {
   json: "#79B8FF",
   tag: "#7ed794",
   nil: "#9ECBFF",
-}
+};
 
 export const sugarDarkMidnight = {
   accent: "#059669",
@@ -323,7 +322,7 @@ export const sugarDarkMidnight = {
   json: "#81A1C1",
   tag: "#81A1C1",
   nil: "#B48EAD",
-}
+};
 
 export const sugarDarkOne = {
   accent: "#059669",
@@ -358,7 +357,7 @@ export const sugarDarkOne = {
   json: "#E06C75",
   tag: "#E06C75",
   nil: "#D19A66",
-}
+};
 
 export const sugarLightOne = {
   accent: "#1E754F",
@@ -418,8 +417,8 @@ export const sugarDarkFleet = {
   string: "#6AAB73",
   boolean: "#2AACB8",
   function: "#66A6FF",
-  symbol: "#88888888",
-  secondary: "#8b95a7",
+  symbol: "#999999cf",
+  operator: "#CF8E6D",
   attribute: "#CF8E6D",
   baseType: "#CF8E6D",
   property: "#C77DBB",
