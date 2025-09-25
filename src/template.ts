@@ -215,7 +215,7 @@ export function getTemplate(colors: Record<string, string>) {
       ],
       "settings": {
         "foreground": "${
-          ["VS"].find((key) => name.includes(key))
+          ["Dark VS"].find((key) => name.includes(key))
             ? theme.variable
             : theme.attribute
         }"

@@ -189,7 +189,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#333333"
+        "foreground": "#D22020"
       }
     },
     {
@@ -304,7 +304,7 @@
         "constant.language.import-export-all"
       ],
       "settings": {
-        "foreground": "#D22020"
+        "foreground": "#333333"
       }
     },
     {
@@ -325,7 +325,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#D22020"
+				"foreground": "#333333"
 			}
     },
     {
@@ -398,7 +398,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#795E26"
+        "foreground": "#A26F01"
       }
     },
     {
