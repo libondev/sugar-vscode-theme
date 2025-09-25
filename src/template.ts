@@ -310,7 +310,8 @@ export function getTemplate(colors: Record<string, string>) {
     {
       "scope": [
         "entity.other.attribute-name.id",
-        "entity.other.attribute-name.class"
+        "entity.other.attribute-name.class",
+        "punctuation.definition.entity.css"
       ],
       "settings": {
         "foreground": "${theme.classes}"

@@ -281,7 +281,8 @@
     {
       "scope": [
         "entity.other.attribute-name.id",
-        "entity.other.attribute-name.class"
+        "entity.other.attribute-name.class",
+        "punctuation.definition.entity.css"
       ],
       "settings": {
         "foreground": "#D19A66"

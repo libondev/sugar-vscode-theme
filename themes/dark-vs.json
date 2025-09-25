@@ -198,7 +198,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#d0a67f"
+        "foreground": "#D7BA7D"
       }
     },
     {
@@ -213,7 +213,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#d0a67f"
+        "foreground": "#D7BA7D"
       }
     },
     {
@@ -281,10 +281,11 @@
     {
       "scope": [
         "entity.other.attribute-name.id",
-        "entity.other.attribute-name.class"
+        "entity.other.attribute-name.class",
+        "punctuation.definition.entity.css"
       ],
       "settings": {
-        "foreground": "#9CDCFE"
+        "foreground": "#D7BA7D"
       }
     },
     {
