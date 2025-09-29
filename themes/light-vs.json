@@ -304,7 +304,7 @@
         "constant.language.import-export-all"
       ],
       "settings": {
-        "foreground": "#333333"
+        "foreground": "#001080"
       }
     },
     {
@@ -325,7 +325,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#333333"
+				"foreground": "#001080"
 			}
     },
     {
@@ -398,7 +398,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#A26F01"
+        "foreground": "#795E26"
       }
     },
     {
