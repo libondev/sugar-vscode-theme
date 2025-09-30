@@ -223,7 +223,7 @@
         "constant.other.character-class"
       ],
       "settings": {
-        "foreground": "#009000"
+        "foreground": "#008000"
       }
     },
     {
@@ -238,7 +238,7 @@
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "#009000"
+        "foreground": "#008000"
       }
     },
     {
