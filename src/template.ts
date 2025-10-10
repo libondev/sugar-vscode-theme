@@ -203,6 +203,8 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.at-rule.keyframe.less",
         "meta.function-call.arguments",
         "support.type.custom-property",
+        "variable.other.object.property",
+        "variable.other.constant.property",
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
@@ -328,8 +330,6 @@ export function getTemplate(colors: Record<string, string>) {
         "support.variable.property",
         "support.constant.property",
         "variable.other.enummember",
-        "variable.other.object.property",
-        "variable.other.constant.property",
         "constant.language.import-export-all"
       ],
       "settings": {
