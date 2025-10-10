@@ -141,10 +141,10 @@ export const sugarDarkVitesse = {
   operator: "#CB7676",
   attribute: "#BD976A",
   baseType: "#4D9375",
-  property: "#B8A965",
-  type: "#5b9fb1",
+  property: "#b3a35b",
+  type: "#559caf",
   caller: "#BD976A",
-  json: "#B8A965",
+  json: "#b3a35b",
   tag: "#4D9375",
   nil: "#CB7676",
 };
