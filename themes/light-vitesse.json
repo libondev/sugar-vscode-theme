@@ -42,7 +42,7 @@
     "editorGutter.modifiedBackground": "#3968a0",
     "editorLineNumber.activeForeground": "#24292E",
     "editorLineNumber.foreground": "#24292E66",
-    "editorInlayHint.foreground": "#999999cf",
+    "editorInlayHint.foreground": "#888888cf",
     "errorForeground": "#a25f5b",
     "focusBorder": "#0000",
     "foreground": "#24292E",
@@ -403,6 +403,7 @@
     },
     {
       "scope": [
+        "support.class",
         "entity.name.namespace",
         "entity.name.type.class",
         "entity.name.type.module",
@@ -416,7 +417,6 @@
     {
       "scope": [
         "support.type",
-        "support.class",
         "meta.function",
         "entity.name.type",
         "meta.type.parameters",
@@ -504,7 +504,7 @@
         "invalid.illegal.character-not-allowed-here.html"
       ],
       "settings": {
-        "foreground": "#999999cf"
+        "foreground": "#888888cf"
       }
     },
     {
