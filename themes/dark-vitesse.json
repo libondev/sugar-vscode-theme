@@ -304,7 +304,7 @@
         "constant.language.import-export-all"
       ],
       "settings": {
-        "foreground": "#b3a35b"
+        "foreground": "#B8A965"
       }
     },
     {
@@ -325,7 +325,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#b3a35b"
+				"foreground": "#B8A965"
 			}
     },
     {
@@ -352,7 +352,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#b3a35b"
+        "foreground": "#B8A965"
       }
     },
     {

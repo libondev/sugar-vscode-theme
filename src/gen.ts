@@ -10,7 +10,6 @@ import {
   sugarDarkVitesse,
   sugarDarkVS,
   sugarLight,
-  sugarLightOne,
   sugarLightVitesse,
   sugarLightVS,
 } from "./variable";
@@ -95,14 +94,6 @@ async function rewriteColorTheme() {
         mode: "dark",
         name: "Dark One",
         ...sugarDarkOne,
-      }),
-    ],
-    [
-      "themes/light-one.json",
-      getTemplate({
-        mode: "light",
-        name: "Light One",
-        ...sugarLightOne,
       }),
     ],
     [

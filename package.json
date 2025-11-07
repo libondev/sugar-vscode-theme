@@ -80,11 +80,6 @@
         "path": "./themes/dark-one.json"
       },
       {
-        "label": "Sugar Light One",
-        "uiTheme": "vs",
-        "path": "./themes/light-one.json"
-      },
-      {
         "label": "Sugar Dark Fleet",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-fleet.json"

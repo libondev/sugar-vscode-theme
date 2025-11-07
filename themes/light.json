@@ -191,7 +191,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#A26F01"
+        "foreground": "#986801"
       }
     },
     {
@@ -200,7 +200,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#A26F01"
+        "foreground": "#986801"
       }
     },
     {
@@ -215,7 +215,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#A26F01"
+        "foreground": "#986801"
       }
     },
     {
@@ -249,7 +249,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#247A94"
+        "foreground": "#986801"
       }
     },
     {
@@ -263,7 +263,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#A26F01"
+        "foreground": "#986801"
       }
     },
     {
@@ -277,7 +277,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#A26F01"
+        "foreground": "#986801"
       }
     },
     {
@@ -287,7 +287,7 @@
         "punctuation.definition.entity.css"
       ],
       "settings": {
-        "foreground": "#A26F01"
+        "foreground": "#986801"
       }
     },
     {
