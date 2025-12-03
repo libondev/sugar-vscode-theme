@@ -295,7 +295,7 @@ export const sugarDarkMidnight = {
   accent: "#059669",
   border: "#424242",
   foreground: "#D8D8D8",
-  background: "#121212",
+  background: "#1e2127",
   listBackground: "#2b2d30",
   editorForeground: "#DDDDDD",
   sidebarBackground: "#191c22",
