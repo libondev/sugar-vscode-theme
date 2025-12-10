@@ -25,10 +25,10 @@ async function rewriteColorTheme() {
       }),
     ],
     [
-      "themes/light.json",
+      "themes/light-one.json",
       getTemplate({
         mode: "light",
-        name: "Light",
+        name: "Light One",
         ...sugarLight,
       }),
     ],

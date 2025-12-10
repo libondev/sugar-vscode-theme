@@ -16,7 +16,7 @@ const number = 1 + 2 * 3 / 4 % 5
 
 const string = 'hello' + ", world" + `${number}`
 
-const boolean = true || false && true ?? false
+const boolean = (true || false) && (true ?? false)
 
 const array: number[] = [1, 2, 3] + []
 
