@@ -159,7 +159,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#a2a3a7"
+        "foreground": "#6A737D"
       }
     },
     {
@@ -183,7 +183,7 @@
         "punctuation.definition.custom-property.less"
       ],
       "settings": {
-        "foreground": "#383A42"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -191,7 +191,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#c18401"
+        "foreground": "#6F42C1"
       }
     },
     {
@@ -200,7 +200,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#3882b7"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -215,7 +215,7 @@
         "punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#c18401"
+        "foreground": "#267F99"
       }
     },
     {
@@ -225,7 +225,7 @@
         "constant.other.character-class"
       ],
       "settings": {
-        "foreground": "#649f57"
+        "foreground": "#22863A"
       }
     },
     {
@@ -240,7 +240,7 @@
         "string punctuation.section.embedded source"
       ],
       "settings": {
-        "foreground": "#649f57"
+        "foreground": "#22863A"
       }
     },
     {
@@ -249,7 +249,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#ad6e25"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -263,7 +263,7 @@
         "source.css.less keyword.other.keyframe-selector.less"
       ],
       "settings": {
-        "foreground": "#ad6e25"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -277,7 +277,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#c18401"
+        "foreground": "#6F42C1"
       }
     },
     {
@@ -287,7 +287,7 @@
         "punctuation.definition.entity.css"
       ],
       "settings": {
-        "foreground": "#c18401"
+        "foreground": "#6F42C1"
       }
     },
     {
@@ -304,7 +304,7 @@
         "constant.language.import-export-all"
       ],
       "settings": {
-        "foreground": "#d3604f"
+        "foreground": "#24292E"
       }
     },
     {
@@ -325,7 +325,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#d3604f"
+				"foreground": "#24292E"
 			}
     },
     {
@@ -334,7 +334,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#c18401"
+        "foreground": "#267F99"
       }
     },
     {
@@ -342,7 +342,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#5c78e2"
+        "foreground": "#22863A"
       }
     },
     {
@@ -352,7 +352,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#d3604f"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -370,7 +370,7 @@
         "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "#a449ab"
+        "foreground": "#D73A49"
       }
     },
     {
@@ -383,7 +383,7 @@
         "support.type.object.module.js"
       ],
       "settings": {
-        "foreground": "#a449ab"
+        "foreground": "#D73A49"
       }
     },
     {
@@ -398,7 +398,7 @@
 				"source.powershell variable.other.member"
       ],
       "settings": {
-        "foreground": "#5b79e3"
+        "foreground": "#6F42C1"
       }
     },
     {
@@ -411,7 +411,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#3882b7"
+        "foreground": "#6F42C1"
       }
     },
     {
@@ -425,7 +425,7 @@
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "#3882b7"
+        "foreground": "#6F42C1"
       }
     },
     {
@@ -439,7 +439,7 @@
         "support.type.primitive"
       ],
       "settings": {
-        "foreground": "#5b79e3"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -464,7 +464,7 @@
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "#3882b7"
+        "foreground": "#D73A49"
       }
     },
     {
