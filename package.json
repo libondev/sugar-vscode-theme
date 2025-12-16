@@ -35,9 +35,9 @@
         "path": "./themes/dark.json"
       },
       {
-        "label": "Sugar Light One",
+        "label": "Sugar Light",
         "uiTheme": "vs",
-        "path": "./themes/light-one.json"
+        "path": "./themes/light.json"
       },
       {
         "label": "Sugar Dark Focus",

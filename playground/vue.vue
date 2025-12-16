@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script lang="tsx" setup>
 import { computed, ref } from 'vue'
 
 const props = defineProps({
@@ -48,6 +48,8 @@ modelValue.value.toString().split('')
     >
       {{ num }}
     </div>
+
+    <Component :is="'div'" />
   </div>
 </template>
 

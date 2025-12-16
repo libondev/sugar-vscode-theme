@@ -1,5 +1,5 @@
 {
-  "name": "Sugar Light One",
+  "name": "Sugar Light",
   "base": "vs-light",
   "colors": {
     "activityBar.activeBorder": "#1E754F",
@@ -411,7 +411,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#6F42C1"
+        "foreground": "#267F99"
       }
     },
     {
