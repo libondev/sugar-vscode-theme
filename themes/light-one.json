@@ -26,7 +26,7 @@
     "dropdown.foreground": "#24292E",
     "dropdown.listBackground": "#f8f8f8",
     "editor.background": "#fcfcfc",
-    "editor.foreground": "#24292E",
+    "editor.foreground": "#2a3137",
     "editor.findMatchBackground": "#1E754F68",
     "editor.findMatchHighlightBackground": "#1E754F50",
     "editor.selectionBackground": "#1E754F60",
@@ -304,7 +304,7 @@
         "constant.language.import-export-all"
       ],
       "settings": {
-        "foreground": "#24292E"
+        "foreground": "#2b3137"
       }
     },
     {
@@ -325,7 +325,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#24292E"
+				"foreground": "#2b3137"
 			}
     },
     {
@@ -370,7 +370,7 @@
         "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#d53040"
       }
     },
     {
@@ -383,7 +383,7 @@
         "support.type.object.module.js"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#d53040"
       }
     },
     {
@@ -448,7 +448,7 @@
         "meta.embedded.block.html"
       ],
       "settings": {
-        "foreground": "#24292E"
+        "foreground": "#2a3137"
       }
     },
     {
@@ -464,7 +464,7 @@
         "invalid.illegal.combinator.less"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#d53040"
       }
     },
     {
