@@ -50,7 +50,7 @@ export const sugarLight = {
   foreground: "#24292E",
   background: "#fcfcfc",
   listBackground: "#f8f8f8",
-  editorForeground: "#2a3137",
+  editorForeground: "#424242",
   sidebarBackground: "#f3f3f3",
 
   insert: "#1E754F",
@@ -71,7 +71,7 @@ export const sugarLight = {
   operator: "#d53040",
   attribute: "#6F42C1",
   baseType: "#005CC5",
-  property: "#2b3137",
+  property: "#424242",
   type: "#6F42C1",
   caller: "#005CC5",
   json: "#005CC5",
