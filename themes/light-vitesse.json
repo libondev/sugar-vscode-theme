@@ -347,6 +347,17 @@
     },
     {
       "scope": [
+        "entity.name.tag.template",
+        "entity.name.tag.script",
+        "entity.name.tag.style",
+        "entity.name.tag.route"
+      ],
+      "settings": {
+        "foreground": "#AB5959"
+      }
+    },
+    {
+      "scope": [
         "entity.name.tag.yaml",
         "keyword.other.definition.ini",
         "support.type.property-name.json"

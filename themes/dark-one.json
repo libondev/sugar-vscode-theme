@@ -342,7 +342,18 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#74ade8"
+        "foreground": "#d07277"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.template",
+        "entity.name.tag.script",
+        "entity.name.tag.style",
+        "entity.name.tag.route"
+      ],
+      "settings": {
+        "foreground": "#73ade9"
       }
     },
     {

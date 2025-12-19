@@ -376,6 +376,17 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
+        "entity.name.tag.template",
+        "entity.name.tag.script",
+        "entity.name.tag.style",
+        "entity.name.tag.route"
+      ],
+      "settings": {
+        "foreground": "${theme.scopeTag}"
+      }
+    },
+    {
+      "scope": [
         "entity.name.tag.yaml",
         "keyword.other.definition.ini",
         "support.type.property-name.json"

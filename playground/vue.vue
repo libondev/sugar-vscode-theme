@@ -49,10 +49,15 @@ modelValue.value.toString().split('')
       {{ num }}
     </div>
 
-    <Component :is="'div'" />
+    <template v-if="true">
+      <Component :is="'div'" />
+    </template>
   </div>
 </template>
 
+<route>
+
+</route>
 
 <style scoped lang="scss">
 .aaa ::v-deep .bbb {
