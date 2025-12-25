@@ -73,7 +73,7 @@ export const sugarLight = {
   attribute: "#6F42C1",
   baseType: "#005CC5",
   property: "#424242",
-  scopeTag: "#6F42C1",
+  scopeTag: "#d53040",
   type: "#6F42C1",
   caller: "#005CC5",
   json: "#005CC5",
