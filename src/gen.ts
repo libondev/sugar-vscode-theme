@@ -3,15 +3,13 @@ import { getTemplate } from './template';
 import {
   sugarDark,
   sugarDarkFleet,
-  sugarDarkFocus,
-  sugarDarkGithub,
-  sugarDarkMidnight,
+  sugarDarkFocus, sugarDarkMidnight,
   sugarDarkOne,
   sugarDarkVitesse,
   sugarDarkVS,
   sugarLight,
   sugarLightVitesse,
-  sugarLightVS,
+  sugarLightVS
 } from "./variable";
 
 async function rewriteColorTheme() {
@@ -70,14 +68,6 @@ async function rewriteColorTheme() {
         mode: "light",
         name: "Light VS",
         ...sugarLightVS,
-      }),
-    ],
-    [
-      "themes/dark-github.json",
-      getTemplate({
-        mode: "dark",
-        name: "Dark Github",
-        ...sugarDarkGithub,
       }),
     ],
     [

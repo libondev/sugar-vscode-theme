@@ -261,42 +261,6 @@ export const sugarLightVS = {
   nil: "#0000EE",
 };
 
-export const sugarDarkGithub = {
-  accent: "#059669",
-  border: "#424242",
-  foreground: "#DADADA",
-  background: "#181818",
-  listBackground: "#2b2d30",
-  editorForeground: "#D4D4D4",
-  sidebarBackground: "#1f2428",
-
-  insert: "#059669",
-  delete: "#E06C75",
-  change: "#66adff",
-
-  comment: "#7A7E85",
-  variable: "#79B8FF",
-  constant: "#CEA279",
-  keyword: "#E06C75",
-  storage: "#E06C75",
-  class: "#79B8FF",
-  number: "#79B8FF",
-  string: "#9ECBFF",
-  boolean: "#79B8FF",
-  function: "#B392F0",
-  symbol: "#999999cf",
-  operator: "#E06C75",
-  attribute: "#B392F0",
-  baseType: "#4CC0A8",
-  property: "#C586C0",
-  scopeTag: "#B392F0",
-  type: "#B392F0",
-  caller: "#CEA279",
-  json: "#79B8FF",
-  tag: "#7ed794",
-  nil: "#9ECBFF",
-};
-
 export const sugarDarkMidnight = {
   accent: "#059669",
   border: "#424242",
@@ -324,7 +288,7 @@ export const sugarDarkMidnight = {
   operator: "#81A1C1",
   attribute: "#B48EAD",
   baseType: "#8FBCBB",
-  property: "#dfdfdf",
+  property: "#B48EAD",
   scopeTag: "#8FBCBB",
   type: "#8FBCBB",
   caller: "#81A1C1",
