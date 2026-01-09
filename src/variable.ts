@@ -13,7 +13,7 @@ export const sugarDark = {
   accent: "#059669",
   border: "#424242",
   foreground: "#E4E4E4",
-  background: "#24292E",
+  background: "#1b1f22",
   listBackground: "#1F1F1F",
   editorForeground: "#CFCFCF",
   sidebarBackground: "#181818",
