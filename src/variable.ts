@@ -41,7 +41,7 @@ export const sugarDark = {
   type: "#B392F0",
   caller: "#61AFEF",
   json: "#E06C75",
-  tag: "#98C379",
+  tag: "#61AFEF",
   nil: "#56B6C2",
 };
 
@@ -286,9 +286,9 @@ export const sugarDarkMidnight = {
   function: "#88C0D0",
   symbol: "#999999cf",
   operator: "#81A1C1",
-  attribute: "#8FBCBB",
+  attribute: "#B48EAD",
   baseType: "#8FBCBB",
-  property: "#B48EAD",
+  property: "#D8DEE9",
   scopeTag: "#8FBCBB",
   type: "#8FBCBB",
   caller: "#81A1C1",
