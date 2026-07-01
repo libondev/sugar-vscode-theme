@@ -63,7 +63,7 @@
     "menu.foreground": "#24292E",
     "menu.hoverBackground": "#1E754F",
     "menu.selectionBackground": "#1E754F",
-		"menu.selectionForeground": "#fff",
+    "menu.selectionForeground": "#fff",
     "notificationCenterHeader.background": "#f8f8f8",
     "notificationCenterHeader.foreground": "#24292E",
     "notifications.border": "#dadada",
@@ -86,7 +86,7 @@
     "settings.dropdownBorder": "#dadada",
     "settings.headerForeground": "#24292E",
     "settings.numberInputBorder": "#dadada",
-		"settings.textInputBorder": "#dadada",
+    "settings.textInputBorder": "#dadada",
     "sideBar.border": "#dadada",
     "sideBar.background": "#ffffff",
     "sideBar.foreground": "#24292E",
@@ -232,7 +232,7 @@
         "source.ini",
         "markup.underline.link",
         "meta.embedded.assembly",
-				"meta.attribute-selector.scss",
+        "meta.attribute-selector.scss",
         "constant.other.color.rgb-value",
         "support.constant.property-value",
         "string punctuation.section.embedded source"
@@ -269,6 +269,7 @@
         "variable.parameter.misc.css",
         "variable.parameter.url.scss",
         "entity.other.attribute-name",
+        "punctuation.definition.entity",
         "meta.at-rule.utility.body.tailwind",
         "invalid.deprecated.entity.other.attribute-name",
         "entity.other.attribute-name.parent-selector-suffix"
@@ -280,7 +281,8 @@
     {
       "scope": [
         "entity.other.attribute-name.id",
-        "entity.other.attribute-name.class"
+        "entity.other.attribute-name.class",
+        "punctuation.definition.entity.css"
       ],
       "settings": {
         "foreground": "#998418"
@@ -307,10 +309,10 @@
       }
     },
     {
-			"scope": [
-				"source.coffee.embedded",
-				"support.type.property-name.css",
-				"support.type.property-name.less",
+      "scope": [
+        "source.coffee.embedded",
+        "support.type.property-name.css",
+        "support.type.property-name.less",
         "support.type.vendor-prefix.less",
         "support.type.vendored.property-name.css",
         "keyword.other.keyframe-selector.less",
@@ -322,10 +324,10 @@
         "meta.at-rule.keyframe.less",
         "variable.other.constant.animation-name",
         "support.constant.vendored.property-value.css"
-			],
-			"settings": {
-				"foreground": "#998418"
-			}
+      ],
+      "settings": {
+        "foreground": "#998418"
+      }
     },
     {
       "scope": [
@@ -389,6 +391,7 @@
         "constant.character",
         "keyword.operator.new",
         "storage.type.class.jsdoc",
+        "keyword.operator.instanceof",
         "keyword.operator.expression",
         "support.type.object.module.js"
       ],
@@ -404,8 +407,8 @@
         "meta.function-call",
         "entity.name.function",
         "variable.language.super",
-				"entity.name.operator.custom-literal",
-				"source.powershell variable.other.member"
+        "entity.name.operator.custom-literal",
+        "source.powershell variable.other.member"
       ],
       "settings": {
         "foreground": "#59873A"
@@ -413,6 +416,7 @@
     },
     {
       "scope": [
+        "meta.class",
         "support.class",
         "entity.name.namespace",
         "entity.name.type.class",
@@ -430,8 +434,9 @@
         "meta.function",
         "entity.name.type",
         "meta.type.parameters",
-				"meta.type.annotation",
-				"meta.namespace.declaration",
+        "meta.type.annotation",
+        "meta.namespace.declaration",
+        "storage.type.generic.wildcard",
         "variable.language.relations.prisma"
       ],
       "settings": {
@@ -484,7 +489,6 @@
         "meta.block",
         "meta.brace",
         "punctuation",
-        "meta.selector",
         "meta.parameters",
         "keyword.operator",
         "meta.objectliteral",
@@ -504,7 +508,6 @@
         "support.constant.handlebars",
         "keyword.operator.assignment",
         "punctuation.section.function",
-        "punctuation.definition.entity",
         "punctuation.separator.key-value",
         "meta.at-rule.supports.header.css",
         "punctuation.definition.parameters",
@@ -538,32 +541,32 @@
       }
     },
     {
-			"scope": [
+      "scope": [
         "markup.inserted",
         "punctuation.definition.inserted"
       ],
-			"settings": {
-				"foreground": "#377351"
-			}
-		},
-		{
-			"scope": [
+      "settings": {
+        "foreground": "#377351"
+      }
+    },
+    {
+      "scope": [
         "markup.deleted",
         "punctuation.definition.deleted"
       ],
-			"settings": {
-				"foreground": "#a25f5b"
-			}
-		},
-		{
-			"scope": [
+      "settings": {
+        "foreground": "#a25f5b"
+      }
+    },
+    {
+      "scope": [
         "markup.changed",
         "punctuation.definition.changed"
       ],
-			"settings": {
-				"foreground": "#3968a0"
-			}
-		},
+      "settings": {
+        "foreground": "#3968a0"
+      }
+    },
     {
       "scope": [
         "markup.ignored",

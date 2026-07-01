@@ -2,7 +2,7 @@
   "name": "sugar-vscode-theme",
   "displayName": "Sugar Theme",
   "type": "module",
-  "version": "0.26.3",
+  "version": "0.26.4",
   "description": "Sugar theme for Visual Studio Code",
   "publisher": "banlify",
   "author": "Libon <bon.li@outlook.com>",
@@ -38,11 +38,6 @@
         "label": "Sugar Light",
         "uiTheme": "vs",
         "path": "./themes/light.json"
-      },
-      {
-        "label": "Sugar Dark Focus",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-focus.json"
       },
       {
         "label": "Sugar Dark Vitesse",

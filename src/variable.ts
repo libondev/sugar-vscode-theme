@@ -81,43 +81,6 @@ export const sugarLight = {
   nil: "#267F99",
 };
 
-export const sugarDarkFocus = {
-  accent: "#059669",
-  border: "#424242",
-  foreground: "#E4E4E4",
-  background: "#0b0b09",
-  listBackground: "#1F1F1F",
-  editorForeground: "#D8D8D8",
-  sidebarBackground: "#0b0b09",
-
-  insert: "#059669",
-  delete: "#E06C75",
-  change: "#66adff",
-
-  comment: "#758575DD",
-  variable: "#D8D8D8",
-  constant: "#888888",
-  keyword: "#888888",
-  storage: "#888888",
-  class: "#98C379",
-  regexp: "#CE9178",
-  number: "#56B6C2",
-  string: "#CE9178",
-  boolean: "#56B6C2",
-  function: "#98C379",
-  symbol: "#999999cf",
-  operator: "#999999cf",
-  attribute: "#888888",
-  baseType: "#56B6C2",
-  property: "#D8D8D8",
-  scopeTag: "#888888",
-  type: "#56B6C2",
-  caller: "#888888",
-  json: "#D8D8D8",
-  tag: "#888888",
-  nil: "#56B6C2",
-};
-
 export const sugarDarkVitesse = {
   accent: "#059669",
   border: "#424242",

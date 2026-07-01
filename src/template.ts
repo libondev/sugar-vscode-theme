@@ -1,4 +1,4 @@
-import { terminalColors } from './variable';
+import { terminalColors } from './variable'
 
 export function getTemplate(colors: Record<string, string>) {
   const {
@@ -298,7 +298,7 @@ export function getTemplate(colors: Record<string, string>) {
         "variable.parameter.misc.css",
         "variable.parameter.url.scss",
         "entity.other.attribute-name",
-        "punctuation.definition.entity.",
+        "punctuation.definition.entity",
         "meta.at-rule.utility.body.tailwind",
         "invalid.deprecated.entity.other.attribute-name",
         "entity.other.attribute-name.parent-selector-suffix"
@@ -420,6 +420,7 @@ export function getTemplate(colors: Record<string, string>) {
         "constant.character",
         "keyword.operator.new",
         "storage.type.class.jsdoc",
+        "keyword.operator.instanceof",
         "keyword.operator.expression",
         "support.type.object.module.js"
       ],
@@ -444,6 +445,7 @@ export function getTemplate(colors: Record<string, string>) {
     },
     {
       "scope": [
+        "meta.class",
         "support.class",
         "entity.name.namespace",
         "entity.name.type.class",
@@ -463,6 +465,7 @@ export function getTemplate(colors: Record<string, string>) {
         "meta.type.parameters",
 				"meta.type.annotation",
 				"meta.namespace.declaration",
+        "storage.type.generic.wildcard",
         "variable.language.relations.prisma"
       ],
       "settings": {
