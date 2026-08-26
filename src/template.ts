@@ -10,7 +10,7 @@ export function getTemplate(colors: Record<string, string>) {
     editorForeground,
     foreground,
     ...theme
-  } = colors;
+  } = colors
 
   // window blur foreground
   const inactiveForeground = foreground + '88'
@@ -26,7 +26,7 @@ export function getTemplate(colors: Record<string, string>) {
   theme.activeBackground ||= theme.sidebarBackground
 
   const terminalColorString = Object.keys(terminalColors).reduce((acc, cur) => {
-    let [bright, normal] = terminalColors[cur as keyof typeof terminalColors];
+    let [bright, normal] = terminalColors[cur as keyof typeof terminalColors]
 
     if (mode === 'light') {
       [normal, bright] = [bright, normal]
@@ -85,7 +85,7 @@ export function getTemplate(colors: Record<string, string>) {
     "editorLineNumber.foreground": "${foreground}66",
     "editorInlayHint.foreground": "${theme.symbol}",
     "errorForeground": "${theme.delete}",
-    "focusBorder": "#0000",
+    "focusBorder": "${accent}",
     "foreground": "${foreground}",
     "input.border": "${border}",
     "input.background": "${theme.inputBackground}",
@@ -214,11 +214,10 @@ export function getTemplate(colors: Record<string, string>) {
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "${
-          ["Dark VS"].find((key) => name.includes(key))
-            ? theme.variable
-            : theme.attribute
-        }"
+        "foreground": "${["Dark VS"].find((key) => name.includes(key))
+      ? theme.variable
+      : theme.attribute
+    }"
       }
     },
     {
@@ -401,7 +400,6 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.type",
         "markup.heading",
         "storage.modifier",
-        "entity.name.section.markdown",
         "variable.other.link.underline",
         "keyword.operator.logic",
         "keyword.operator.logical.and",
@@ -422,6 +420,7 @@ export function getTemplate(colors: Record<string, string>) {
         "storage.type.class.jsdoc",
         "keyword.operator.instanceof",
         "keyword.operator.expression",
+        "entity.name.section.markdown",
         "support.type.object.module.js"
       ],
       "settings": {
@@ -619,7 +618,7 @@ export function getTemplate(colors: Record<string, string>) {
       }
     }
   ]
-}`;
+}`
 }
 
 // function adjustHexColor(hexColor: string, relativeValue: number) {

@@ -5,6 +5,7 @@ import {
   sugarDarkFleet,
   sugarDarkMidnight,
   sugarDarkOne,
+  sugarDarkOneMonokai,
   sugarDarkVitesse,
   sugarDarkVS,
   sugarLight,
@@ -87,11 +88,19 @@ async function rewriteColorTheme() {
         ...sugarDarkFleet,
       }),
     ],
-  ];
+    [
+      "themes/dark-one-monokai.json",
+      getTemplate({
+        mode: "dark",
+        name: "Dark One Monokai",
+        ...sugarDarkOneMonokai,
+      }),
+    ]
+  ]
 
   files.forEach((file) => {
-    fs.writeFileSync(...file, "utf-8");
-  });
+    fs.writeFileSync(...file, "utf-8")
+  })
 }
 
 rewriteColorTheme()

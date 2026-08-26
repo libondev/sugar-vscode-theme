@@ -44,7 +44,7 @@
     "editorLineNumber.foreground": "#E4E4E466",
     "editorInlayHint.foreground": "#999999cf",
     "errorForeground": "#E06C75",
-    "focusBorder": "#0000",
+    "focusBorder": "#059669",
     "foreground": "#E4E4E4",
     "input.border": "#424242",
     "input.background": "#1f1f1f",
@@ -63,7 +63,7 @@
     "menu.foreground": "#E4E4E4",
     "menu.hoverBackground": "#059669",
     "menu.selectionBackground": "#059669",
-    "menu.selectionForeground": "#fff",
+		"menu.selectionForeground": "#fff",
     "notificationCenterHeader.background": "#1F1F1F",
     "notificationCenterHeader.foreground": "#E4E4E4",
     "notifications.border": "#424242",
@@ -86,7 +86,7 @@
     "settings.dropdownBorder": "#424242",
     "settings.headerForeground": "#E4E4E4",
     "settings.numberInputBorder": "#424242",
-    "settings.textInputBorder": "#424242",
+		"settings.textInputBorder": "#424242",
     "sideBar.border": "#424242",
     "sideBar.background": "#181818",
     "sideBar.foreground": "#E4E4E4",
@@ -232,7 +232,7 @@
         "source.ini",
         "markup.underline.link",
         "meta.embedded.assembly",
-        "meta.attribute-selector.scss",
+				"meta.attribute-selector.scss",
         "constant.other.color.rgb-value",
         "support.constant.property-value",
         "string punctuation.section.embedded source"
@@ -309,10 +309,10 @@
       }
     },
     {
-      "scope": [
-        "source.coffee.embedded",
-        "support.type.property-name.css",
-        "support.type.property-name.less",
+			"scope": [
+				"source.coffee.embedded",
+				"support.type.property-name.css",
+				"support.type.property-name.less",
         "support.type.vendor-prefix.less",
         "support.type.vendored.property-name.css",
         "keyword.other.keyframe-selector.less",
@@ -324,10 +324,10 @@
         "meta.at-rule.keyframe.less",
         "variable.other.constant.animation-name",
         "support.constant.vendored.property-value.css"
-      ],
-      "settings": {
-        "foreground": "#9CDCFE"
-      }
+			],
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
     },
     {
       "scope": [
@@ -372,7 +372,6 @@
         "storage.type",
         "markup.heading",
         "storage.modifier",
-        "entity.name.section.markdown",
         "variable.other.link.underline",
         "keyword.operator.logic",
         "keyword.operator.logical.and",
@@ -393,6 +392,7 @@
         "storage.type.class.jsdoc",
         "keyword.operator.instanceof",
         "keyword.operator.expression",
+        "entity.name.section.markdown",
         "support.type.object.module.js"
       ],
       "settings": {
@@ -407,8 +407,8 @@
         "meta.function-call",
         "entity.name.function",
         "variable.language.super",
-        "entity.name.operator.custom-literal",
-        "source.powershell variable.other.member"
+				"entity.name.operator.custom-literal",
+				"source.powershell variable.other.member"
       ],
       "settings": {
         "foreground": "#DCDCAA"
@@ -434,8 +434,8 @@
         "meta.function",
         "entity.name.type",
         "meta.type.parameters",
-        "meta.type.annotation",
-        "meta.namespace.declaration",
+				"meta.type.annotation",
+				"meta.namespace.declaration",
         "storage.type.generic.wildcard",
         "variable.language.relations.prisma"
       ],
@@ -541,32 +541,32 @@
       }
     },
     {
-      "scope": [
+			"scope": [
         "markup.inserted",
         "punctuation.definition.inserted"
       ],
-      "settings": {
-        "foreground": "#059669"
-      }
-    },
-    {
-      "scope": [
+			"settings": {
+				"foreground": "#059669"
+			}
+		},
+		{
+			"scope": [
         "markup.deleted",
         "punctuation.definition.deleted"
       ],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": [
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"scope": [
         "markup.changed",
         "punctuation.definition.changed"
       ],
-      "settings": {
-        "foreground": "#66adff"
-      }
-    },
+			"settings": {
+				"foreground": "#66adff"
+			}
+		},
     {
       "scope": [
         "markup.ignored",

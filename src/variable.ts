@@ -7,7 +7,7 @@ export const terminalColors = {
   Red: ["#E5484D", "#DA3036"],
   Yellow: ["#E5C07B", "#E5C07B"],
   White: ["#cccccc", "#cccccc"],
-};
+}
 
 export const sugarDark = {
   accent: "#059669",
@@ -43,13 +43,13 @@ export const sugarDark = {
   json: "#E06C75",
   tag: "#61AFEF",
   nil: "#56B6C2",
-};
+}
 
 export const sugarLight = {
   accent: "#1E754F",
   border: "#dadada",
   foreground: "#24292E",
-  background: "#fcfcfc",
+  background: "#FAFAFA",
   listBackground: "#f8f8f8",
   editorForeground: "#424242",
   sidebarBackground: "#f3f3f3",
@@ -59,27 +59,27 @@ export const sugarLight = {
   change: "#4B69C6",
 
   comment: "#6A737D",
-  variable: "#005CC5",
+  variable: "#383A42",
   constant: "#267F99",
-  keyword: "#d53040",
-  storage: "#d53040",
-  class: "#267F99",
+  keyword: "#D53040",
+  storage: "#267F99",
+  class: "#6F42C1",
   number: "#005CC5",
   string: "#22863A",
   boolean: "#005CC5",
   function: "#6F42C1",
   symbol: "#888888cf",
-  operator: "#d53040",
+  operator: "#D53040",
   attribute: "#6F42C1",
   baseType: "#005CC5",
-  property: "#424242",
-  scopeTag: "#d53040",
-  type: "#6F42C1",
+  property: "#7A3E9D",
+  scopeTag: "#D53040",
+  type: "#005CC5",
   caller: "#005CC5",
   json: "#005CC5",
   tag: "#22863A",
   nil: "#267F99",
-};
+}
 
 export const sugarDarkVitesse = {
   accent: "#059669",
@@ -114,7 +114,7 @@ export const sugarDarkVitesse = {
   json: "#B8A965",
   tag: "#4D9375",
   nil: "#CB7676",
-};
+}
 
 export const sugarLightVitesse = {
   accent: "#1E754F",
@@ -150,7 +150,7 @@ export const sugarLightVitesse = {
   json: "#998418",
   tag: "#1E754F",
   nil: "#AB5959",
-};
+}
 
 export const sugarDarkVS = {
   accent: "#059669",
@@ -186,18 +186,18 @@ export const sugarDarkVS = {
   json: "#9CDCFE",
   tag: "#569CD6",
   nil: "#CB7676",
-};
+}
 
 export const sugarLightVS = {
   accent: "#1E754F",
   border: "#dadada",
   foreground: "#333333",
-  background: "#ffffff",
+  background: "#f5f5f5",
   listBackground: "#f8f8f8",
   editorForeground: "#333333",
   sidebarBackground: "#ebebec",
 
-  insert: "#1E754F",
+  insert: "#098658",
   delete: "#DA3036",
   change: "#4B69C6",
 
@@ -222,7 +222,7 @@ export const sugarLightVS = {
   json: "#0451A5",
   tag: "#800000",
   nil: "#0000EE",
-};
+}
 
 export const sugarDarkMidnight = {
   accent: "#059669",
@@ -258,7 +258,7 @@ export const sugarDarkMidnight = {
   json: "#81A1C1",
   tag: "#81A1C1",
   nil: "#B48EAD",
-};
+}
 
 export const sugarDarkOne = {
   accent: "#059669",
@@ -294,7 +294,7 @@ export const sugarDarkOne = {
   json: "#E06C75",
   tag: "#E06C75",
   nil: "#E5C07B",
-};
+}
 
 export const sugarDarkFleet = {
   accent: "#059669",
@@ -330,4 +330,40 @@ export const sugarDarkFleet = {
   json: "#C77DBB",
   tag: "#D5B778",
   nil: "#CB7676",
-};
+}
+
+export const sugarDarkOneMonokai = {
+  accent: "#059669",
+  border: "#424242",
+  foreground: "#E4E4E4",
+  background: "#282C34",
+  listBackground: "#1F1F1F",
+  editorForeground: "#ABB2BF",
+  sidebarBackground: "#21252B",
+
+  insert: "#059669",
+  delete: "#E06C75",
+  change: "#61AFEF",
+
+  comment: "#676F7D",
+  variable: "#ABB2BF",
+  constant: "#E5C07B",
+  keyword: "#E06C75",
+  storage: "#56B6C2",
+  class: "#61AFEF",
+  number: "#C678DD",
+  string: "#E5C07B",
+  boolean: "#56B6C2",
+  function: "#98C379",
+  symbol: "#999999cf",
+  operator: "#E06C75",
+  attribute: "#D19A66",
+  baseType: "#56B6C2",
+  property: "#C586C0",
+  scopeTag: "#61AFEF",
+  type: "#61AFEF",
+  caller: "#61AFEF",
+  json: "#E06C75",
+  tag: "#E06C75",
+  nil: "#56B6C2",
+}
