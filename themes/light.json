@@ -189,7 +189,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#6F42C1"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -275,7 +275,7 @@
         "entity.other.attribute-name.parent-selector-suffix"
       ],
       "settings": {
-        "foreground": "#6F42C1"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -285,7 +285,7 @@
         "punctuation.definition.entity.css"
       ],
       "settings": {
-        "foreground": "#6F42C1"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -305,7 +305,7 @@
         "constant.language.import-export-all"
       ],
       "settings": {
-        "foreground": "#7A3E9D"
+        "foreground": "#383A42"
       }
     },
     {
@@ -326,7 +326,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#383A42"
 			}
     },
     {
