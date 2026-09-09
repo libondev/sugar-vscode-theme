@@ -26,7 +26,7 @@
     "dropdown.foreground": "#24292E",
     "dropdown.listBackground": "#f8f8f8",
     "editor.background": "#FAFAFA",
-    "editor.foreground": "#424242",
+    "editor.foreground": "#383A42",
     "editor.findMatchBackground": "#1E754F68",
     "editor.findMatchHighlightBackground": "#1E754F50",
     "editor.selectionBackground": "#1E754F60",
@@ -247,7 +247,7 @@
         "meta.module-reference"
       ],
       "settings": {
-        "foreground": "#005CC5"
+        "foreground": "#267F99"
       }
     },
     {
@@ -305,7 +305,7 @@
         "constant.language.import-export-all"
       ],
       "settings": {
-        "foreground": "#383A42"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -326,7 +326,7 @@
         "support.constant.vendored.property-value.css"
 			],
 			"settings": {
-				"foreground": "#383A42"
+				"foreground": "#005CC5"
 			}
     },
     {
@@ -440,7 +440,7 @@
         "variable.language.relations.prisma"
       ],
       "settings": {
-        "foreground": "#005CC5"
+        "foreground": "#6F42C1"
       }
     },
     {
@@ -463,7 +463,7 @@
         "meta.embedded.block.html"
       ],
       "settings": {
-        "foreground": "#424242"
+        "foreground": "#383A42"
       }
     },
     {

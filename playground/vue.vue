@@ -1,4 +1,4 @@
-<script lang="tsx" setup>
+<script setup>
 import { computed, ref } from 'vue'
 
 const props = defineProps({
@@ -24,7 +24,7 @@ const modelValue = computed({
   get() {
     return props.modelValue
   },
-  set(value: string) {
+  set(value) {
     state.value = value
     emits('update:modelValue', value)
   }
